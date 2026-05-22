@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WCL 时光服武器战士 DPS 榜单</title>
+<style>
+  :root {
+    --bg-primary: #0a0e17;
+    --bg-card: #141a2a;
+    --bg-row: #1a2236;
+    --bg-row-hover: #222d45;
+    --border-color: #2a3550;
+    --text-primary: #e8eaf0;
+    --text-secondary: #8892a8;
+    --text-muted: #5a6478;
+    --gold: #ffd700;
+    --gold-bg: rgba(255,215,0,0.08);
+    --silver: #c0c0c0;
+    --silver-bg: rgba(192,192,192,0.06);
+    --bronze: #cd7f32;
+    --bronze-bg: rgba(205,127,50,0.06);
+    --bar-gold: linear-gradient(90deg, #ffd700, #ffaa00);
+    --bar-silver: linear-gradient(90deg, #c0c0c0, #a0a0c0);
+    --bar-bronze: linear-gradient(90deg, #cd7f32, #b06820);
+    --bar-normal: linear-gradient(90deg, #4a7cff, #3a5fd9);
+    --accent: #4a7cff;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .page-header {
+    text-align: center;
+    padding: 40px 20px 30px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+  }
+  .page-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .page-header h1 span {
+    color: var(--accent);
+  }
+  .page-header .subtitle {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  .meta-bar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+  .meta-item {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .meta-item strong {
+    color: var(--text-secondary);
+  }
+
+  /* Boss Card */
+  .boss-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .boss-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 14px 20px;
+    background: rgba(74,124,255,0.06);
+    border-bottom: 1px solid var(--border-color);
+  }
+  .boss-name {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .boss-name-en {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .no-data {
+    padding: 24px 20px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+
+  /* Table Layout */
+  .table-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .player-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(42,53,80,0.5);
+    transition: background 0.15s;
+  }
+  .player-row:last-child { border-bottom: none; }
+  .player-row:hover { background: var(--bg-row-hover); }
+
+  .player-row.gold { background: var(--gold-bg); }
+  .player-row.gold:hover { background: rgba(255,215,0,0.14); }
+  .player-row.silver { background: var(--silver-bg); }
+  .player-row.silver:hover { background: rgba(192,192,192,0.1); }
+  .player-row.bronze { background: var(--bronze-bg); }
+  .player-row.bronze:hover { background: rgba(205,127,50,0.1); }
+
+  .rank-cell { width: 50px; text-align: center; flex-shrink: 0; }
+  .name-cell { width: 140px; flex-shrink: 0; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .dps-cell { flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .date-cell { width: 100px; text-align: center; flex-shrink: 0; font-size: 13px; color: var(--text-secondary); }
+  .duration-cell { width: 60px; text-align: center; flex-shrink: 0; font-size: 13px; color: var(--text-secondary); }
+
+  .gold .rank-cell { font-size: 18px; }
+  .silver .rank-cell { font-size: 18px; }
+  .bronze .rank-cell { font-size: 18px; }
+
+  /* DPS Bar */
+  .dps-bar-container {
+    flex: 1;
+    height: 8px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .dps-bar {
+    height: 100%;
+    border-radius: 4px;
+    background: var(--bar-normal);
+    transition: width 0.3s;
+  }
+  .gold .dps-bar { background: var(--bar-gold); }
+  .silver .dps-bar { background: var(--bar-silver); }
+  .bronze .dps-bar { background: var(--bar-bronze); }
+
+  .dps-value {
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    min-width: 60px;
+    text-align: right;
+  }
+
+  /* Footer */
+  .page-footer {
+    text-align: center;
+    padding: 24px 0 10px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .page-footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .page-footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    body { padding: 10px; }
+    .page-header h1 { font-size: 22px; }
+    .boss-header { padding: 12px 14px; }
+    .player-row { padding: 8px 14px; }
+    .name-cell { width: 100px; font-size: 13px; }
+    .date-cell { width: 80px; font-size: 12px; }
+    .duration-cell { width: 50px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header class="page-header">
+    <h1>WCL 时光服<span>武器战士</span>DPS 榜单</h1>
+    <div class="subtitle">纳克萨玛斯 (Naxxramas) Phase 3</div>
+    <div class="meta-bar">
+      <span class="meta-item">共 <strong>15</strong> 个 Boss</span>
+      <span class="meta-item"><strong>45</strong> 条排名数据</span>
+      <span class="meta-item">生成于 <strong>2026-05-15 09:49:35</strong></span>
+    </div>
+  </header>
+
+  <main class="boss-list">
+
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">阿努布雷坎</span>
+            <span class="boss-name-en">Anub&#x27;Rekhan</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">伊丨飛</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:100%"></div>
+                  </div>
+                  <span class="dps-value">20,588</span>
+                </div>
+                <div class="date-cell">2026-05-02</div>
+                <div class="duration-cell">01:31</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">要脸不要盾</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:90%"></div>
+                  </div>
+                  <span class="dps-value">18,599</span>
+                </div>
+                <div class="date-cell">2026-05-09</div>
+                <div class="duration-cell">01:10</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:86%"></div>
+                  </div>
+                  <span class="dps-value">17,795</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">01:11</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">黑女巫法琳娜</span>
+            <span class="boss-name-en">Grand Widow Faerlina</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">伊丨飛</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:92%"></div>
+                  </div>
+                  <span class="dps-value">19,112</span>
+                </div>
+                <div class="date-cell">2026-05-02</div>
+                <div class="duration-cell">01:40</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">Nickzs</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:79%"></div>
+                  </div>
+                  <span class="dps-value">16,320</span>
+                </div>
+                <div class="date-cell">2026-05-11</div>
+                <div class="duration-cell">01:24</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:77%"></div>
+                  </div>
+                  <span class="dps-value">15,979</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">01:14</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">迈克斯纳</span>
+            <span class="boss-name-en">Maexxna</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">果茶星冰乐</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:50%"></div>
+                  </div>
+                  <span class="dps-value">10,413</span>
+                </div>
+                <div class="date-cell">2026-05-12</div>
+                <div class="duration-cell">01:47</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,171</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">01:20</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">给防战道歉</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:46%"></div>
+                  </div>
+                  <span class="dps-value">9,655</span>
+                </div>
+                <div class="date-cell">2026-04-30</div>
+                <div class="duration-cell">01:17</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">帕奇维克</span>
+            <span class="boss-name-en">Patchwerk</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">楼严</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:48%"></div>
+                  </div>
+                  <span class="dps-value">10,062</span>
+                </div>
+                <div class="date-cell">2026-05-09</div>
+                <div class="duration-cell">02:36</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">瀧本雫葉</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:48%"></div>
+                  </div>
+                  <span class="dps-value">10,001</span>
+                </div>
+                <div class="date-cell">2026-05-08</div>
+                <div class="duration-cell">02:41</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">Pudin</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:48%"></div>
+                  </div>
+                  <span class="dps-value">9,971</span>
+                </div>
+                <div class="date-cell">2026-05-14</div>
+                <div class="duration-cell">02:42</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">格罗布鲁斯</span>
+            <span class="boss-name-en">Grobbulus</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">风车代替思考</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,211</span>
+                </div>
+                <div class="date-cell">2026-05-05</div>
+                <div class="duration-cell">01:55</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">Wzcy</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,205</span>
+                </div>
+                <div class="date-cell">2026-05-10</div>
+                <div class="duration-cell">01:54</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">Drinkk</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:48%"></div>
+                  </div>
+                  <span class="dps-value">10,076</span>
+                </div>
+                <div class="date-cell">2026-05-14</div>
+                <div class="duration-cell">01:54</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">格拉斯</span>
+            <span class="boss-name-en">Gluth</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">哎妳妹</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:52%"></div>
+                  </div>
+                  <span class="dps-value">10,753</span>
+                </div>
+                <div class="date-cell">2026-05-14</div>
+                <div class="duration-cell">01:14</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">星之阿猫</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,287</span>
+                </div>
+                <div class="date-cell">2026-04-25</div>
+                <div class="duration-cell">01:32</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">春哥不是哥</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,264</span>
+                </div>
+                <div class="date-cell">2026-05-06</div>
+                <div class="duration-cell">01:30</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">塔迪乌斯</span>
+            <span class="boss-name-en">Thaddius</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">Screamingl</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:78%"></div>
+                  </div>
+                  <span class="dps-value">16,135</span>
+                </div>
+                <div class="date-cell">2026-05-14</div>
+                <div class="duration-cell">06:53</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">春哥不是哥</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:77%"></div>
+                  </div>
+                  <span class="dps-value">15,872</span>
+                </div>
+                <div class="date-cell">2026-05-09</div>
+                <div class="duration-cell">07:22</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:76%"></div>
+                  </div>
+                  <span class="dps-value">15,812</span>
+                </div>
+                <div class="date-cell">2026-05-07</div>
+                <div class="duration-cell">07:04</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">药剂师诺斯</span>
+            <span class="boss-name-en">Noth the Plaguebringer</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">林晚荣丷</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:52%"></div>
+                  </div>
+                  <span class="dps-value">10,724</span>
+                </div>
+                <div class="date-cell">2026-05-02</div>
+                <div class="duration-cell">01:28</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">要脸不要盾</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:50%"></div>
+                  </div>
+                  <span class="dps-value">10,384</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">01:25</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">星之阿猫</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,218</span>
+                </div>
+                <div class="date-cell">2026-05-04</div>
+                <div class="duration-cell">01:25</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">肮脏的希尔盖</span>
+            <span class="boss-name-en">Heigan the Unclean</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">彭大胆</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,292</span>
+                </div>
+                <div class="date-cell">2026-05-08</div>
+                <div class="duration-cell">01:48</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">米克雷伊</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,251</span>
+                </div>
+                <div class="date-cell">2026-05-09</div>
+                <div class="duration-cell">02:06</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">见龙灬卸甲</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:49%"></div>
+                  </div>
+                  <span class="dps-value">10,213</span>
+                </div>
+                <div class="date-cell">2026-05-14</div>
+                <div class="duration-cell">02:17</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">洛欧塞布</span>
+            <span class="boss-name-en">Loatheb</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">牛犇太郎</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:59%"></div>
+                  </div>
+                  <span class="dps-value">12,279</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">04:21</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">曾经的胖胖</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:59%"></div>
+                  </div>
+                  <span class="dps-value">12,253</span>
+                </div>
+                <div class="date-cell">2026-05-11</div>
+                <div class="duration-cell">05:20</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:59%"></div>
+                  </div>
+                  <span class="dps-value">12,246</span>
+                </div>
+                <div class="date-cell">2026-05-07</div>
+                <div class="duration-cell">03:32</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">教官拉苏维奥斯</span>
+            <span class="boss-name-en">Instructor Razuvious</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:50%"></div>
+                  </div>
+                  <span class="dps-value">10,390</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">01:45</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">問切</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:50%"></div>
+                  </div>
+                  <span class="dps-value">10,380</span>
+                </div>
+                <div class="date-cell">2026-05-11</div>
+                <div class="duration-cell">01:51</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">柴多多</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:50%"></div>
+                  </div>
+                  <span class="dps-value">10,364</span>
+                </div>
+                <div class="date-cell">2026-04-30</div>
+                <div class="duration-cell">01:49</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">收割者戈提克</span>
+            <span class="boss-name-en">Gothik the Harvester</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">小狗扎克斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:37%"></div>
+                  </div>
+                  <span class="dps-value">7,812</span>
+                </div>
+                <div class="date-cell">2026-05-07</div>
+                <div class="duration-cell">05:23</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">武器小子啊</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:37%"></div>
+                  </div>
+                  <span class="dps-value">7,710</span>
+                </div>
+                <div class="date-cell">2026-04-16</div>
+                <div class="duration-cell">04:11</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">慢舞</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:37%"></div>
+                  </div>
+                  <span class="dps-value">7,671</span>
+                </div>
+                <div class="date-cell">2026-05-12</div>
+                <div class="duration-cell">05:19</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">天启四骑士</span>
+            <span class="boss-name-en">The Four Horsemen</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:68%"></div>
+                  </div>
+                  <span class="dps-value">14,172</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">01:30</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">春哥不是哥</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:67%"></div>
+                  </div>
+                  <span class="dps-value">13,826</span>
+                </div>
+                <div class="date-cell">2026-05-06</div>
+                <div class="duration-cell">01:31</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">风导星歌</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:66%"></div>
+                  </div>
+                  <span class="dps-value">13,611</span>
+                </div>
+                <div class="date-cell">2026-05-11</div>
+                <div class="duration-cell">01:38</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">萨菲隆</span>
+            <span class="boss-name-en">Sapphiron</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">問切</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:46%"></div>
+                  </div>
+                  <span class="dps-value">9,624</span>
+                </div>
+                <div class="date-cell">2026-05-03</div>
+                <div class="duration-cell">02:52</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">我儿上清华</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:46%"></div>
+                  </div>
+                  <span class="dps-value">9,570</span>
+                </div>
+                <div class="date-cell">2026-05-08</div>
+                <div class="duration-cell">03:09</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">御桃蜜吻三胖</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:46%"></div>
+                  </div>
+                  <span class="dps-value">9,550</span>
+                </div>
+                <div class="date-cell">2026-05-01</div>
+                <div class="duration-cell">04:06</div>
+              </div>
+          </div>
+        </div>
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-name">克尔苏加德</span>
+            <span class="boss-name-en">Kel&#x27;Thuzad</span>
+          </div>
+          <div class="table-header">
+            <div class="rank-cell">排名</div>
+            <div class="name-cell">名字</div>
+            <div class="dps-cell">秒伤</div>
+            <div class="date-cell">日期</div>
+            <div class="duration-cell">用时</div>
+          </div>
+          <div class="player-rows">
+              <div class="player-row gold">
+                <div class="rank-cell">&#x1F947;</div>
+                <div class="name-cell">Darkcastle</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:51%"></div>
+                  </div>
+                  <span class="dps-value">10,703</span>
+                </div>
+                <div class="date-cell">2026-05-06</div>
+                <div class="duration-cell">03:34</div>
+              </div>
+              <div class="player-row silver">
+                <div class="rank-cell">&#x1F948;</div>
+                <div class="name-cell">伊丨飛</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:51%"></div>
+                  </div>
+                  <span class="dps-value">10,598</span>
+                </div>
+                <div class="date-cell">2026-05-03</div>
+                <div class="duration-cell">04:47</div>
+              </div>
+              <div class="player-row bronze">
+                <div class="rank-cell">&#x1F949;</div>
+                <div class="name-cell">伊卡洛斯</div>
+                <div class="dps-cell">
+                  <div class="dps-bar-container">
+                    <div class="dps-bar" style="width:48%"></div>
+                  </div>
+                  <span class="dps-value">9,916</span>
+                </div>
+                <div class="date-cell">2026-05-07</div>
+                <div class="duration-cell">02:55</div>
+              </div>
+          </div>
+        </div>
+  </main>
+
+  <footer class="page-footer">
+    数据来源 <a href="https://cn.titan.warcraftlogs.com" target="_blank">Warcraft Logs</a>
+  </footer>
+</div>
+</body>
+</html>

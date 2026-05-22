@@ -1,0 +1,23 @@
+{
+  "source": {
+    "raw_input": "https://www.bilibili.com/video/BV1co9yBhEvW",
+    "kind": "bilibili",
+    "bv": "BV1co9yBhEvW",
+    "url": "https://www.bilibili.com/video/BV1co9yBhEvW",
+    "path": null
+  },
+  "engine": "whisper",
+  "model": "small",
+  "audio_path": ".b2t/audio/分享我转-AI-方向的学习路径和工作转变.wav",
+  "video_path": "/Users/chenruiyan/2026-project/capture_wcl/bili2text/.b2t/downloads/BV1co9yBhEvW.mp4",
+  "download": {
+    "title": "分享我转 AI 方向的学习路径和工作转变",
+    "uploader": "polebug23",
+    "duration": 924.293,
+    "id": "BV1co9yBhEvW",
+    "webpage_url": "https://www.bilibili.com/video/BV1co9yBhEvW"
+  },
+  "language": "zh",
+  "generated_at": "2026-05-08T16:02:58.628875",
+  "transcript_path": ".b2t/transcripts/original/分享我转-AI-方向的学习路径和工作转变-20260508-160258.txt"
+}
