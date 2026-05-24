@@ -35,6 +35,32 @@ class BuffEvent:
 
 
 @dataclass
+class TimelineEvent:
+    timestamp_ms: int
+    time: str
+    kind: str
+    name: str
+    ability_id: int = 0
+    source: str = ""
+    target: str = ""
+    priority: int = 0
+
+
+@dataclass
+class TimelineWindow:
+    name: str
+    kind: str
+    start_ms: int
+    end_ms: int
+    start_time: str
+    end_time: str
+    ability_id: int = 0
+    source: str = ""
+    target: str = ""
+    priority: int = 0
+
+
+@dataclass
 class PlayerRanking:
     name: str
     dps: float
@@ -60,3 +86,6 @@ class PlayerDetail:
     gear: List[GearItem] = field(default_factory=list)
     casts: List[CastEvent] = field(default_factory=list)
     buffs: List[BuffEvent] = field(default_factory=list)
+    timeline_events: List[TimelineEvent] = field(default_factory=list)
+    timeline_windows: List[TimelineWindow] = field(default_factory=list)
+    fight_duration_ms: int = 0

@@ -21,10 +21,14 @@ from models import (
     GearItem,
     PlayerDetail,
     PlayerRanking,
+    TimelineEvent,
+    TimelineWindow,
 )
 from queries import (
+    GET_BUFF_EVENTS_QUERY,
     GET_BUFFS_QUERY,
     GET_CASTS_QUERY,
+    GET_DEBUFF_EVENTS_QUERY,
     GET_FIGHTS_QUERY,
     GET_MASTER_DATA_QUERY,
     GET_PARTITIONS_QUERY,
@@ -34,6 +38,106 @@ from queries import (
 from wcl_client import WCLAPIError, WCLAuthError, WCLClient
 
 logger = logging.getLogger(__name__)
+
+
+KEY_CAST_IDS = {
+    46924,  # Bladestorm
+    50622,  # Bladestorm hit/event variant
+    47486,  # Mortal Strike
+    7384,  # Overpower
+    47475,  # Slam
+    47471,  # Execute
+    64382,  # Shattering Throw
+    12328,  # Sweeping Strikes
+    1719,  # Recklessness
+    2687,  # Bloodrage
+    12292,  # Death Wish
+}
+
+KEY_CAST_NAMES = {
+    "Bladestorm",
+    "Mortal Strike",
+    "Overpower",
+    "Slam",
+    "Execute",
+    "Shattering Throw",
+    "Sweeping Strikes",
+    "Recklessness",
+    "Bloodrage",
+    "Death Wish",
+}
+
+KEY_BUFF_IDS = {
+    60437,  # Grim Toll
+    42084,  # Fury of the Crashing Waves
+    60229,  # Greatness/Strength proc
+    57623,  # Horn of Winter
+    24932,  # Leader of the Pack
+    393387,  # Leader of the Pack variant
+    25898,  # Greater Blessing of Kings
+    20217,  # Blessing of Kings
+    48934,  # Greater Blessing of Might
+    19740,  # Blessing of Might
+    47436,  # Battle Shout
+    47440,  # Commanding Shout
+    2825,  # Bloodlust
+    32182,  # Heroism
+    53762,  # Indestructible
+    54758,  # Hyperspeed Acceleration
+    54861,  # Nitro Boosts
+    26297,  # Berserking
+    59620,  # Berserk
+}
+
+KEY_BUFF_NAMES = {
+    "Grim Toll",
+    "Fury of the Crashing Waves",
+    "Greatness",
+    "Strength",
+    "Horn of Winter",
+    "Leader of the Pack",
+    "Greater Blessing of Kings",
+    "Blessing of Kings",
+    "Greater Blessing of Might",
+    "Blessing of Might",
+    "Battle Shout",
+    "Commanding Shout",
+    "Bloodlust",
+    "Heroism",
+    "Indestructible",
+    "Indestructible Potion",
+    "Speed",
+    "Hyperspeed Acceleration",
+    "Hyperspeed Accelerators",
+    "Nitro Boosts",
+    "Berserking",
+    "Berserk",
+}
+
+KEY_DEBUFF_IDS = {
+    64382,  # Shattering Throw
+    46857,  # Trauma
+    33876,  # Mangle (Cat)
+    33878,  # Mangle (Bear)
+    48564,  # Mangle (Bear)
+    48566,  # Mangle (Cat)
+    7386,  # Sunder Armor
+    47467,  # Sunder Armor
+    8647,  # Expose Armor
+    770,  # Faerie Fire
+    16857,  # Faerie Fire (Feral)
+    33602,  # Improved Faerie Fire
+}
+
+KEY_DEBUFF_NAMES = {
+    "Shattering Throw",
+    "Trauma",
+    "Mangle",
+    "Sunder Armor",
+    "Expose Armor",
+    "Faerie Fire",
+    "Improved Faerie Fire",
+}
 
 
 class WCLFetcher:
@@ -420,11 +524,396 @@ class WCLFetcher:
             logger.error("获取 Buff 失败: %s", e)
             return []
 
-    def fetch_player_detail(self, player: PlayerRanking) -> PlayerDetail:
+    def fetch_player_timeline(
+        self,
+        report_code: str,
+        fight_id: int,
+        source_id: int,
+        boss_name: str,
+        casts: List[CastEvent],
+    ) -> tuple[List[TimelineEvent], List[TimelineWindow], int]:
+        """获取关键技能、玩家 Buff、Boss Debuff 的合并时间轴。"""
+        try:
+            import json as json_mod
+
+            fights = self.fetch_fights(report_code, [fight_id])
+            fight_start = int(fights[0].get("startTime", 0) or 0) if fights else 0
+            fight_end = int(fights[0].get("endTime", 0) or 0) if fights else 0
+            fight_duration_ms = max(fight_end - fight_start, 0)
+
+            master_data = self.client.execute_query(
+                GET_MASTER_DATA_QUERY, {"code": report_code}
+            )
+            report_master_data = (
+                master_data.get("reportData", {})
+                .get("report", {})
+                .get("masterData", {})
+            )
+            ability_names = {
+                int(a.get("gameID") or 0): a.get("name", "")
+                for a in report_master_data.get("abilities", [])
+                if isinstance(a, dict)
+            }
+            actors = [
+                a for a in report_master_data.get("actors", []) if isinstance(a, dict)
+            ]
+            actor_names = {
+                int(a.get("id") or 0): a.get("name", "")
+                for a in actors
+            }
+
+            timeline_events: List[TimelineEvent] = []
+            for cast in casts:
+                if self._is_key_cast(cast.ability_id, cast.ability_name):
+                    timeline_events.append(
+                        TimelineEvent(
+                            timestamp_ms=max(cast.timestamp_ms - fight_start, 0)
+                            if fight_start
+                            else cast.timestamp_ms,
+                            time=cast.time,
+                            kind="cast",
+                            name=cast.ability_name,
+                            ability_id=cast.ability_id,
+                            target=cast.target_name,
+                            priority=1,
+                        )
+                    )
+
+            raw_buff_events = self._fetch_aura_events(
+                GET_BUFF_EVENTS_QUERY, report_code, fight_id, source_id, fight_end
+            )
+            key_buff_events = [
+                e for e in raw_buff_events
+                if self._is_key_buff(self._event_ability_id(e), self._event_ability_name(e, ability_names))
+            ]
+            timeline_events.extend(
+                self._aura_timeline_events(
+                    key_buff_events,
+                    fight_start,
+                    ability_names,
+                    actor_names,
+                    "buff",
+                )
+            )
+
+            boss_source_ids = self._find_boss_actor_ids(actors, boss_name)
+            raw_debuff_events: List[Dict[str, Any]] = []
+            for boss_source_id in boss_source_ids:
+                raw_debuff_events.extend(
+                    self._fetch_aura_events(
+                        GET_DEBUFF_EVENTS_QUERY,
+                        report_code,
+                        fight_id,
+                        boss_source_id,
+                        fight_end,
+                        hostility_type="Enemies",
+                    )
+                )
+            key_debuff_events = [
+                e for e in raw_debuff_events
+                if self._is_key_debuff(self._event_ability_id(e), self._event_ability_name(e, ability_names))
+            ]
+            timeline_events.extend(
+                self._aura_timeline_events(
+                    key_debuff_events,
+                    fight_start,
+                    ability_names,
+                    actor_names,
+                    "debuff",
+                )
+            )
+
+            timeline_windows = self._build_aura_windows(
+                key_buff_events,
+                fight_start,
+                fight_end,
+                ability_names,
+                actor_names,
+                "buff",
+            )
+            timeline_windows.extend(
+                self._build_aura_windows(
+                    key_debuff_events,
+                    fight_start,
+                    fight_end,
+                    ability_names,
+                    actor_names,
+                    "debuff",
+                )
+            )
+
+            timeline_events.sort(key=lambda e: (e.timestamp_ms, e.kind, e.name))
+            timeline_windows.sort(key=lambda w: (w.start_ms, w.kind, w.name))
+            logger.info(
+                "获取爆发时间轴: report=%s fight=%d source=%d events=%d windows=%d",
+                report_code,
+                fight_id,
+                source_id,
+                len(timeline_events),
+                len(timeline_windows),
+            )
+            return timeline_events, timeline_windows, fight_duration_ms
+        except WCLAPIError as e:
+            logger.error("获取爆发时间轴失败: %s", e)
+            return [], [], 0
+
+    def _fetch_aura_events(
+        self,
+        query: str,
+        report_code: str,
+        fight_id: int,
+        source_id: int,
+        fight_end: int,
+        hostility_type: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
+        """分页获取 Buff/Debuff 事件。"""
+        import json as json_mod
+
+        variables: Dict[str, Any] = {
+            "code": report_code,
+            "fightIds": [fight_id],
+        }
+        variables["sourceId"] = source_id
+        if hostility_type:
+            variables["hostilityType"] = hostility_type
+        if fight_end:
+            variables["endTime"] = float(fight_end)
+
+        raw_events: List[Dict[str, Any]] = []
+        while True:
+            data = self.client.execute_query(query, variables)
+            events_page = (
+                data.get("reportData", {})
+                .get("report", {})
+                .get("events")
+            )
+            if isinstance(events_page, str):
+                events_page = json_mod.loads(events_page)
+            if not isinstance(events_page, dict):
+                break
+
+            page_data = events_page.get("data", [])
+            if isinstance(page_data, str):
+                page_data = json_mod.loads(page_data)
+            if isinstance(page_data, list):
+                raw_events.extend(e for e in page_data if isinstance(e, dict))
+
+            next_page_timestamp = events_page.get("nextPageTimestamp")
+            if not next_page_timestamp:
+                break
+            if fight_end and int(next_page_timestamp) >= fight_end:
+                break
+            if variables.get("startTime") == float(next_page_timestamp):
+                break
+            variables["startTime"] = float(next_page_timestamp)
+        return raw_events
+
+    def _aura_timeline_events(
+        self,
+        events: List[Dict[str, Any]],
+        fight_start: int,
+        ability_names: Dict[int, str],
+        actor_names: Dict[int, str],
+        aura_kind: str,
+    ) -> List[TimelineEvent]:
+        result: List[TimelineEvent] = []
+        for event in sorted(events, key=lambda e: e.get("timestamp", 0)):
+            event_type = str(event.get("type") or "").lower()
+            if event_type not in {
+                "applybuff",
+                "removebuff",
+                "refreshbuff",
+                "applydebuff",
+                "applydebuffstack",
+                "removedebuff",
+                "refreshdebuff",
+            }:
+                continue
+            timestamp_ms = int(event.get("timestamp", 0) or 0)
+            ability_id = self._event_ability_id(event)
+            name = self._event_ability_name(event, ability_names)
+            source_id = int(event.get("sourceID") or 0)
+            target_id = int(event.get("targetID") or 0)
+            result.append(
+                TimelineEvent(
+                    timestamp_ms=max(timestamp_ms - fight_start, 0)
+                    if fight_start
+                    else timestamp_ms,
+                    time=self._format_relative_time(timestamp_ms - fight_start)
+                    if fight_start
+                    else str(timestamp_ms),
+                    kind=self._aura_event_kind(aura_kind, event_type),
+                    name=name,
+                    ability_id=ability_id,
+                    source=actor_names.get(source_id, ""),
+                    target=actor_names.get(target_id, ""),
+                    priority=1 if aura_kind == "buff" else 2,
+                )
+            )
+        return result
+
+    def _build_aura_windows(
+        self,
+        events: List[Dict[str, Any]],
+        fight_start: int,
+        fight_end: int,
+        ability_names: Dict[int, str],
+        actor_names: Dict[int, str],
+        aura_kind: str,
+    ) -> List[TimelineWindow]:
+        active: Dict[tuple, Dict[str, Any]] = {}
+        windows: List[TimelineWindow] = []
+
+        for event in sorted(events, key=lambda e: e.get("timestamp", 0)):
+            event_type = str(event.get("type") or "").lower()
+            if event_type not in {
+                "applybuff",
+                "removebuff",
+                "refreshbuff",
+                "applydebuff",
+                "applydebuffstack",
+                "removedebuff",
+                "refreshdebuff",
+            }:
+                continue
+
+            timestamp_ms = int(event.get("timestamp", 0) or 0)
+            ability_id = self._event_ability_id(event)
+            name = self._event_ability_name(event, ability_names)
+            source_id = int(event.get("sourceID") or 0)
+            target_id = int(event.get("targetID") or 0)
+            key = (ability_id or name, source_id, target_id)
+
+            if event_type.startswith("apply"):
+                active[key] = event
+            elif event_type.startswith("remove"):
+                start_event = active.pop(key, None)
+                if start_event:
+                    windows.append(
+                        self._make_aura_window(
+                            start_event,
+                            timestamp_ms,
+                            fight_start,
+                            ability_names,
+                            actor_names,
+                            aura_kind,
+                        )
+                    )
+            elif event_type.startswith("refresh") and key not in active:
+                active[key] = event
+
+        if fight_end:
+            for start_event in active.values():
+                windows.append(
+                    self._make_aura_window(
+                        start_event,
+                        fight_end,
+                        fight_start,
+                        ability_names,
+                        actor_names,
+                        aura_kind,
+                    )
+                )
+        return windows
+
+    def _make_aura_window(
+        self,
+        start_event: Dict[str, Any],
+        end_timestamp_ms: int,
+        fight_start: int,
+        ability_names: Dict[int, str],
+        actor_names: Dict[int, str],
+        aura_kind: str,
+    ) -> TimelineWindow:
+        start_timestamp_ms = int(start_event.get("timestamp", 0) or 0)
+        ability_id = self._event_ability_id(start_event)
+        source_id = int(start_event.get("sourceID") or 0)
+        target_id = int(start_event.get("targetID") or 0)
+        return TimelineWindow(
+            name=self._event_ability_name(start_event, ability_names),
+            kind=aura_kind,
+            start_ms=max(start_timestamp_ms - fight_start, 0),
+            end_ms=max(end_timestamp_ms - fight_start, 0),
+            start_time=self._format_relative_time(start_timestamp_ms - fight_start),
+            end_time=self._format_relative_time(end_timestamp_ms - fight_start),
+            ability_id=ability_id,
+            source=actor_names.get(source_id, ""),
+            target=actor_names.get(target_id, ""),
+            priority=1 if aura_kind == "buff" else 2,
+        )
+
+    @staticmethod
+    def _aura_event_kind(aura_kind: str, event_type: str) -> str:
+        if event_type.startswith("remove"):
+            suffix = "remove"
+        elif event_type.startswith("refresh"):
+            suffix = "refresh"
+        else:
+            suffix = "apply"
+        return "{}_{}".format(aura_kind, suffix)
+
+    @staticmethod
+    def _event_ability_id(event: Dict[str, Any]) -> int:
+        ability = event.get("ability", {})
+        if not isinstance(ability, dict):
+            ability = {}
+        return int(
+            ability.get("guid")
+            or event.get("abilityGameID")
+            or event.get("abilityID")
+            or event.get("ability")
+            or 0
+        )
+
+    @staticmethod
+    def _event_ability_name(event: Dict[str, Any], ability_names: Dict[int, str]) -> str:
+        ability = event.get("ability", {})
+        if not isinstance(ability, dict):
+            ability = {}
+        ability_id = WCLFetcher._event_ability_id(event)
+        return (
+            ability.get("name")
+            or event.get("abilityName")
+            or ability_names.get(ability_id)
+            or "Unknown"
+        )
+
+    @staticmethod
+    def _is_key_cast(ability_id: int, name: str) -> bool:
+        return ability_id in KEY_CAST_IDS or name in KEY_CAST_NAMES
+
+    @staticmethod
+    def _is_key_buff(ability_id: int, name: str) -> bool:
+        return ability_id in KEY_BUFF_IDS or name in KEY_BUFF_NAMES
+
+    @staticmethod
+    def _is_key_debuff(ability_id: int, name: str) -> bool:
+        return ability_id in KEY_DEBUFF_IDS or name in KEY_DEBUFF_NAMES
+
+    @staticmethod
+    def _find_boss_actor_ids(actors: List[Dict[str, Any]], boss_name: str) -> List[int]:
+        boss_names = [boss_name]
+        if boss_name == "The Four Horsemen":
+            boss_names = [
+                "Baron Rivendare",
+                "Lady Blaumeux",
+                "Thane Korth'azz",
+                "Sir Zeliek",
+            ]
+        ids = [
+            int(actor.get("id") or 0)
+            for actor in actors
+            if actor.get("name") in boss_names and int(actor.get("id") or 0)
+        ]
+        return ids
+
+    def fetch_player_detail(self, player: PlayerRanking, boss_name: str = "") -> PlayerDetail:
         """查询单个角色的完整详情"""
         gear = []
         casts = []
-        buffs = []
+        timeline_events: List[TimelineEvent] = []
+        timeline_windows: List[TimelineWindow] = []
+        fight_duration_ms = 0
 
         if not player.report_code or not player.fight_id:
             return PlayerDetail(name=player.name)
@@ -446,13 +935,24 @@ class WCLFetcher:
             casts = self.fetch_player_casts(
                 player.report_code, player.fight_id, source_id
             )
-            buffs = self.fetch_player_buffs(
-                player.report_code, player.fight_id, source_id
+            timeline_events, timeline_windows, fight_duration_ms = self.fetch_player_timeline(
+                player.report_code,
+                player.fight_id,
+                source_id,
+                boss_name,
+                casts,
             )
         else:
             logger.warning("未找到 %s 在 report %s 中的 sourceID，跳过技能/Buff", player.name, player.report_code)
 
-        return PlayerDetail(name=player.name, gear=gear, casts=casts, buffs=buffs)
+        return PlayerDetail(
+            name=player.name,
+            gear=gear,
+            casts=casts,
+            timeline_events=timeline_events,
+            timeline_windows=timeline_windows,
+            fight_duration_ms=fight_duration_ms,
+        )
 
     def fetch_all(self) -> tuple:
         """编排完整抓取流程"""
@@ -475,7 +975,7 @@ class WCLFetcher:
             for player in boss.rankings:
                 key = "{}/{}".format(boss.boss_name_cn, player.name)
                 logger.info("正在获取角色详情: %s", key)
-                detail = self.fetch_player_detail(player)
+                detail = self.fetch_player_detail(player, boss.boss_name)
                 player_details[key] = detail
 
         return boss_rankings, player_details

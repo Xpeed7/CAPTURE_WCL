@@ -126,6 +126,63 @@ query (
 }
 """
 
+# 查询角色/Boss 的光环事件（对应 WCL 分析-事件-Buff/Debuff）
+GET_BUFF_EVENTS_QUERY = """
+query (
+  $code: String!
+  $fightIds: [Int]!
+  $sourceId: Int
+  $startTime: Float
+  $endTime: Float
+) {
+  reportData {
+    report(code: $code) {
+      events(
+        fightIDs: $fightIds
+        dataType: Buffs
+        sourceID: $sourceId
+        startTime: $startTime
+        endTime: $endTime
+        translate: true
+        limit: 1000
+      ) {
+        data
+        nextPageTimestamp
+      }
+    }
+  }
+}
+"""
+
+GET_DEBUFF_EVENTS_QUERY = """
+query (
+  $code: String!
+  $fightIds: [Int]!
+  $sourceId: Int
+  $hostilityType: HostilityType
+  $startTime: Float
+  $endTime: Float
+) {
+  reportData {
+    report(code: $code) {
+      events(
+        fightIDs: $fightIds
+        dataType: Debuffs
+        sourceID: $sourceId
+        hostilityType: $hostilityType
+        startTime: $startTime
+        endTime: $endTime
+        translate: true
+        limit: 1000
+      ) {
+        data
+        nextPageTimestamp
+      }
+    }
+  }
+}
+"""
+
 # 查询角色获取的 Buff（使用 table 端点）
 GET_BUFFS_QUERY = """
 query ($code: String!, $fightIds: [Int]!, $sourceId: Int) {

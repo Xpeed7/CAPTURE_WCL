@@ -8,8 +8,35 @@ from datetime import datetime
 from typing import Dict, List
 
 from config import OUTPUT_DIR, OUTPUT_FILENAME
-from models import BossRanking, PlayerDetail
+from models import BossRanking, PlayerDetail, TimelineEvent, TimelineWindow
 from translations import translator
+
+
+TIMELINE_KIND_LABELS = {
+    "cast": "释放技能",
+    "buff_apply": "获得 Buff",
+    "buff_remove": "移除 Buff",
+    "buff_refresh": "刷新 Buff",
+    "debuff_apply": "获得 Debuff",
+    "debuff_remove": "移除 Debuff",
+    "debuff_refresh": "刷新 Debuff",
+}
+
+
+def _translate_timeline_name(event_or_window: TimelineEvent | TimelineWindow) -> str:
+    if event_or_window.kind == "cast":
+        return translator.translate_ability(event_or_window.ability_id, event_or_window.name)
+    return translator.translate_buff(event_or_window.ability_id, event_or_window.name)
+
+
+def _translate_timeline_actor(name: str) -> str:
+    return translator.translate_actor(name) if name else "-"
+
+
+def _timeline_position(timestamp_ms: int, duration_ms: int) -> float:
+    if not duration_ms:
+        return 0.0
+    return max(0.0, min(100.0, timestamp_ms / duration_ms * 100.0))
 
 
 def format_rankings_table(boss_rankings: List[BossRanking]) -> str:
@@ -93,19 +120,22 @@ def format_player_detail(
         lines.append("> 未获取到技能数据")
     lines.append("")
 
-    # Buff
-    lines.append("#### 获取 Buff")
+    # Timeline
+    lines.append("#### 爆发时间轴")
     lines.append("")
-    if detail.buffs:
-        lines.append("| Buff 名称 | 来源 | 覆盖时间 |")
-        lines.append("|-----------|------|---------|")
-        for b in detail.buffs:
-            buff_name = translator.translate_buff(b.buff_id, b.buff_name)
-            source_str = translator.translate_actor(b.source) if b.source else "-"
-            uptime_str = "{:.1f}s".format(b.uptime_seconds) if b.uptime_seconds else "-"
-            lines.append("| {} | {} | {} |".format(buff_name, source_str, uptime_str))
+    if detail.timeline_events:
+        lines.append("| 时间 | 类型 | 名称 | 来源 | 目标 |")
+        lines.append("|------|------|------|------|------|")
+        for event in detail.timeline_events:
+            name = _translate_timeline_name(event)
+            kind = TIMELINE_KIND_LABELS.get(event.kind, event.kind)
+            source = _translate_timeline_actor(event.source)
+            target = _translate_timeline_actor(event.target)
+            lines.append("| {} | {} | {} | {} | {} |".format(
+                event.time, kind, name, source, target
+            ))
     else:
-        lines.append("> 未获取到 Buff 数据")
+        lines.append("> 未获取到关键 Buff/Debuff 时间轴数据")
     lines.append("")
 
     return "\n".join(lines)
@@ -426,6 +456,122 @@ def format_rankings_html(boss_rankings: List[BossRanking]) -> str:
 </html>"""
 
 
+def _format_timeline_html(detail: PlayerDetail) -> str:
+    if not detail.timeline_events and not detail.timeline_windows:
+        return '<div class="no-data">未获取到关键 Buff/Debuff 时间轴数据</div>'
+
+    duration_ms = detail.fight_duration_ms or max(
+        [e.timestamp_ms for e in detail.timeline_events] +
+        [w.end_ms for w in detail.timeline_windows] +
+        [1]
+    )
+
+    lane_rows = ""
+    for window in detail.timeline_windows:
+        start_pct = _timeline_position(window.start_ms, duration_ms)
+        end_pct = _timeline_position(window.end_ms, duration_ms)
+        width_pct = max(end_pct - start_pct, 0.6)
+        name = _translate_timeline_name(window)
+        source = _translate_timeline_actor(window.source)
+        target = _translate_timeline_actor(window.target)
+        lane_class = "debuff-lane" if window.kind == "debuff" else "buff-lane"
+        lane_rows += """
+                <div class="timeline-lane {lane_class}">
+                  <div class="lane-label" title="{title}">{name}</div>
+                  <div class="lane-track">
+                    <div class="window-segment {kind}" style="left:{left:.3f}%;width:{width:.3f}%;" title="{title}: {start} - {end}"></div>
+                  </div>
+                  <div class="lane-meta">{start} - {end}</div>
+                </div>""".format(
+            lane_class=lane_class,
+            kind=html.escape(window.kind),
+            left=start_pct,
+            width=width_pct,
+            name=html.escape(name),
+            title=html.escape("{} / {} -> {}".format(name, source, target)),
+            start=html.escape(window.start_time),
+            end=html.escape(window.end_time),
+        )
+
+    cast_markers = ""
+    for event in detail.timeline_events:
+        if event.kind != "cast":
+            continue
+        left_pct = _timeline_position(event.timestamp_ms, duration_ms)
+        name = _translate_timeline_name(event)
+        cast_markers += """
+                  <span class="cast-marker" style="left:{left:.3f}%;" title="{time} {name}"></span>""".format(
+            left=left_pct,
+            time=html.escape(event.time),
+            name=html.escape(name),
+        )
+
+    event_rows = ""
+    for event in detail.timeline_events:
+        name = _translate_timeline_name(event)
+        kind = TIMELINE_KIND_LABELS.get(event.kind, event.kind)
+        source = _translate_timeline_actor(event.source)
+        target = _translate_timeline_actor(event.target)
+        row_class = event.kind.replace("_", "-")
+        event_rows += """
+                  <tr class="{row_class}">
+                    <td class="time-cell">{time}</td>
+                    <td><span class="event-pill {row_class}">{kind}</span></td>
+                    <td class="ability-cell">{name}</td>
+                    <td>{source}</td>
+                    <td>{target}</td>
+                    <td class="ability-id-cell">{ability_id}</td>
+                  </tr>""".format(
+            row_class=html.escape(row_class),
+            time=html.escape(event.time),
+            kind=html.escape(kind),
+            name=html.escape(name),
+            source=html.escape(source),
+            target=html.escape(target),
+            ability_id=event.ability_id or "-",
+        )
+
+    if not lane_rows:
+        lane_rows = '<div class="no-data compact">未发现关键 Buff/Debuff 覆盖区间</div>'
+    if not cast_markers:
+        cast_markers = '<span class="timeline-empty-note">未发现关键技能释放点</span>'
+
+    return """
+            <div class="burst-timeline">
+              <div class="timeline-summary">
+                <span>关键覆盖 {window_count}</span>
+                <span>关键事件 {event_count}</span>
+                <span>战斗时长 {duration}</span>
+              </div>
+              <div class="timeline-board">
+                <div class="cast-track">
+                  <div class="lane-label">关键技能</div>
+                  <div class="lane-track marker-track">{markers}</div>
+                  <div class="lane-meta"></div>
+                </div>
+                {lanes}
+              </div>
+              <div class="event-table-wrap timeline-events">
+                <table class="data-table event-table">
+                  <thead><tr><th>时间</th><th>类型</th><th>名称</th><th>来源</th><th>目标</th><th>ID</th></tr></thead>
+                  <tbody>{rows}</tbody>
+                </table>
+              </div>
+            </div>""".format(
+        window_count=len(detail.timeline_windows),
+        event_count=len(detail.timeline_events),
+        duration=_format_timeline_duration(duration_ms),
+        markers=cast_markers,
+        lanes=lane_rows,
+        rows=event_rows,
+    )
+
+
+def _format_timeline_duration(duration_ms: int) -> str:
+    total_seconds = max(int(duration_ms), 0) / 1000.0
+    return "{:.1f}s".format(total_seconds)
+
+
 def format_player_details_html(
     boss_rankings: List[BossRanking],
     player_details: Dict[str, PlayerDetail],
@@ -445,7 +591,12 @@ def format_player_details_html(
             detail = player_details.get(key)
             safe_name = html.escape(player.name)
 
-            if not detail or (not detail.gear and not detail.casts and not detail.buffs):
+            if not detail or (
+                not detail.gear
+                and not detail.casts
+                and not detail.timeline_events
+                and not detail.timeline_windows
+            ):
                 player_cards += """
             <div class="player-card">
               <div class="player-header">
@@ -514,28 +665,7 @@ def format_player_details_html(
               </table>
             </div>""".format(rows=cast_rows)
 
-            # Buffs table
-            buffs_html = '<div class="no-data">未获取到 Buff 数据</div>'
-            if detail.buffs:
-                buff_bars = ""
-                max_uptime = detail.buffs[0].uptime_seconds if detail.buffs else 1
-                for b in detail.buffs:
-                    pct = int(b.uptime_seconds / max_uptime * 100) if max_uptime else 0
-                    uptime_str = "{:.1f}s".format(b.uptime_seconds) if b.uptime_seconds else "-"
-                    buff_name = translator.translate_buff(b.buff_id, b.buff_name)
-                    buff_bars += """
-                  <div class="bar-row">
-                    <span class="bar-label">{name}</span>
-                    <div class="bar-track">
-                      <div class="bar-fill buff-bar" style="width:{pct}%"></div>
-                    </div>
-                    <span class="bar-value">{uptime}</span>
-                  </div>""".format(
-                        name=html.escape(buff_name),
-                        pct=pct,
-                        uptime=uptime_str,
-                    )
-                buffs_html = """<div class="bar-list">{bars}</div>""".format(bars=buff_bars)
+            timeline_html = _format_timeline_html(detail)
 
             player_cards += """
             <div class="player-card">
@@ -553,8 +683,8 @@ def format_player_details_html(
                   {casts}
                 </details>
                 <details>
-                  <summary><span class="section-icon">&#x1F6E1;</span> Buff 覆盖</summary>
-                  {buffs}
+                  <summary><span class="section-icon">&#x23F1;</span> 爆发时间轴</summary>
+                  {timeline}
                 </details>
               </div>
             </div>""".format(
@@ -562,7 +692,7 @@ def format_player_details_html(
                 dps=int(player.dps),
                 gear=gear_html,
                 casts=casts_html,
-                buffs=buffs_html,
+                timeline=timeline_html,
             )
 
         if not boss.rankings:
@@ -845,6 +975,128 @@ def format_player_details_html(
     font-variant-numeric: tabular-nums;
   }}
 
+  /* Burst timeline */
+  .burst-timeline {{
+    padding: 10px 12px 12px;
+  }}
+  .timeline-summary {{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }}
+  .timeline-summary span {{
+    font-size: 11px;
+    color: var(--text-secondary);
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(42,53,80,0.5);
+    border-radius: 999px;
+    padding: 2px 8px;
+  }}
+  .timeline-board {{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+  }}
+  .timeline-lane,
+  .cast-track {{
+    display: grid;
+    grid-template-columns: 142px minmax(120px, 1fr) 86px;
+    align-items: center;
+    gap: 8px;
+    min-height: 24px;
+  }}
+  .lane-label {{
+    color: var(--text-secondary);
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }}
+  .lane-track {{
+    position: relative;
+    height: 10px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 999px;
+    overflow: hidden;
+  }}
+  .marker-track {{
+    height: 24px;
+    border-radius: 6px;
+    overflow: visible;
+  }}
+  .lane-meta {{
+    color: var(--text-muted);
+    font-size: 10px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }}
+  .window-segment {{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-radius: 999px;
+  }}
+  .window-segment.buff {{
+    background: linear-gradient(90deg, #00b894, #55efc4);
+  }}
+  .window-segment.debuff {{
+    background: linear-gradient(90deg, #ff7675, #fdcb6e);
+  }}
+  .cast-marker {{
+    position: absolute;
+    top: 2px;
+    width: 2px;
+    height: 20px;
+    background: #74b9ff;
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px rgba(116,185,255,0.14);
+  }}
+  .timeline-empty-note {{
+    display: inline-block;
+    color: var(--text-muted);
+    font-size: 11px;
+    padding: 3px 8px;
+  }}
+  .timeline-events {{
+    max-height: 300px;
+  }}
+  .event-pill {{
+    display: inline-block;
+    min-width: 64px;
+    text-align: center;
+    padding: 1px 6px;
+    border-radius: 999px;
+    font-size: 10px;
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.07);
+  }}
+  .event-pill.cast {{
+    background: rgba(74,124,255,0.24);
+  }}
+  .event-pill.buff-apply {{
+    background: rgba(0,184,148,0.24);
+  }}
+  .event-pill.buff-remove {{
+    background: rgba(0,184,148,0.12);
+  }}
+  .event-pill.buff-refresh {{
+    background: rgba(0,184,148,0.18);
+  }}
+  .event-pill.debuff-apply {{
+    background: rgba(255,118,117,0.26);
+  }}
+  .event-pill.debuff-remove {{
+    background: rgba(255,118,117,0.13);
+  }}
+  .event-pill.debuff-refresh {{
+    background: rgba(255,118,117,0.19);
+  }}
+  .compact {{
+    padding: 8px 0;
+  }}
+
   /* Bar chart for casts / buffs */
   .bar-list {{
     padding: 8px 12px;
@@ -919,6 +1171,9 @@ def format_player_details_html(
     .page-header h1 {{ font-size: 22px; }}
     .player-grid {{ padding: 8px; gap: 12px; }}
     .bar-label {{ width: 100px; font-size: 11px; }}
+    .timeline-lane,
+    .cast-track {{ grid-template-columns: 96px minmax(90px, 1fr) 64px; gap: 6px; }}
+    .lane-meta {{ font-size: 9px; }}
     .data-table {{ font-size: 11px; }}
     .data-table th, .data-table td {{ padding: 4px 6px; }}
   }}

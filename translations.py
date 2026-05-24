@@ -40,7 +40,6 @@ class TranslationStore:
         translated = self.actors.get(name)
         if translated:
             return translated
-        self._remember_missing("actors", name, name)
         return name
 
     def translate_buff(self, buff_id: int = 0, name: str = "") -> str:
