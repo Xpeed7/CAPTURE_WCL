@@ -69,6 +69,10 @@ query ($code: String!) {
   reportData {
     report(code: $code) {
       masterData {
+        abilities {
+          gameID
+          name
+        }
         actors {
           id
           name
@@ -94,12 +98,29 @@ query ($code: String!, $fightIds: [Int]!) {
 }
 """
 
-# 查询角色的技能释放（使用 table 端点获取聚合数据）
+# 查询角色的技能释放（使用 events 端点获取明细事件）
 GET_CASTS_QUERY = """
-query ($code: String!, $fightIds: [Int]!, $sourceId: Int) {
+query (
+  $code: String!
+  $fightIds: [Int]!
+  $sourceId: Int
+  $startTime: Float
+  $endTime: Float
+) {
   reportData {
     report(code: $code) {
-      table(fightIDs: $fightIds, dataType: Casts, sourceID: $sourceId)
+      events(
+        fightIDs: $fightIds
+        dataType: Casts
+        sourceID: $sourceId
+        startTime: $startTime
+        endTime: $endTime
+        translate: true
+        limit: 1000
+      ) {
+        data
+        nextPageTimestamp
+      }
     }
   }
 }

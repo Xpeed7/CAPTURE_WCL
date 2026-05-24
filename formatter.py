@@ -81,10 +81,11 @@ def format_player_detail(
     lines.append("#### 技能释放")
     lines.append("")
     if detail.casts:
-        lines.append("| 技能 | 释放次数 |")
-        lines.append("|------|---------|")
+        lines.append("| 时间 | 技能 | 目标 |")
+        lines.append("|------|------|------|")
         for c in detail.casts:
-            lines.append("| {} | {} |".format(c.ability_name, c.count))
+            target = c.target_name if c.target_name else "-"
+            lines.append("| {} | {} | {} |".format(c.time, c.ability_name, target))
     else:
         lines.append("> 未获取到技能数据")
     lines.append("")
@@ -481,23 +482,29 @@ def format_player_details_html(
             # Casts table
             casts_html = '<div class="no-data">未获取到技能数据</div>'
             if detail.casts:
-                cast_bars = ""
-                max_count = detail.casts[0].count if detail.casts else 1
+                cast_rows = ""
                 for c in detail.casts:
-                    pct = int(c.count / max_count * 100) if max_count else 0
-                    cast_bars += """
-                  <div class="bar-row">
-                    <span class="bar-label">{name}</span>
-                    <div class="bar-track">
-                      <div class="bar-fill cast-bar" style="width:{pct}%"></div>
-                    </div>
-                    <span class="bar-value">{count}</span>
-                  </div>""".format(
+                    target = html.escape(c.target_name) if c.target_name else "-"
+                    ability_id = str(c.ability_id) if c.ability_id else "-"
+                    cast_rows += """
+                  <tr>
+                    <td class="time-cell">{time}</td>
+                    <td class="ability-cell">{name}</td>
+                    <td>{target}</td>
+                    <td class="ability-id-cell">{ability_id}</td>
+                  </tr>""".format(
+                        time=html.escape(c.time),
                         name=html.escape(c.ability_name),
-                        pct=pct,
-                        count=c.count,
+                        target=target,
+                        ability_id=ability_id,
                     )
-                casts_html = """<div class="bar-list">{bars}</div>""".format(bars=cast_bars)
+                casts_html = """
+            <div class="event-table-wrap">
+              <table class="data-table event-table">
+                <thead><tr><th>时间</th><th>技能</th><th>目标</th><th>ID</th></tr></thead>
+                <tbody>{rows}</tbody>
+              </table>
+            </div>""".format(rows=cast_rows)
 
             # Buffs table
             buffs_html = '<div class="no-data">未获取到 Buff 数据</div>'
@@ -808,6 +815,25 @@ def format_player_details_html(
     font-weight: 600;
     width: 36px;
     text-align: center;
+  }}
+  .event-table-wrap {{
+    max-height: 360px;
+    overflow: auto;
+  }}
+  .event-table .time-cell {{
+    width: 74px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }}
+  .event-table .ability-cell {{
+    color: var(--text-primary);
+    font-weight: 500;
+  }}
+  .event-table .ability-id-cell {{
+    width: 58px;
+    color: var(--text-muted);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
   }}
 
   /* Bar chart for casts / buffs */

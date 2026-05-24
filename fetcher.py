@@ -270,32 +270,117 @@ class WCLFetcher:
     def fetch_player_casts(
         self, report_code: str, fight_id: int, source_id: int
     ) -> List[CastEvent]:
-        """查询角色技能释放（table 端点）"""
+        """查询角色技能释放明细（events 端点，对应 WCL 分析-事件-施法）。"""
         try:
-            data = self.client.execute_query(
-                GET_CASTS_QUERY,
-                {"code": report_code, "fightIds": [fight_id], "sourceId": source_id},
+            import json as json_mod
+
+            fight_start = 0
+            fight_end = 0
+            fights = self.fetch_fights(report_code, [fight_id])
+            if fights:
+                fight_start = int(fights[0].get("startTime", 0) or 0)
+                fight_end = int(fights[0].get("endTime", 0) or 0)
+
+            master_data = self.client.execute_query(
+                GET_MASTER_DATA_QUERY, {"code": report_code}
             )
-            table = (
-                data.get("reportData", {})
+            report_master_data = (
+                master_data.get("reportData", {})
                 .get("report", {})
-                .get("table")
+                .get("masterData", {})
             )
-            if isinstance(table, str):
-                import json as json_mod
-                table = json_mod.loads(table)
+            ability_names = {
+                int(a.get("gameID") or 0): a.get("name", "")
+                for a in report_master_data.get("abilities", [])
+                if isinstance(a, dict)
+            }
+            actor_names = {
+                int(a.get("id") or 0): a.get("name", "")
+                for a in report_master_data.get("actors", [])
+                if isinstance(a, dict)
+            }
 
-            entries = []
-            if isinstance(table, dict):
-                entries = table.get("data", {}).get("entries", [])
+            variables: Dict[str, Any] = {
+                "code": report_code,
+                "fightIds": [fight_id],
+                "sourceId": source_id,
+            }
+            if fight_end:
+                variables["endTime"] = float(fight_end)
 
-            return [
-                CastEvent(
-                    ability_name=e.get("name", "Unknown"),
-                    count=e.get("total", 0),
+            raw_events: List[Dict[str, Any]] = []
+            while True:
+                data = self.client.execute_query(GET_CASTS_QUERY, variables)
+                events_page = (
+                    data.get("reportData", {})
+                    .get("report", {})
+                    .get("events")
                 )
-                for e in sorted(entries, key=lambda x: -x.get("total", 0))
-            ]
+                if isinstance(events_page, str):
+                    events_page = json_mod.loads(events_page)
+
+                if not isinstance(events_page, dict):
+                    break
+
+                page_data = events_page.get("data", [])
+                if isinstance(page_data, str):
+                    page_data = json_mod.loads(page_data)
+                if isinstance(page_data, list):
+                    raw_events.extend(e for e in page_data if isinstance(e, dict))
+
+                next_page_timestamp = events_page.get("nextPageTimestamp")
+                if not next_page_timestamp:
+                    break
+                if fight_end and int(next_page_timestamp) >= fight_end:
+                    break
+                if variables.get("startTime") == float(next_page_timestamp):
+                    break
+                variables["startTime"] = float(next_page_timestamp)
+
+            casts: List[CastEvent] = []
+            for event in sorted(raw_events, key=lambda e: e.get("timestamp", 0)):
+                ability = event.get("ability", {})
+                if not isinstance(ability, dict):
+                    ability = {}
+                target = event.get("target", {})
+                if not isinstance(target, dict):
+                    target = {}
+
+                timestamp_ms = int(event.get("timestamp", 0) or 0)
+                ability_id = int(
+                    ability.get("guid")
+                    or event.get("abilityGameID")
+                    or event.get("abilityID")
+                    or 0
+                )
+                target_id = int(event.get("targetID") or target.get("id") or 0)
+                ability_name = (
+                    ability.get("name")
+                    or event.get("abilityName")
+                    or ability_names.get(ability_id)
+                    or "Unknown"
+                )
+                target_name = target.get("name") or actor_names.get(target_id, "")
+                casts.append(
+                    CastEvent(
+                        ability_name=ability_name,
+                        timestamp_ms=timestamp_ms,
+                        time=self._format_relative_time(timestamp_ms - fight_start)
+                        if fight_start
+                        else str(timestamp_ms),
+                        target_name=target_name,
+                        ability_id=ability_id,
+                    )
+                )
+
+            logger.info(
+                "获取施法事件: report=%s fight=%d source=%d events=%d",
+                report_code,
+                fight_id,
+                source_id,
+                len(casts),
+            )
+            return casts
         except WCLAPIError as e:
             logger.error("获取技能失败: %s", e)
             return []
@@ -429,3 +514,12 @@ class WCLFetcher:
         minutes = total_seconds // 60
         seconds = total_seconds % 60
         return "{:02d}:{:02d}".format(minutes, seconds)
+
+    @staticmethod
+    def _format_relative_time(milliseconds: float) -> str:
+        """将战斗内相对毫秒格式化为 m:ss.mmm。"""
+        total_ms = max(int(milliseconds), 0)
+        minutes = total_ms // 60000
+        seconds = (total_ms % 60000) // 1000
+        millis = total_ms % 1000
+        return "{}:{:02d}.{:03d}".format(minutes, seconds, millis)

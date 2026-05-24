@@ -18,6 +18,10 @@ class GearItem:
 @dataclass
 class CastEvent:
     ability_name: str
+    timestamp_ms: int = 0
+    time: str = ""
+    target_name: str = ""
+    ability_id: int = 0
     count: int = 0
 
 
