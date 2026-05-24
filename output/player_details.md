@@ -8,24 +8,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Trapper's Shirt | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#42153, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 捕兽者衬衣 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#42153, gem#39996 |
 | 护腕 |  | 219 | - | gem#42153, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#40002 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#39996 |
-| 戒指1 | Surge Needle Ring | 226 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | Swordguard Embroidery | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#40002 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#39996 |
+| 戒指1 | 强能针刺指环 | 226 | - | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | 剑刃刺绣 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -123,43 +123,43 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 肯瑞托的智慧 | - | 70.7s |
-| Moonkin Aura | - | 70.7s |
-| Gift of the Wild | - | 70.7s |
-| Greater Blessing of Might | - | 70.7s |
-| Scourgebane Draught | - | 70.7s |
-| Greater Blessing of Kings | - | 70.7s |
-| Flask of Endless Rage | - | 70.7s |
+| 枭兽光环 | - | 70.7s |
+| 野性赐福 | - | 70.7s |
+| 强效力量祝福 | - | 70.7s |
+| 天灾克星药水 | - | 70.7s |
+| 强效王者祝福 | - | 70.7s |
+| 无尽怒气合剂 | - | 70.7s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 70.7s |
 | 不灭药水 | - | 70.7s |
-| Leader of the Pack | - | 70.7s |
+| 兽群领袖 | - | 70.7s |
 | 战斗姿态 | - | 70.7s |
-| Well Fed | - | 70.7s |
-| Demonic Pact | - | 68.6s |
-| Enrage | - | 68.4s |
-| Concentration Aura | - | 64.8s |
-| Aspect of the Wild | - | 55.9s |
-| Sacred Shield | - | 55.9s |
-| Berserk | - | 45.8s |
-| Bloodlust | - | 40.0s |
-| Sudden Death | - | 33.5s |
-| Earth Shield | - | 31.0s |
-| Strength | - | 30.0s |
-| Taste for Blood | - | 21.8s |
-| Grim Toll | - | 20.0s |
+| 进食充分 | - | 70.7s |
+| 恶魔契约 | - | 68.6s |
+| 激怒 | - | 68.4s |
+| 专注光环 | - | 64.8s |
+| 野性守护 | - | 55.9s |
+| 圣洁护盾 | - | 55.9s |
+| 狂暴 | - | 45.8s |
+| 嗜血 | - | 40.0s |
+| 猝死 | - | 33.5s |
+| 大地之盾 | - | 31.0s |
+| 力量 | - | 30.0s |
+| 血之气息 | - | 21.8s |
+| 死亡之钟 | - | 20.0s |
 | 横扫攻击 | - | 19.2s |
-| Swordguard Embroidery | - | 19.1s |
-| Blood Fury | - | 15.0s |
+| 剑刃刺绣 | - | 19.1s |
+| 血性狂怒 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
-| Retaliation | - | 12.0s |
-| Divine Guardian | - | 12.0s |
-| Cleaving | - | 10.0s |
-| Divine Sacrifice | - | 10.0s |
-| Blessing of Sacrifice | - | 9.6s |
+| 反击风暴 | - | 12.0s |
+| 神圣守护者 | - | 12.0s |
+| 顺劈 | - | 10.0s |
+| 神圣牺牲 | - | 10.0s |
+| 牺牲祝福 | - | 9.6s |
 | 血性狂暴 | - | 8.5s |
 | 鲁莽 | - | 6.1s |
-| Sacred Shield | - | 5.5s |
-| Nitro Boosts | - | 5.0s |
-| Horn of Winter | - | 2.6s |
+| 圣洁护盾 | - | 5.5s |
+| 硝化甘油推进器 | - | 5.0s |
+| 寒冬号角 | - | 2.6s |
 
 ### 阿努布雷坎 - 伊丨飛
 
@@ -167,24 +167,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#40037, gem#40037 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Zeliek's Gauntlets | 226 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#40038 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Tsunami Talisman | 219 | - | - |
-| 主手 | Cloak of Darkening | 232 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#40037, gem#40037 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 瑟里耶克的护手 | 226 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40038 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 海啸护符 | 219 | - | - |
+| 主手 | 黑暗笼罩披风 | 232 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -317,51 +317,51 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Renewed Hope | - | 91.3s |
-| Leader of the Pack | - | 91.3s |
-| Well Fed | - | 91.3s |
+| 新生希望 | - | 91.3s |
+| 兽群领袖 | - | 91.3s |
+| 进食充分 | - | 91.3s |
 | 战斗姿态 | - | 91.3s |
-| Flask of Endless Rage | - | 91.3s |
+| 无尽怒气合剂 | - | 91.3s |
 | 肯瑞托的智慧 | - | 91.3s |
-| Greater Blessing of Kings | - | 91.3s |
-| Gift of the Wild | - | 91.3s |
+| 强效王者祝福 | - | 91.3s |
+| 野性赐福 | - | 91.3s |
 | 不灭药水 | - | 91.3s |
-| Greater Blessing of Might | - | 91.3s |
+| 强效力量祝福 | - | 91.3s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 91.3s |
-| Leader of the Pack | - | 91.3s |
-| Moonkin Aura | - | 91.3s |
-| Sacred Shield | - | 89.2s |
-| Demonic Pact | - | 88.9s |
-| Enrage | - | 87.7s |
-| Berserk | - | 84.2s |
-| Inspiration | - | 73.5s |
-| Sudden Death | - | 71.0s |
-| Grace | - | 70.3s |
-| Heroism | - | 40.0s |
-| Taste for Blood | - | 32.7s |
+| 兽群领袖 | - | 91.3s |
+| 枭兽光环 | - | 91.3s |
+| 圣洁护盾 | - | 89.2s |
+| 恶魔契约 | - | 88.9s |
+| 激怒 | - | 87.7s |
+| 狂暴 | - | 84.2s |
+| 灵感 | - | 73.5s |
+| 猝死 | - | 71.0s |
+| 恩典 | - | 70.3s |
+| 英勇 | - | 40.0s |
+| 血之气息 | - | 32.7s |
 | 横扫攻击 | - | 26.6s |
-| Regeneration | - | 24.0s |
+| 再生 | - | 24.0s |
 | 破坏能手 | - | 22.7s |
-| Blessing of Sacrifice | - | 21.5s |
-| Divine Aegis | - | 20.5s |
-| Fury of the Crashing Waves | - | 20.0s |
-| Grim Toll | - | 20.0s |
+| 牺牲祝福 | - | 21.5s |
+| 神圣庇护 | - | 20.5s |
+| 怒涛之力 | - | 20.0s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 20.0s |
-| Sacred Shield | - | 15.6s |
-| Tricks of the Trade | - | 15.6s |
-| Power Word: Shield | - | 15.4s |
+| 圣洁护盾 | - | 15.6s |
+| 嫁祸诀窍 | - | 15.6s |
+| 真言术：盾 | - | 15.4s |
 | 外交 | - | 15.0s |
-| Lay on Hands | - | 15.0s |
+| 圣疗术 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
-| Retaliation | - | 12.0s |
-| Divine Guardian | - | 12.0s |
+| 反击风暴 | - | 12.0s |
+| 神圣守护者 | - | 12.0s |
 | 狂暴之怒 | - | 10.0s |
-| Pain Suppression | - | 8.0s |
-| Cleaving | - | 6.3s |
-| Nitro Boosts | - | 3.8s |
+| 痛苦压制 | - | 8.0s |
+| 顺劈 | - | 6.3s |
+| 硝化甘油推进器 | - | 3.8s |
 | 鲁莽 | - | 3.7s |
-| Horn of Winter | - | 1.8s |
-| Prayer of Mending | - | 0.6s |
+| 寒冬号角 | - | 1.8s |
+| 愈合祷言 | - | 0.6s |
 
 ### 阿努布雷坎 - 要脸不要盾
 
@@ -369,24 +369,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#42153 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#42153 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#39996, gem#39996 |
-| 手套 | Greaves of the Bloodwarder | 219 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#40037, gem#42702 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Lost Sentiments | 226 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Valorous Dreadnaught Gauntlets | 226 | +6 Attack Power | gem#40037, gem#39996 |
-| 戒指1 | Band of the Ranger-General | 219 | - | gem#39996 |
-| 戒指2 | Ancestral Ring of Conquest | 219 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Tsunami Talisman | 219 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#39996, gem#39996 |
+| 手套 | 血卫士胫甲 | 219 | +1 攻击强度和 +2 爆击 | gem#39996, gem#40037, gem#42702 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 失落情感护腕 | 226 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 勇猛的无畏护手 | 226 | +6 攻击强度 | gem#40037, gem#39996 |
+| 戒指1 | 游侠将军指环 | 219 | - | gem#39996 |
+| 戒指2 | 征服者的先祖指环 | 219 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 海啸护符 | 219 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42153 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42153 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -466,33 +466,33 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Well Fed | - | 70.1s |
-| Flask of Endless Rage | - | 70.1s |
-| Gift of the Wild | - | 70.1s |
+| 进食充分 | - | 70.1s |
+| 无尽怒气合剂 | - | 70.1s |
+| 野性赐福 | - | 70.1s |
 | 战斗姿态 | - | 70.1s |
-| Greater Blessing of Might | - | 70.1s |
+| 强效力量祝福 | - | 70.1s |
 | 不灭药水 | - | 70.1s |
 | 肯瑞托的智慧 | - | 70.1s |
-| Moonkin Aura | - | 70.1s |
+| 枭兽光环 | - | 70.1s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 70.1s |
-| Greater Blessing of Kings | - | 70.1s |
-| Enrage | - | 68.5s |
-| Demonic Pact | - | 61.4s |
-| Berserk | - | 60.8s |
-| Sudden Death | - | 60.6s |
-| Heroism | - | 40.0s |
+| 强效王者祝福 | - | 70.1s |
+| 激怒 | - | 68.5s |
+| 恶魔契约 | - | 61.4s |
+| 狂暴 | - | 60.8s |
+| 猝死 | - | 60.6s |
+| 英勇 | - | 40.0s |
 | 横扫攻击 | - | 26.1s |
-| Taste for Blood | - | 20.1s |
-| Fury of the Crashing Waves | - | 20.0s |
-| Grim Toll | - | 20.0s |
+| 血之气息 | - | 20.1s |
+| 怒涛之力 | - | 20.0s |
+| 死亡之钟 | - | 20.0s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
 | 血性狂暴 | - | 10.1s |
-| Divine Guardian | - | 5.2s |
+| 神圣守护者 | - | 5.2s |
 | 鲁莽 | - | 4.7s |
-| Nitro Boosts | - | 4.5s |
-| Cleaving | - | 3.9s |
-| Horn of Winter | - | 1.9s |
+| 硝化甘油推进器 | - | 4.5s |
+| 顺劈 | - | 3.9s |
+| 寒冬号角 | - | 1.9s |
 
 ### 黑女巫法琳娜 - 伊卡洛斯
 
@@ -500,24 +500,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Trapper's Shirt | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#42153, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 捕兽者衬衣 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#42153, gem#39996 |
 | 护腕 |  | 219 | - | gem#42153, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#40002 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#39996 |
-| 戒指1 | Surge Needle Ring | 226 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | Swordguard Embroidery | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#40002 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#39996 |
+| 戒指1 | 强能针刺指环 | 226 | - | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | 剑刃刺绣 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -618,45 +618,45 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Well Fed | - | 72.3s |
-| Greater Blessing of Kings | - | 72.3s |
-| Scourgebane Draught | - | 72.3s |
+| 进食充分 | - | 72.3s |
+| 强效王者祝福 | - | 72.3s |
+| 天灾克星药水 | - | 72.3s |
 | 战斗姿态 | - | 72.3s |
-| Flask of Endless Rage | - | 72.3s |
-| Residue of Darkness | - | 72.3s |
-| Leader of the Pack | - | 72.3s |
+| 无尽怒气合剂 | - | 72.3s |
+| 黑暗残渣 | - | 72.3s |
+| 兽群领袖 | - | 72.3s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 72.3s |
-| Nexus Residue | - | 72.3s |
-| Moonkin Aura | - | 72.3s |
-| Gift of the Wild | - | 72.3s |
-| Greater Blessing of Might | - | 72.3s |
+| 魔枢残渣 | - | 72.3s |
+| 枭兽光环 | - | 72.3s |
+| 野性赐福 | - | 72.3s |
+| 强效力量祝福 | - | 72.3s |
 | 不灭药水 | - | 72.3s |
 | 肯瑞托的智慧 | - | 72.3s |
-| Enrage | - | 69.4s |
-| Demonic Pact | - | 62.0s |
-| Sacred Shield | - | 56.9s |
-| Sudden Death | - | 51.5s |
-| Berserk | - | 49.0s |
-| Concentration Aura | - | 48.1s |
-| Bloodlust | - | 39.9s |
-| Strength | - | 30.0s |
-| Swordguard Embroidery | - | 29.4s |
-| Fire Resistance Aura | - | 24.2s |
-| Taste for Blood | - | 23.6s |
-| Grim Toll | - | 20.0s |
+| 激怒 | - | 69.4s |
+| 恶魔契约 | - | 62.0s |
+| 圣洁护盾 | - | 56.9s |
+| 猝死 | - | 51.5s |
+| 狂暴 | - | 49.0s |
+| 专注光环 | - | 48.1s |
+| 嗜血 | - | 39.9s |
+| 力量 | - | 30.0s |
+| 剑刃刺绣 | - | 29.4s |
+| 火焰抗性光环 | - | 24.2s |
+| 血之气息 | - | 23.6s |
+| 死亡之钟 | - | 20.0s |
 | 横扫攻击 | - | 19.0s |
 | 血性狂暴 | - | 17.6s |
-| Blood Fury | - | 15.0s |
-| Lay on Hands | - | 15.0s |
-| Divine Guardian | - | 12.0s |
+| 血性狂怒 | - | 15.0s |
+| 圣疗术 | - | 15.0s |
+| 神圣守护者 | - | 12.0s |
 | 剑刃风暴 | - | 12.0s |
-| Retaliation | - | 12.0s |
-| Blessing of Sacrifice | - | 12.0s |
-| Cleaving | - | 10.0s |
-| Divine Sacrifice | - | 10.0s |
-| Sacred Shield | - | 9.3s |
+| 反击风暴 | - | 12.0s |
+| 牺牲祝福 | - | 12.0s |
+| 顺劈 | - | 10.0s |
+| 神圣牺牲 | - | 10.0s |
+| 圣洁护盾 | - | 9.3s |
 | 鲁莽 | - | 4.7s |
-| Nitro Boosts | - | 4.3s |
+| 硝化甘油推进器 | - | 4.3s |
 | 破坏能手 | - | 1.1s |
 
 ### 黑女巫法琳娜 - 伊丨飛
@@ -665,24 +665,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#40037, gem#40037 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Zeliek's Gauntlets | 226 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#40038 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Tsunami Talisman | 219 | - | - |
-| 主手 | Cloak of Darkening | 232 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#40037, gem#40037 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 瑟里耶克的护手 | 226 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40038 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 海啸护符 | 219 | - | - |
+| 主手 | 黑暗笼罩披风 | 232 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -830,52 +830,52 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 战斗姿态 | - | 100.4s |
-| Renewed Hope | - | 100.4s |
-| Greater Blessing of Might | - | 100.4s |
+| 新生希望 | - | 100.4s |
+| 强效力量祝福 | - | 100.4s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 100.4s |
-| Moonkin Aura | - | 100.4s |
-| Well Fed | - | 100.4s |
-| Gift of the Wild | - | 100.4s |
+| 枭兽光环 | - | 100.4s |
+| 进食充分 | - | 100.4s |
+| 野性赐福 | - | 100.4s |
 | 肯瑞托的智慧 | - | 100.4s |
-| Greater Blessing of Kings | - | 100.4s |
+| 强效王者祝福 | - | 100.4s |
 | 不灭药水 | - | 100.4s |
-| Leader of the Pack | - | 100.4s |
-| Flask of Endless Rage | - | 100.4s |
-| Leader of the Pack | - | 100.4s |
-| Demonic Pact | - | 98.7s |
-| Enrage | - | 96.6s |
-| Sudden Death | - | 92.3s |
-| Berserk | - | 65.4s |
-| Sacred Shield | - | 57.2s |
-| Blood Pact | - | 44.1s |
-| Grace | - | 42.8s |
-| Inspiration | - | 41.7s |
-| Heroism | - | 40.0s |
-| Taste for Blood | - | 27.4s |
+| 兽群领袖 | - | 100.4s |
+| 无尽怒气合剂 | - | 100.4s |
+| 兽群领袖 | - | 100.4s |
+| 恶魔契约 | - | 98.7s |
+| 激怒 | - | 96.6s |
+| 猝死 | - | 92.3s |
+| 狂暴 | - | 65.4s |
+| 圣洁护盾 | - | 57.2s |
+| 血之契印 | - | 44.1s |
+| 恩典 | - | 42.8s |
+| 灵感 | - | 41.7s |
+| 英勇 | - | 40.0s |
+| 血之气息 | - | 27.4s |
 | 横扫攻击 | - | 24.7s |
-| Regeneration | - | 24.0s |
-| Grim Toll | - | 20.1s |
-| Fury of the Crashing Waves | - | 20.0s |
+| 再生 | - | 24.0s |
+| 死亡之钟 | - | 20.1s |
+| 怒涛之力 | - | 20.0s |
 | 血性狂暴 | - | 17.1s |
 | 破坏能手 | - | 16.5s |
 | 剑刃风暴 | - | 15.2s |
-| Lay on Hands | - | 15.0s |
+| 圣疗术 | - | 15.0s |
 | 外交 | - | 15.0s |
-| Power Word: Shield | - | 13.8s |
-| Divine Guardian | - | 12.0s |
-| Flash of Light | - | 12.0s |
-| Blessing of Sacrifice | - | 12.0s |
-| Retaliation | - | 12.0s |
-| Tricks of the Trade | - | 12.0s |
-| Cleaving | - | 10.0s |
+| 真言术：盾 | - | 13.8s |
+| 神圣守护者 | - | 12.0s |
+| 圣光闪现 | - | 12.0s |
+| 牺牲祝福 | - | 12.0s |
+| 反击风暴 | - | 12.0s |
+| 嫁祸诀窍 | - | 12.0s |
+| 顺劈 | - | 10.0s |
 | 狂暴之怒 | - | 10.0s |
-| Sacred Shield | - | 9.7s |
+| 圣洁护盾 | - | 9.7s |
 | 鲁莽 | - | 3.8s |
-| Divine Aegis | - | 2.7s |
-| Nitro Boosts | - | 2.6s |
-| Horn of Winter | - | 1.0s |
-| Prayer of Mending | - | 0.4s |
-| Ferocious Inspiration | - | 0.0s |
+| 神圣庇护 | - | 2.7s |
+| 硝化甘油推进器 | - | 2.6s |
+| 寒冬号角 | - | 1.0s |
+| 愈合祷言 | - | 0.4s |
+| 凶猛灵感 | - | 0.0s |
 
 ### 黑女巫法琳娜 - 风导星歌
 
@@ -883,25 +883,25 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#40002 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#40022 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#40002 |
+| 颈部 | 龙后青睐 | 232 | - | gem#40022 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40038, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42142 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 |  | 213 | +4 Attack Power | gem#40038, gem#40002 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#42142 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40038, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42142 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 |  | 213 | +4 攻击强度 | gem#40038, gem#40002 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#42142 |
 | 戒指1 |  | 219 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40014 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +16 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40014 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +16 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
-| 战袍 | Tabard of the Wyrmrest Accord | 75 | - | - |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
+| 战袍 | 龙眠联军战袍 | 75 | - | - |
 
 #### 技能释放
 
@@ -1009,48 +1009,48 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Concentration Aura | - | 79.3s |
-| Leader of the Pack | - | 79.3s |
+| 专注光环 | - | 79.3s |
+| 兽群领袖 | - | 79.3s |
 | 战斗姿态 | - | 79.3s |
-| Well Fed | - | 79.3s |
-| Greater Blessing of Might | - | 79.3s |
-| Gift of the Wild | - | 79.3s |
-| Greater Blessing of Kings | - | 79.3s |
-| Leader of the Pack | - | 79.3s |
+| 进食充分 | - | 79.3s |
+| 强效力量祝福 | - | 79.3s |
+| 野性赐福 | - | 79.3s |
+| 强效王者祝福 | - | 79.3s |
+| 兽群领袖 | - | 79.3s |
 | 肯瑞托的智慧 | - | 79.3s |
-| Flask of Endless Rage | - | 79.3s |
-| Moonkin Aura | - | 79.3s |
+| 无尽怒气合剂 | - | 79.3s |
+| 枭兽光环 | - | 79.3s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 79.3s |
-| Berserk | - | 77.1s |
-| Demonic Pact | - | 76.4s |
-| Enrage | - | 75.4s |
-| Renewed Hope | - | 70.7s |
-| Grace | - | 69.0s |
-| Sudden Death | - | 51.7s |
-| Inspiration | - | 45.4s |
-| Renew | - | 40.9s |
-| Heroism | - | 40.0s |
-| Tricks of the Trade | - | 30.0s |
-| Strength | - | 30.0s |
-| Taste for Blood | - | 29.0s |
+| 狂暴 | - | 77.1s |
+| 恶魔契约 | - | 76.4s |
+| 激怒 | - | 75.4s |
+| 新生希望 | - | 70.7s |
+| 恩典 | - | 69.0s |
+| 猝死 | - | 51.7s |
+| 灵感 | - | 45.4s |
+| 恢复 | - | 40.9s |
+| 英勇 | - | 40.0s |
+| 嫁祸诀窍 | - | 30.0s |
+| 力量 | - | 30.0s |
+| 血之气息 | - | 29.0s |
 | 横扫攻击 | - | 20.5s |
-| Grim Toll | - | 20.0s |
-| Divine Aegis | - | 17.1s |
+| 死亡之钟 | - | 20.0s |
+| 神圣庇护 | - | 17.1s |
 | 外交 | - | 15.0s |
 | 速度 | - | 15.0s |
 | 破坏能手 | - | 12.9s |
 | 剑刃风暴 | - | 12.0s |
-| Blessing of Sacrifice | - | 12.0s |
-| Retaliation | - | 12.0s |
-| Blood Pact | - | 10.9s |
-| Power Word: Shield | - | 10.7s |
-| Divine Hymn | - | 10.4s |
-| Cleaving | - | 10.1s |
+| 牺牲祝福 | - | 12.0s |
+| 反击风暴 | - | 12.0s |
+| 血之契印 | - | 10.9s |
+| 真言术：盾 | - | 10.7s |
+| 神圣赞美诗 | - | 10.4s |
+| 顺劈 | - | 10.1s |
 | 血性狂暴 | - | 10.0s |
-| Pain Suppression | - | 8.0s |
-| Divine Guardian | - | 6.0s |
+| 痛苦压制 | - | 8.0s |
+| 神圣守护者 | - | 6.0s |
 | 鲁莽 | - | 3.9s |
-| Prayer of Mending | - | 2.8s |
+| 愈合祷言 | - | 2.8s |
 
 ### 迈克斯纳 - 果茶星冰乐
 
@@ -1058,24 +1058,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#40002 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#40002 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40014 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#40002 |
+| 颈部 | 龙后青睐 | 232 | - | gem#40002 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40014 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#42153, gem#42153 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#40002, gem#42153, gem#42702 |
-| 手套 | Leggings of Murderous Intent | 219 | +1 Attack Power and +2 Critical Strike | gem#40002, gem#40002 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#40002, gem#40002 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#40002 |
-| 戒指1 | Circle of Death | 232 | - | gem#40014 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#42153, gem#42153 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#40002, gem#42153, gem#42702 |
+| 手套 | 刺杀护腿 | 219 | +1 攻击强度和 +2 爆击 | gem#40002, gem#40002 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#40002, gem#40002 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#40002 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40014 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -1213,44 +1213,44 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Commanding Shout | - | 107.1s |
-| Renewed Hope | - | 107.1s |
-| Well Fed | - | 107.1s |
-| Flask of Endless Rage | - | 107.1s |
-| Greater Blessing of Kings | - | 107.1s |
+| 命令怒吼 | - | 107.1s |
+| 新生希望 | - | 107.1s |
+| 进食充分 | - | 107.1s |
+| 无尽怒气合剂 | - | 107.1s |
+| 强效王者祝福 | - | 107.1s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 107.1s |
-| Horn of Winter | - | 107.1s |
-| Greater Blessing of Might | - | 107.1s |
-| Leader of the Pack | - | 107.1s |
-| Leader of the Pack | - | 107.1s |
+| 寒冬号角 | - | 107.1s |
+| 强效力量祝福 | - | 107.1s |
+| 兽群领袖 | - | 107.1s |
+| 兽群领袖 | - | 107.1s |
 | 肯瑞托的智慧 | - | 107.1s |
-| Gift of the Wild | - | 107.1s |
-| Moonkin Aura | - | 107.1s |
+| 野性赐福 | - | 107.1s |
+| 枭兽光环 | - | 107.1s |
 | 战斗姿态 | - | 105.4s |
-| Enrage | - | 104.0s |
-| Demonic Pact | - | 102.5s |
-| Devotion Aura | - | 92.1s |
-| Heroism | - | 90.7s |
-| Berserk | - | 88.2s |
+| 激怒 | - | 104.0s |
+| 恶魔契约 | - | 102.5s |
+| 虔诚光环 | - | 92.1s |
+| 英勇 | - | 90.7s |
+| 狂暴 | - | 88.2s |
 | 不灭药水 | - | 46.4s |
-| Strength | - | 45.0s |
-| Rejuvenation | - | 39.9s |
-| Taste for Blood | - | 23.8s |
-| Grim Toll | - | 20.0s |
+| 力量 | - | 45.0s |
+| 回春术 | - | 39.9s |
+| 血之气息 | - | 23.8s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 20.0s |
 | 剑刃风暴 | - | 18.0s |
 | 速度 | - | 15.0s |
 | 外交 | - | 15.0s |
-| Divine Sacrifice | - | 10.0s |
-| Lifebloom | - | 9.0s |
+| 神圣牺牲 | - | 10.0s |
+| 生命绽放 | - | 9.0s |
 | 鲁莽 | - | 7.3s |
-| Wild Growth | - | 7.0s |
-| Divine Guardian | - | 6.2s |
-| Earthliving | - | 5.3s |
-| Nitro Boosts | - | 5.0s |
-| Berserker Stance | - | 1.6s |
+| 野性成长 | - | 7.0s |
+| 神圣守护者 | - | 6.2s |
+| 大地生命 | - | 5.3s |
+| 硝化甘油推进器 | - | 5.0s |
+| 狂暴姿态 | - | 1.6s |
 | 破坏能手 | - | -13.6s |
-| Ancestral Fortitude | - | -23.5s |
+| 先祖坚韧 | - | -23.5s |
 
 ### 迈克斯纳 - 风导星歌
 
@@ -1258,25 +1258,25 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42702 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42702 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40038, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42142 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 | Bands of the Celestial Archer | 219 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#42153 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40038, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42142 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 | 天界猎手护腕 | 219 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#42153 |
 | 戒指1 |  | 219 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40038 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +16 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40038 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +16 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
-| 战袍 | Tabard of the Wyrmrest Accord | 75 | - | - |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
+| 战袍 | 龙眠联军战袍 | 75 | - | - |
 
 #### 技能释放
 
@@ -1376,34 +1376,34 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Gift of the Wild | - | 77.5s |
+| 野性赐福 | - | 77.5s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 77.5s |
-| Leader of the Pack | - | 77.5s |
-| Leader of the Pack | - | 77.5s |
-| Greater Blessing of Might | - | 77.5s |
-| Well Fed | - | 77.5s |
+| 兽群领袖 | - | 77.5s |
+| 兽群领袖 | - | 77.5s |
+| 强效力量祝福 | - | 77.5s |
+| 进食充分 | - | 77.5s |
 | 战斗姿态 | - | 77.5s |
-| Greater Blessing of Kings | - | 77.5s |
+| 强效王者祝福 | - | 77.5s |
 | 肯瑞托的智慧 | - | 77.5s |
-| Flask of Endless Rage | - | 77.5s |
-| Moonkin Aura | - | 75.9s |
-| Demonic Pact | - | 75.1s |
-| Enrage | - | 74.7s |
-| Berserk | - | 56.8s |
-| Sudden Death | - | 45.1s |
-| Heroism | - | 40.0s |
-| Taste for Blood | - | 36.0s |
+| 无尽怒气合剂 | - | 77.5s |
+| 枭兽光环 | - | 75.9s |
+| 恶魔契约 | - | 75.1s |
+| 激怒 | - | 74.7s |
+| 狂暴 | - | 56.8s |
+| 猝死 | - | 45.1s |
+| 英勇 | - | 40.0s |
+| 血之气息 | - | 36.0s |
 | 破坏能手 | - | 31.5s |
-| Strength | - | 30.0s |
-| Grim Toll | - | 20.0s |
+| 力量 | - | 30.0s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 17.2s |
 | 外交 | - | 15.0s |
 | 速度 | - | 14.4s |
 | 剑刃风暴 | - | 12.0s |
-| Divine Guardian | - | 6.0s |
+| 神圣守护者 | - | 6.0s |
 | 鲁莽 | - | 5.9s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 2.3s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 2.3s |
 
 ### 迈克斯纳 - 伊卡洛斯
 
@@ -1411,24 +1411,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41285, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Trapper's Shirt | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41285, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 捕兽者衬衣 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
 | 护腕 |  | 219 | - | gem#42153, gem#42153 |
-| 手套 | Greaves of the Bloodwarder | 219 | +1 Attack Power and +2 Critical Strike | gem#42153, gem#40038, gem#42702 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#40033, gem#39996 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#39996, gem#40014 |
-| 戒指1 | Greatring of Collision | 232 | - | gem#39996 |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Tsunami Talisman | 219 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 手套 | 血卫士胫甲 | 219 | +1 攻击强度和 +2 爆击 | gem#42153, gem#40038, gem#42702 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#40033, gem#39996 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#39996, gem#40014 |
+| 戒指1 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 海啸护符 | 219 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -1528,35 +1528,35 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 泰坦重铸服务器 - 受到伤害光环 | - | 80.0s |
-| Well Fed | - | 80.0s |
+| 进食充分 | - | 80.0s |
 | 战斗姿态 | - | 80.0s |
 | 不灭药水 | - | 80.0s |
-| Scourgebane Draught | - | 80.0s |
-| Leader of the Pack | - | 80.0s |
-| Leader of the Pack | - | 80.0s |
-| Gift of the Wild | - | 80.0s |
-| Greater Blessing of Might | - | 80.0s |
-| Flask of Endless Rage | - | 80.0s |
-| Moonkin Aura | - | 80.0s |
-| Greater Blessing of Kings | - | 80.0s |
+| 天灾克星药水 | - | 80.0s |
+| 兽群领袖 | - | 80.0s |
+| 兽群领袖 | - | 80.0s |
+| 野性赐福 | - | 80.0s |
+| 强效力量祝福 | - | 80.0s |
+| 无尽怒气合剂 | - | 80.0s |
+| 枭兽光环 | - | 80.0s |
+| 强效王者祝福 | - | 80.0s |
 | 肯瑞托的智慧 | - | 80.0s |
-| Demonic Pact | - | 78.7s |
-| Enrage | - | 78.7s |
-| Berserk | - | 68.5s |
-| Bloodlust | - | 40.0s |
-| Taste for Blood | - | 34.9s |
-| Concentration Aura | - | 34.2s |
-| Sudden Death | - | 23.2s |
-| Fury of the Crashing Waves | - | 20.0s |
-| Grim Toll | - | 20.0s |
+| 恶魔契约 | - | 78.7s |
+| 激怒 | - | 78.7s |
+| 狂暴 | - | 68.5s |
+| 嗜血 | - | 40.0s |
+| 血之气息 | - | 34.9s |
+| 专注光环 | - | 34.2s |
+| 猝死 | - | 23.2s |
+| 怒涛之力 | - | 20.0s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 15.9s |
-| Blood Fury | - | 15.0s |
+| 血性狂怒 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
 | 破坏能手 | - | 10.1s |
-| Divine Guardian | - | 6.0s |
+| 神圣守护者 | - | 6.0s |
 | 鲁莽 | - | 5.6s |
-| Nitro Boosts | - | 4.6s |
-| Cleaving | - | 2.8s |
+| 硝化甘油推进器 | - | 4.6s |
+| 顺劈 | - | 2.8s |
 
 ### 帕奇维克 - 楼严
 
@@ -1564,24 +1564,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
 | 颈部 |  | 238 | - | - |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Pink Mageweave Shirt | 47 | - | - |
-| 胸部 | Destroyer Breastplate | 219 | +3 All Stats | gem#39996, gem#42142 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#39996, gem#39996, gem#39996 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40038 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Cuffs of Dark Shadows | 226 | +4 Attack Power | gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | Hyperspeed Accelerators | gem#39996 |
-| 戒指1 | Surge Needle Ring | 226 | - | - |
-| 戒指2 | Greatring of Collision | 232 | - | gem#40002 |
-| 饰品1 | Tsunami Talisman | 219 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | Flexweave Underlay | - |
-| 副手 |  | 238 | Berserking | gem#42142 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 粉色魔纹衬衣 | 47 | - | - |
+| 胸部 | 毁灭者胸甲 | 219 | +3 全属性 | gem#39996, gem#42142 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#39996, gem#39996, gem#39996 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40038 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 暗影腕环 | 226 | +4 攻击强度 | gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | 超级加速器 | gem#39996 |
+| 戒指1 | 强能针刺指环 | 226 | - | - |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#40002 |
+| 饰品1 | 海啸护符 | 219 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | 弹力蛛丝衬垫 | - |
+| 副手 |  | 238 | 狂暴 | gem#42142 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -1778,38 +1778,38 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Renewed Hope | - | 156.8s |
+| 新生希望 | - | 156.8s |
 | 肯瑞托的智慧 | - | 156.8s |
-| Moonkin Aura | - | 156.8s |
+| 枭兽光环 | - | 156.8s |
 | 战斗姿态 | - | 156.8s |
-| Greater Blessing of Might | - | 156.8s |
-| Greater Blessing of Kings | - | 156.8s |
+| 强效力量祝福 | - | 156.8s |
+| 强效王者祝福 | - | 156.8s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 156.8s |
-| Well Fed | - | 156.8s |
-| Gift of the Wild | - | 156.8s |
-| Flask of Endless Rage | - | 156.8s |
-| Enrage | - | 155.2s |
-| Demonic Pact | - | 153.7s |
-| Berserk | - | 118.8s |
-| Sudden Death | - | 72.6s |
-| Taste for Blood | - | 55.3s |
-| Blood Pact | - | 44.8s |
-| Heroism | - | 39.9s |
+| 进食充分 | - | 156.8s |
+| 野性赐福 | - | 156.8s |
+| 无尽怒气合剂 | - | 156.8s |
+| 激怒 | - | 155.2s |
+| 恶魔契约 | - | 153.7s |
+| 狂暴 | - | 118.8s |
+| 猝死 | - | 72.6s |
+| 血之气息 | - | 55.3s |
+| 血之契印 | - | 44.8s |
+| 英勇 | - | 39.9s |
 | 破坏能手 | - | 38.6s |
-| Fury of the Crashing Waves | - | 36.8s |
-| Grim Toll | - | 36.7s |
+| 怒涛之力 | - | 36.8s |
+| 死亡之钟 | - | 36.7s |
 | 超级加速器 | - | 35.9s |
-| Divine Sacrifice | - | 30.0s |
+| 神圣牺牲 | - | 30.0s |
 | 速度 | - | 28.9s |
 | 血性狂暴 | - | 26.9s |
-| Divine Guardian | - | 24.0s |
+| 神圣守护者 | - | 24.0s |
 | 剑刃风暴 | - | 24.0s |
 | 外交 | - | 15.0s |
-| Hand of Salvation | - | 10.0s |
+| 拯救之手 | - | 10.0s |
 | 鲁莽 | - | 5.7s |
-| Nitro Boosts | - | 4.7s |
-| Cleaving | - | 2.6s |
-| Horn of Winter | - | 1.8s |
+| 硝化甘油推进器 | - | 4.7s |
+| 顺劈 | - | 2.6s |
+| 寒冬号角 | - | 1.8s |
 
 ### 帕奇维克 - 风导星歌
 
@@ -1817,25 +1817,25 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42702 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42702 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40037, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42142 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | - | gem#40002, gem#40002 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#42153 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40037, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42142 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 | 无情攻击护腕 | 232 | - | gem#40002, gem#40002 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#42153 |
 | 戒指1 |  | 219 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +16 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +16 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
-| 战袍 | Tabard of the Wyrmrest Accord | 75 | - | - |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
+| 战袍 | 龙眠联军战袍 | 75 | - | - |
 
 #### 技能释放
 
@@ -2023,36 +2023,36 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 战斗姿态 | - | 150.4s |
-| Well Fed | - | 150.4s |
-| Greater Blessing of Might | - | 150.4s |
-| Flask of Endless Rage | - | 150.4s |
-| Moonkin Aura | - | 150.4s |
-| Gift of the Wild | - | 150.4s |
+| 进食充分 | - | 150.4s |
+| 强效力量祝福 | - | 150.4s |
+| 无尽怒气合剂 | - | 150.4s |
+| 枭兽光环 | - | 150.4s |
+| 野性赐福 | - | 150.4s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 150.4s |
-| Greater Blessing of Kings | - | 150.4s |
-| Devotion Aura | - | 150.4s |
+| 强效王者祝福 | - | 150.4s |
+| 虔诚光环 | - | 150.4s |
 | 肯瑞托的智慧 | - | 150.4s |
-| Leader of the Pack | - | 150.4s |
-| Leader of the Pack | - | 149.1s |
-| Enrage | - | 149.1s |
-| Demonic Pact | - | 146.4s |
-| Concentration Aura | - | 144.3s |
-| Berserk | - | 99.2s |
-| Taste for Blood | - | 79.2s |
-| Sudden Death | - | 67.0s |
+| 兽群领袖 | - | 150.4s |
+| 兽群领袖 | - | 149.1s |
+| 激怒 | - | 149.1s |
+| 恶魔契约 | - | 146.4s |
+| 专注光环 | - | 144.3s |
+| 狂暴 | - | 99.2s |
+| 血之气息 | - | 79.2s |
+| 猝死 | - | 67.0s |
 | 破坏能手 | - | 54.0s |
-| Strength | - | 54.0s |
-| Heroism | - | 40.0s |
-| Grim Toll | - | 30.0s |
+| 力量 | - | 54.0s |
+| 英勇 | - | 40.0s |
+| 死亡之钟 | - | 30.0s |
 | 血性狂暴 | - | 28.2s |
 | 速度 | - | 26.5s |
 | 剑刃风暴 | - | 22.7s |
 | 外交 | - | 15.1s |
 | 鲁莽 | - | 6.0s |
-| Divine Guardian | - | 6.0s |
-| Nitro Boosts | - | 4.9s |
-| Cleaving | - | 2.4s |
-| Horn of Winter | - | 1.8s |
+| 神圣守护者 | - | 6.0s |
+| 硝化甘油推进器 | - | 4.9s |
+| 顺劈 | - | 2.4s |
+| 寒冬号角 | - | 1.8s |
 
 ### 帕奇维克 - 瀧本雫葉
 
@@ -2060,25 +2060,25 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42142 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
-| 背部 | Antiseptic-Soaked Dressing | 1 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#40037, gem#40037 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#42142 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#40037 |
-| 戒指2 | Ruthlessness | 232 | - | gem#39996 |
-| 饰品1 | Tsunami Talisman | 219 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Lunar Crescent | 226 | Berserking | gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42142 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
+| 背部 | 浸药绷带 | 1 | - | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#40037, gem#40037 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#42142 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40037 |
+| 戒指2 | 冷酷 | 232 | - | gem#39996 |
+| 饰品1 | 海啸护符 | 219 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 新月战斧 | 226 | 狂暴 | gem#39996 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Serpent Spine Longbow | 226 | - | - |
-| 战袍 | Green Trophy Tabard of the Illidari | 1 | - | - |
+| 圣物 | 毒蛇脊骨长弓 | 226 | - | - |
+| 战袍 | 伊利达雷绿色战利品徽章 | 1 | - | - |
 
 #### 技能释放
 
@@ -2287,38 +2287,38 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Gift of the Wild | - | 161.8s |
+| 野性赐福 | - | 161.8s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 161.8s |
-| Greater Blessing of Kings | - | 161.8s |
-| Leader of the Pack | - | 161.8s |
+| 强效王者祝福 | - | 161.8s |
+| 兽群领袖 | - | 161.8s |
 | 战斗姿态 | - | 161.8s |
-| Leader of the Pack | - | 161.8s |
+| 兽群领袖 | - | 161.8s |
 | 肯瑞托的智慧 | - | 161.8s |
-| Greater Blessing of Might | - | 161.8s |
-| Well Fed | - | 161.8s |
-| Flask of Endless Rage | - | 161.8s |
-| Moonkin Aura | - | 161.8s |
-| Demonic Pact | - | 161.3s |
-| Enrage | - | 159.7s |
+| 强效力量祝福 | - | 161.8s |
+| 进食充分 | - | 161.8s |
+| 无尽怒气合剂 | - | 161.8s |
+| 枭兽光环 | - | 161.8s |
+| 恶魔契约 | - | 161.3s |
+| 激怒 | - | 159.7s |
 | 不灭药水 | - | 151.5s |
-| Berserk | - | 94.4s |
-| Commanding Shout | - | 89.5s |
-| Sudden Death | - | 54.8s |
-| Taste for Blood | - | 54.5s |
+| 狂暴 | - | 94.4s |
+| 命令怒吼 | - | 89.5s |
+| 猝死 | - | 54.8s |
+| 血之气息 | - | 54.5s |
 | 破坏能手 | - | 47.0s |
-| Heroism | - | 40.0s |
-| Fury of the Crashing Waves | - | 39.2s |
-| Grim Toll | - | 36.4s |
+| 英勇 | - | 40.0s |
+| 怒涛之力 | - | 39.2s |
+| 死亡之钟 | - | 36.4s |
 | 血性狂暴 | - | 29.5s |
 | 剑刃风暴 | - | 23.4s |
-| Divine Guardian | - | 18.0s |
+| 神圣守护者 | - | 18.0s |
 | 外交 | - | 15.0s |
-| Divine Sacrifice | - | 10.3s |
-| Hand of Salvation | - | 10.0s |
+| 神圣牺牲 | - | 10.3s |
+| 拯救之手 | - | 10.0s |
 | 鲁莽 | - | 5.5s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 2.7s |
-| Horn of Winter | - | 1.2s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 2.7s |
+| 寒冬号角 | - | 1.2s |
 
 ### 格罗布鲁斯 - 王哪跑丶丶
 
@@ -2326,24 +2326,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42142, gem#42142, gem#42156 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40038 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#40038 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Eskhandar's Pelt | 213 | Swordguard Embroidery | - |
-| 副手 |  | 238 | Berserking | gem#39996 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42142, gem#42142, gem#42156 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40038 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40038 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 艾斯卡达尔的毛皮 | 213 | 剑刃刺绣 | - |
+| 副手 |  | 238 | 狂暴 | gem#39996 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -2463,45 +2463,45 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Residue of Darkness | - | 110.8s |
-| Eye of the Night | - | 110.8s |
-| Greater Blessing of Kings | - | 110.8s |
-| Gift of the Wild | - | 110.8s |
+| 黑暗残渣 | - | 110.8s |
+| 黑夜之眼 | - | 110.8s |
+| 强效王者祝福 | - | 110.8s |
+| 野性赐福 | - | 110.8s |
 | 肯瑞托的智慧 | - | 110.8s |
-| Renewed Hope | - | 110.8s |
-| Leader of the Pack | - | 110.8s |
-| Moonkin Aura | - | 110.8s |
-| Nexus Residue | - | 110.8s |
+| 新生希望 | - | 110.8s |
+| 兽群领袖 | - | 110.8s |
+| 枭兽光环 | - | 110.8s |
+| 魔枢残渣 | - | 110.8s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 110.8s |
-| Flask of Endless Rage | - | 110.8s |
+| 无尽怒气合剂 | - | 110.8s |
 | 战斗姿态 | - | 110.8s |
-| Well Fed | - | 110.8s |
-| Greater Blessing of Might | - | 110.8s |
+| 进食充分 | - | 110.8s |
+| 强效力量祝福 | - | 110.8s |
 | 不灭药水 | - | 110.8s |
-| Enrage | - | 110.0s |
-| Leader of the Pack | - | 109.7s |
-| Demonic Pact | - | 99.5s |
-| Berserk | - | 73.1s |
-| Horn of Winter | - | 46.5s |
-| Strength | - | 42.2s |
-| Heroism | - | 40.0s |
-| Taste for Blood | - | 37.8s |
-| Sudden Death | - | 32.7s |
-| Inspiration | - | 30.0s |
-| Swordguard Embroidery | - | 30.0s |
-| Grim Toll | - | 29.2s |
-| Power Word: Shield | - | 18.2s |
+| 激怒 | - | 110.0s |
+| 兽群领袖 | - | 109.7s |
+| 恶魔契约 | - | 99.5s |
+| 狂暴 | - | 73.1s |
+| 寒冬号角 | - | 46.5s |
+| 力量 | - | 42.2s |
+| 英勇 | - | 40.0s |
+| 血之气息 | - | 37.8s |
+| 猝死 | - | 32.7s |
+| 灵感 | - | 30.0s |
+| 剑刃刺绣 | - | 30.0s |
+| 死亡之钟 | - | 29.2s |
+| 真言术：盾 | - | 18.2s |
 | 剑刃风暴 | - | 18.1s |
-| Divine Aegis | - | 17.1s |
+| 神圣庇护 | - | 17.1s |
 | 外交 | - | 15.0s |
 | 破坏能手 | - | 14.2s |
 | 血性狂暴 | - | 13.9s |
-| Prayer of Mending | - | 13.4s |
-| Glyph of Prayer of Healing | - | 12.0s |
-| Divine Guardian | - | 12.0s |
+| 愈合祷言 | - | 13.4s |
+| 治疗祷言雕文 | - | 12.0s |
+| 神圣守护者 | - | 12.0s |
 | 鲁莽 | - | 3.8s |
-| Cleaving | - | 0.8s |
-| Divine Sacrifice | - | 0.1s |
+| 顺劈 | - | 0.8s |
+| 神圣牺牲 | - | 0.1s |
 
 ### 格罗布鲁斯 - 想吃奶贝包
 
@@ -2509,24 +2509,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41285, gem#42154 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#40022 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40002 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41285, gem#42154 |
+| 颈部 | 龙后青睐 | 232 | - | gem#40022 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40002 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#42156, gem#40037 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#40002 |
-| 手套 | Greaves of the Bloodwarder | 219 | +1 Attack Power and +2 Critical Strike | gem#40002, gem#40037, gem#40034 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +130 Attack Power | gem#40002 |
-| 脚部 |  | 213 | +6 Attack Power | gem#42153 |
-| 戒指1 | Greatring of Collision | 232 | - | gem#39996 |
-| 戒指2 | Circle of Death | 232 | - | gem#39996 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#42156, gem#40037 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#40002 |
+| 手套 | 血卫士胫甲 | 219 | +1 攻击强度和 +2 爆击 | gem#40002, gem#40037, gem#40034 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 | 无情攻击护腕 | 232 | +130 攻击强度 | gem#40002 |
+| 脚部 |  | 213 | +6 攻击强度 | gem#42153 |
+| 戒指1 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 戒指2 | 死亡之环 | 232 | - | gem#39996 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -2673,42 +2673,42 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Renewed Hope | - | 111.4s |
-| Gift of the Wild | - | 111.4s |
+| 新生希望 | - | 111.4s |
+| 野性赐福 | - | 111.4s |
 | 肯瑞托的智慧 | - | 111.4s |
-| Moonkin Aura | - | 111.4s |
-| Greater Blessing of Might | - | 111.4s |
-| Greater Blessing of Kings | - | 111.4s |
+| 枭兽光环 | - | 111.4s |
+| 强效力量祝福 | - | 111.4s |
+| 强效王者祝福 | - | 111.4s |
 | 战斗姿态 | - | 111.4s |
-| Flask of Endless Rage | - | 111.4s |
-| Well Fed | - | 111.4s |
-| Leader of the Pack | - | 111.4s |
+| 无尽怒气合剂 | - | 111.4s |
+| 进食充分 | - | 111.4s |
+| 兽群领袖 | - | 111.4s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 111.4s |
-| Leader of the Pack | - | 111.4s |
-| Retribution Aura | - | 111.4s |
-| Enrage | - | 108.3s |
-| Demonic Pact | - | 108.0s |
-| Berserk | - | 92.5s |
+| 兽群领袖 | - | 111.4s |
+| 惩罚光环 | - | 111.4s |
+| 激怒 | - | 108.3s |
+| 恶魔契约 | - | 108.0s |
+| 狂暴 | - | 92.5s |
 | 不灭药水 | - | 90.8s |
-| Concentration Aura | - | 58.7s |
-| Strength | - | 45.1s |
-| Power Word: Shield | - | 43.2s |
-| Bloodlust | - | 39.9s |
+| 专注光环 | - | 58.7s |
+| 力量 | - | 45.1s |
+| 真言术：盾 | - | 43.2s |
+| 嗜血 | - | 39.9s |
 | 破坏能手 | - | 39.0s |
-| Taste for Blood | - | 38.1s |
-| Grim Toll | - | 30.0s |
+| 血之气息 | - | 38.1s |
+| 死亡之钟 | - | 30.0s |
 | 血性狂暴 | - | 20.0s |
-| Horn of Winter | - | 19.4s |
+| 寒冬号角 | - | 19.4s |
 | 剑刃风暴 | - | 18.0s |
-| Blood Pact | - | 15.9s |
-| Insane Strength Potion | - | 11.8s |
+| 血之契印 | - | 15.9s |
+| 疯狂力量药水 | - | 11.8s |
 | 狂暴 | - | 10.0s |
 | 狂暴之怒 | - | 10.0s |
-| Glyph of Prayer of Healing | - | 6.0s |
+| 治疗祷言雕文 | - | 6.0s |
 | 鲁莽 | - | 5.9s |
-| Nitro Boosts | - | 4.5s |
-| Divine Aegis | - | 2.6s |
-| Cleaving | - | 2.5s |
+| 硝化甘油推进器 | - | 4.5s |
+| 神圣庇护 | - | 2.6s |
+| 顺劈 | - | 2.5s |
 
 ### 格罗布鲁斯 - 伊焅
 
@@ -2716,24 +2716,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
 | 颈部 |  | 238 | - | - |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#39996 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#42142, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#39996 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#42702, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#39996 |
-| 戒指2 | Ring of Reciprocity | 219 | - | gem#40038 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Tsunami Talisman | 219 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 |  | 238 | Berserking | gem#42142 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#42142, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#39996 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#42702, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#39996 |
+| 戒指2 | 互惠指环 | 219 | - | gem#40038 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 海啸护符 | 219 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 |  | 238 | 狂暴 | gem#42142 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Arcanite Steam-Pistol | 219 | - | gem#39996 |
+| 圣物 | 奥金气枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -2867,34 +2867,34 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 肯瑞托的智慧 | - | 102.8s |
-| Gift of the Wild | - | 102.8s |
+| 野性赐福 | - | 102.8s |
 | 不灭药水 | - | 102.8s |
-| Greater Blessing of Might | - | 102.8s |
-| Well Fed | - | 102.8s |
+| 强效力量祝福 | - | 102.8s |
+| 进食充分 | - | 102.8s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 102.8s |
-| Scourgebane Draught | - | 102.8s |
+| 天灾克星药水 | - | 102.8s |
 | 战斗姿态 | - | 102.8s |
-| Greater Blessing of Kings | - | 102.8s |
-| Flask of Endless Rage | - | 102.8s |
-| Enrage | - | 101.4s |
-| Moonkin Aura | - | 101.3s |
-| Demonic Pact | - | 97.4s |
-| Shadow Resistance Aura | - | 93.5s |
-| Berserk | - | 89.6s |
-| Horn of Winter | - | 65.0s |
+| 强效王者祝福 | - | 102.8s |
+| 无尽怒气合剂 | - | 102.8s |
+| 激怒 | - | 101.4s |
+| 枭兽光环 | - | 101.3s |
+| 恶魔契约 | - | 97.4s |
+| 暗影抗性光环 | - | 93.5s |
+| 狂暴 | - | 89.6s |
+| 寒冬号角 | - | 65.0s |
 | 破坏能手 | - | 44.7s |
-| Bloodlust | - | 39.9s |
-| Taste for Blood | - | 38.3s |
-| Grim Toll | - | 20.0s |
+| 嗜血 | - | 39.9s |
+| 血之气息 | - | 38.3s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 20.0s |
-| Fury of the Crashing Waves | - | 20.0s |
-| Sudden Death | - | 18.3s |
+| 怒涛之力 | - | 20.0s |
+| 猝死 | - | 18.3s |
 | 剑刃风暴 | - | 18.0s |
 | 狂暴 | - | 10.0s |
-| Divine Guardian | - | 6.0s |
-| Nitro Boosts | - | 5.0s |
+| 神圣守护者 | - | 6.0s |
+| 硝化甘油推进器 | - | 5.0s |
 | 鲁莽 | - | 4.4s |
-| Cleaving | - | 0.7s |
+| 顺劈 | - | 0.7s |
 
 ### 格拉斯 - 风导星歌
 
@@ -2902,25 +2902,25 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42702 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42702 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40037, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42142 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | - | gem#40002, gem#40002 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#42153 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40037, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42142 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 | 无情攻击护腕 | 232 | - | gem#40002, gem#40002 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#42153 |
 | 戒指1 |  | 219 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +16 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +16 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
-| 战袍 | Tabard of the Wyrmrest Accord | 75 | - | - |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
+| 战袍 | 龙眠联军战袍 | 75 | - | - |
 
 #### 技能释放
 
@@ -3034,35 +3034,35 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 肯瑞托的智慧 | - | 87.0s |
-| Leader of the Pack | - | 87.0s |
-| Demonic Pact | - | 87.0s |
-| Gift of the Wild | - | 87.0s |
-| Greater Blessing of Kings | - | 87.0s |
-| Leader of the Pack | - | 87.0s |
+| 兽群领袖 | - | 87.0s |
+| 恶魔契约 | - | 87.0s |
+| 野性赐福 | - | 87.0s |
+| 强效王者祝福 | - | 87.0s |
+| 兽群领袖 | - | 87.0s |
 | 战斗姿态 | - | 87.0s |
-| Well Fed | - | 87.0s |
-| Moonkin Aura | - | 87.0s |
-| Greater Blessing of Might | - | 87.0s |
-| Flask of Endless Rage | - | 87.0s |
+| 进食充分 | - | 87.0s |
+| 枭兽光环 | - | 87.0s |
+| 强效力量祝福 | - | 87.0s |
+| 无尽怒气合剂 | - | 87.0s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 87.0s |
-| Enrage | - | 83.7s |
-| Berserk | - | 73.9s |
-| Devotion Aura | - | 54.5s |
-| Heroism | - | 39.9s |
-| Taste for Blood | - | 30.6s |
-| Strength | - | 30.0s |
+| 激怒 | - | 83.7s |
+| 狂暴 | - | 73.9s |
+| 虔诚光环 | - | 54.5s |
+| 英勇 | - | 39.9s |
+| 血之气息 | - | 30.6s |
+| 力量 | - | 30.0s |
 | 速度 | - | 28.9s |
 | 破坏能手 | - | 25.2s |
-| Grim Toll | - | 20.0s |
-| Sudden Death | - | 19.6s |
+| 死亡之钟 | - | 20.0s |
+| 猝死 | - | 19.6s |
 | 血性狂暴 | - | 15.8s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
-| Earthliving | - | 12.0s |
+| 大地生命 | - | 12.0s |
 | 鲁莽 | - | 6.2s |
-| Nitro Boosts | - | 4.5s |
-| Horn of Winter | - | 3.2s |
-| Cleaving | - | 2.4s |
+| 硝化甘油推进器 | - | 4.5s |
+| 寒冬号角 | - | 3.2s |
+| 顺劈 | - | 2.4s |
 
 ### 格拉斯 - 楼严
 
@@ -3070,24 +3070,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
 | 颈部 |  | 238 | - | - |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40014 |
-| 背部 | Dark Silk Shirt | 31 | - | - |
-| 胸部 | Destroyer Breastplate | 219 | +3 All Stats | gem#39996, gem#42142 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#39996, gem#39996, gem#39996 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Melancholy Sabatons | 232 | +24 Critical Strike Rating | gem#39996 |
-| 腿部 | Cuffs of Dark Shadows | 226 | +4 Attack Power | gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | Hyperspeed Accelerators | gem#40014 |
-| 戒指1 | Surge Needle Ring | 226 | - | - |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | Flexweave Underlay | - |
-| 副手 |  | 238 | Berserking | gem#42142 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40014 |
+| 背部 | 黑丝衬衣 | 31 | - | - |
+| 胸部 | 毁灭者胸甲 | 219 | +3 全属性 | gem#39996, gem#42142 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#39996, gem#39996, gem#39996 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 忧郁马靴 | 232 | +24 爆击等级 | gem#39996 |
+| 腿部 | 暗影腕环 | 226 | +4 攻击强度 | gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | 超级加速器 | gem#40014 |
+| 戒指1 | 强能针刺指环 | 226 | - | - |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | 弹力蛛丝衬垫 | - |
+| 副手 |  | 238 | 狂暴 | gem#42142 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -3194,36 +3194,36 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Well Fed | - | 81.5s |
-| Moonkin Aura | - | 81.5s |
+| 进食充分 | - | 81.5s |
+| 枭兽光环 | - | 81.5s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 81.5s |
-| Flask of Endless Rage | - | 81.5s |
-| Greater Blessing of Kings | - | 81.5s |
-| Greater Blessing of Might | - | 81.5s |
-| Gift of the Wild | - | 81.5s |
+| 无尽怒气合剂 | - | 81.5s |
+| 强效王者祝福 | - | 81.5s |
+| 强效力量祝福 | - | 81.5s |
+| 野性赐福 | - | 81.5s |
 | 肯瑞托的智慧 | - | 81.5s |
 | 战斗姿态 | - | 81.5s |
-| Enrage | - | 80.0s |
-| Demonic Pact | - | 78.7s |
-| Berserk | - | 63.0s |
-| Heroism | - | 39.9s |
-| Taste for Blood | - | 33.7s |
-| Strength | - | 30.0s |
+| 激怒 | - | 80.0s |
+| 恶魔契约 | - | 78.7s |
+| 狂暴 | - | 63.0s |
+| 英勇 | - | 39.9s |
+| 血之气息 | - | 33.7s |
+| 力量 | - | 30.0s |
 | 速度 | - | 28.8s |
 | 破坏能手 | - | 27.1s |
-| Sudden Death | - | 25.6s |
+| 猝死 | - | 25.6s |
 | 超级加速器 | - | 24.0s |
-| Grim Toll | - | 20.0s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 16.6s |
-| Concentration Aura | - | 15.8s |
+| 专注光环 | - | 15.8s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
-| Divine Guardian | - | 6.0s |
+| 神圣守护者 | - | 6.0s |
 | 鲁莽 | - | 4.9s |
-| Nitro Boosts | - | 4.5s |
-| Horn of Winter | - | 2.5s |
-| Cleaving | - | 2.3s |
-| Divine Sacrifice | - | 0.2s |
+| 硝化甘油推进器 | - | 4.5s |
+| 寒冬号角 | - | 2.5s |
+| 顺劈 | - | 2.3s |
+| 神圣牺牲 | - | 0.2s |
 
 ### 格拉斯 - 咸鱼小佐伊
 
@@ -3231,24 +3231,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
 | 颈部 |  | 238 | - | - |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Destroyer Breastplate | 219 | +3 All Stats | gem#40037, gem#42702 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#39996 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#39996 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#42142 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Rusted-Link Spiked Gauntlets | 226 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Surge Needle Ring | 226 | - | - |
-| 戒指2 | Ruthlessness | 232 | - | gem#39996 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 |  | 238 | Berserking | gem#42142 |
+| 胸部 | 毁灭者胸甲 | 219 | +3 全属性 | gem#40037, gem#42702 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#39996 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#39996 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#42142 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 锈链尖刺护手 | 226 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 强能针刺指环 | 226 | - | - |
+| 戒指2 | 冷酷 | 232 | - | gem#39996 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 |  | 238 | 狂暴 | gem#42142 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -3395,36 +3395,36 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 肯瑞托的智慧 | - | 108.1s |
-| Flask of Endless Rage | - | 108.1s |
-| Gift of the Wild | - | 108.1s |
-| Moonkin Aura | - | 108.1s |
-| Greater Blessing of Might | - | 108.1s |
-| Greater Blessing of Kings | - | 108.1s |
-| Well Fed | - | 108.1s |
+| 无尽怒气合剂 | - | 108.1s |
+| 野性赐福 | - | 108.1s |
+| 枭兽光环 | - | 108.1s |
+| 强效力量祝福 | - | 108.1s |
+| 强效王者祝福 | - | 108.1s |
+| 进食充分 | - | 108.1s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 108.1s |
-| Leader of the Pack | - | 108.1s |
-| Leader of the Pack | - | 108.1s |
+| 兽群领袖 | - | 108.1s |
+| 兽群领袖 | - | 108.1s |
 | 战斗姿态 | - | 106.5s |
-| Renewed Hope | - | 105.3s |
-| Enrage | - | 105.1s |
-| Demonic Pact | - | 81.4s |
-| Berserk | - | 64.2s |
-| Crusader Aura | - | 52.5s |
-| Heroism | - | 40.0s |
-| Strength | - | 38.6s |
-| Taste for Blood | - | 31.7s |
+| 新生希望 | - | 105.3s |
+| 激怒 | - | 105.1s |
+| 恶魔契约 | - | 81.4s |
+| 狂暴 | - | 64.2s |
+| 十字军光环 | - | 52.5s |
+| 英勇 | - | 40.0s |
+| 力量 | - | 38.6s |
+| 血之气息 | - | 31.7s |
 | 速度 | - | 30.0s |
-| Grim Toll | - | 26.5s |
+| 死亡之钟 | - | 26.5s |
 | 破坏能手 | - | 23.5s |
 | 血性狂暴 | - | 20.0s |
 | 剑刃风暴 | - | 17.9s |
 | 外交 | - | 15.1s |
 | 鲁莽 | - | 8.1s |
-| Divine Guardian | - | 6.0s |
-| Horn of Winter | - | 6.0s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 3.1s |
-| Berserker Stance | - | 1.6s |
+| 神圣守护者 | - | 6.0s |
+| 寒冬号角 | - | 6.0s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 3.1s |
+| 狂暴姿态 | - | 1.6s |
 
 ### 塔迪乌斯 - 风车代替思考
 
@@ -3432,79 +3432,79 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
-| 背部 | Recruit's Shirt | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#42153, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#40002, gem#40002 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Greatring of Collision | 232 | - | gem#39996 |
-| 戒指2 | Circle of Death | 232 | - | gem#40014 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
+| 背部 | 新兵衬衣 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#42153, gem#42153 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#40002, gem#40002 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 戒指2 | 死亡之环 | 232 | - | gem#40014 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:00.583 | 冲锋 | Feugen |
-| 0:01.905 | 撕裂 | Feugen |
-| 0:03.416 | 致死打击 | Feugen |
-| 0:04.486 | 英勇打击 | Feugen |
+| 0:00.583 | 冲锋 | 费尔根 |
+| 0:01.905 | 撕裂 | 费尔根 |
+| 0:03.416 | 致死打击 | 费尔根 |
+| 0:04.486 | 英勇打击 | 费尔根 |
 | 0:04.920 | 猛击 | 环境 |
-| 0:05.422 | 猛击 | Feugen |
+| 0:05.422 | 猛击 | 费尔根 |
 | 0:05.567 | 萨隆邪铁炸弹 | 环境 |
-| 0:06.458 | 压制 | Feugen |
+| 0:06.458 | 压制 | 费尔根 |
 | 0:07.425 | 猛击 | 环境 |
-| 0:07.928 | 猛击 | Feugen |
+| 0:07.928 | 猛击 | 费尔根 |
 | 0:08.929 | 剑刃风暴 | 环境 |
 | 0:08.929 | 剑刃风暴 | 环境 |
 | 0:09.942 | 剑刃风暴 | 环境 |
-| 0:10.385 | 英勇打击 | Feugen |
+| 0:10.385 | 英勇打击 | 费尔根 |
 | 0:10.942 | 剑刃风暴 | 环境 |
 | 0:11.929 | 剑刃风暴 | 环境 |
 | 0:12.951 | 剑刃风暴 | 环境 |
 | 0:13.936 | 剑刃风暴 | 环境 |
 | 0:14.948 | 剑刃风暴 | 环境 |
-| 0:15.056 | 致死打击 | Feugen |
-| 0:15.300 | 英勇打击 | Feugen |
-| 0:16.577 | 压制 | Feugen |
-| 0:17.761 | 英勇打击 | Feugen |
-| 0:17.879 | 压制 | Feugen |
+| 0:15.056 | 致死打击 | 费尔根 |
+| 0:15.300 | 英勇打击 | 费尔根 |
+| 0:16.577 | 压制 | 费尔根 |
+| 0:17.761 | 英勇打击 | 费尔根 |
+| 0:17.879 | 压制 | 费尔根 |
 | 0:18.885 | 猛击 | 环境 |
-| 0:19.380 | 猛击 | Feugen |
+| 0:19.380 | 猛击 | 费尔根 |
 | 0:20.796 | 碎裂投掷 | 环境 |
-| 0:20.797 | 碎裂投掷 | Feugen |
-| 0:22.279 | 致死打击 | Feugen |
-| 0:23.799 | 压制 | Feugen |
-| 0:25.012 | 撕裂 | Feugen |
-| 0:25.681 | 英勇打击 | Feugen |
+| 0:20.797 | 碎裂投掷 | 费尔根 |
+| 0:22.279 | 致死打击 | 费尔根 |
+| 0:23.799 | 压制 | 费尔根 |
+| 0:25.012 | 撕裂 | 费尔根 |
+| 0:25.681 | 英勇打击 | 费尔根 |
 | 0:26.512 | 猛击 | 环境 |
-| 0:27.010 | 猛击 | Feugen |
+| 0:27.010 | 猛击 | 费尔根 |
 | 0:28.014 | 猛击 | 环境 |
-| 0:28.531 | 猛击 | Feugen |
-| 0:29.712 | 致死打击 | Feugen |
-| 0:31.363 | 压制 | Feugen |
-| 0:31.580 | 英勇打击 | Feugen |
+| 0:28.531 | 猛击 | 费尔根 |
+| 0:29.712 | 致死打击 | 费尔根 |
+| 0:31.363 | 压制 | 费尔根 |
+| 0:31.580 | 英勇打击 | 费尔根 |
 | 0:32.356 | 猛击 | 环境 |
-| 0:32.885 | 猛击 | Feugen |
+| 0:32.885 | 猛击 | 费尔根 |
 | 0:33.868 | 猛击 | 环境 |
-| 0:34.368 | 猛击 | Feugen |
+| 0:34.368 | 猛击 | 费尔根 |
 | 0:35.372 | 猛击 | 环境 |
-| 0:35.876 | 猛击 | Feugen |
-| 0:36.866 | 致死打击 | Feugen |
-| 0:37.978 | 英勇打击 | Feugen |
-| 0:38.378 | 压制 | Feugen |
-| 0:43.903 | 致死打击 | Feugen |
+| 0:35.876 | 猛击 | 费尔根 |
+| 0:36.866 | 致死打击 | 费尔根 |
+| 0:37.978 | 英勇打击 | 费尔根 |
+| 0:38.378 | 压制 | 费尔根 |
+| 0:43.903 | 致死打击 | 费尔根 |
 | 0:57.064 | 冲锋 | 塔迪乌斯 |
 | 0:58.398 | 撕裂 | 塔迪乌斯 |
 | 0:59.897 | 致死打击 | 塔迪乌斯 |
@@ -3922,42 +3922,42 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Gift of the Wild | - | 416.8s |
-| Greater Blessing of Might | - | 416.8s |
+| 野性赐福 | - | 416.8s |
+| 强效力量祝福 | - | 416.8s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 416.8s |
 | 肯瑞托的智慧 | - | 416.8s |
-| Moonkin Aura | - | 416.8s |
-| Greater Blessing of Kings | - | 416.8s |
-| Well Fed | - | 416.8s |
-| Flask of Endless Rage | - | 416.8s |
+| 枭兽光环 | - | 416.8s |
+| 强效王者祝福 | - | 416.8s |
+| 进食充分 | - | 416.8s |
+| 无尽怒气合剂 | - | 416.8s |
 | 战斗姿态 | - | 415.8s |
-| Leader of the Pack | - | 413.5s |
-| Enrage | - | 410.8s |
-| Demonic Pact | - | 396.2s |
-| Devotion Aura | - | 393.0s |
-| Concentration Aura | - | 357.8s |
-| Berserk | - | 302.6s |
+| 兽群领袖 | - | 413.5s |
+| 激怒 | - | 410.8s |
+| 恶魔契约 | - | 396.2s |
+| 虔诚光环 | - | 393.0s |
+| 专注光环 | - | 357.8s |
+| 狂暴 | - | 302.6s |
 | 追踪者的凶猛 | - | 296.4s |
 | 不灭药水 | - | 239.4s |
-| Commanding Shout | - | 187.6s |
-| Blood Pact | - | 169.4s |
-| Taste for Blood | - | 161.4s |
-| Sudden Death | - | 137.7s |
-| Strength | - | 135.0s |
+| 命令怒吼 | - | 187.6s |
+| 血之契印 | - | 169.4s |
+| 血之气息 | - | 161.4s |
+| 猝死 | - | 137.7s |
+| 力量 | - | 135.0s |
 | 破坏能手 | - | 104.5s |
-| Grim Toll | - | 86.7s |
+| 死亡之钟 | - | 86.7s |
 | 血性狂暴 | - | 67.5s |
 | 剑刃风暴 | - | 54.1s |
-| Heroism | - | 40.0s |
-| Earthliving | - | 36.0s |
+| 英勇 | - | 40.0s |
+| 大地生命 | - | 36.0s |
 | 外交 | - | 30.0s |
-| Hand of Salvation | - | 30.0s |
-| Ancestral Fortitude | - | 30.0s |
-| Divine Guardian | - | 24.0s |
-| Nitro Boosts | - | 10.0s |
-| Cleaving | - | 5.7s |
+| 拯救之手 | - | 30.0s |
+| 先祖坚韧 | - | 30.0s |
+| 神圣守护者 | - | 24.0s |
+| 硝化甘油推进器 | - | 10.0s |
+| 顺劈 | - | 5.7s |
 | 鲁莽 | - | 5.4s |
-| Berserker Stance | - | 1.0s |
+| 狂暴姿态 | - | 1.0s |
 
 ### 塔迪乌斯 - Screamingl
 
@@ -3965,47 +3965,47 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41285, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#40037 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41285, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#40037 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Breastplate of Kings | 226 | +3 All Stats | gem#40037, gem#40037, gem#40037 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42142, gem#42142, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#40033, gem#40037 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Cuffs of Dark Shadows | 226 | +4 Attack Power | gem#40022, gem#40037 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#40037 |
-| 戒指1 | Ruthlessness | 232 | - | gem#40003 |
-| 戒指2 | Ancestral Ring of Conquest | 219 | - | gem#39996 |
-| 饰品1 | Tsunami Talisman | 219 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 |  | 238 | Berserking | gem#39996 |
+| 胸部 | 王者胸甲 | 226 | +3 全属性 | gem#40037, gem#40037, gem#40037 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42142, gem#42142, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#40033, gem#40037 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 暗影腕环 | 226 | +4 攻击强度 | gem#40022, gem#40037 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#40037 |
+| 戒指1 | 冷酷 | 232 | - | gem#40003 |
+| 戒指2 | 征服者的先祖指环 | 219 | - | gem#39996 |
+| 饰品1 | 海啸护符 | 219 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 |  | 238 | 狂暴 | gem#39996 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:00.559 | 冲锋 | Feugen |
-| 0:01.423 | 撕裂 | Feugen |
-| 0:02.919 | 致死打击 | Feugen |
+| 0:00.559 | 冲锋 | 费尔根 |
+| 0:01.423 | 撕裂 | 费尔根 |
+| 0:02.919 | 致死打击 | 费尔根 |
 | 0:04.423 | 猛击 | 环境 |
-| 0:04.938 | 猛击 | Feugen |
+| 0:04.938 | 猛击 | 费尔根 |
 | 0:05.936 | 猛击 | 环境 |
-| 0:06.447 | 猛击 | Feugen |
-| 0:06.820 | 英勇打击 | Feugen |
-| 0:07.435 | 压制 | Feugen |
+| 0:06.447 | 猛击 | 费尔根 |
+| 0:06.820 | 英勇打击 | 费尔根 |
+| 0:07.435 | 压制 | 费尔根 |
 | 0:08.441 | 碎裂投掷 | 环境 |
-| 0:08.441 | 碎裂投掷 | Feugen |
+| 0:08.441 | 碎裂投掷 | 费尔根 |
 | 0:08.592 | 外交 | 环境 |
-| 0:09.948 | 致死打击 | Feugen |
-| 0:10.560 | 英勇打击 | Feugen |
-| 0:11.447 | 压制 | Feugen |
+| 0:09.948 | 致死打击 | 费尔根 |
+| 0:10.560 | 英勇打击 | 费尔根 |
+| 0:11.447 | 压制 | 费尔根 |
 | 0:12.453 | 猛击 | 环境 |
-| 0:12.957 | 猛击 | Feugen |
+| 0:12.957 | 猛击 | 费尔根 |
 | 0:13.952 | 剑刃风暴 | 环境 |
 | 0:13.953 | 剑刃风暴 | 环境 |
 | 0:14.960 | 剑刃风暴 | 环境 |
@@ -4014,34 +4014,34 @@
 | 0:17.965 | 剑刃风暴 | 环境 |
 | 0:18.966 | 剑刃风暴 | 环境 |
 | 0:19.955 | 剑刃风暴 | 环境 |
-| 0:20.466 | 致死打击 | Feugen |
-| 0:22.485 | 压制 | Feugen |
-| 0:22.762 | 英勇打击 | Feugen |
-| 0:23.496 | 撕裂 | Feugen |
+| 0:20.466 | 致死打击 | 费尔根 |
+| 0:22.485 | 压制 | 费尔根 |
+| 0:22.762 | 英勇打击 | 费尔根 |
+| 0:23.496 | 撕裂 | 费尔根 |
 | 0:24.985 | 猛击 | 环境 |
-| 0:25.493 | 猛击 | Feugen |
+| 0:25.493 | 猛击 | 费尔根 |
 | 0:26.507 | 猛击 | 环境 |
-| 0:26.999 | 猛击 | Feugen |
-| 0:27.999 | 致死打击 | Feugen |
-| 0:28.622 | 英勇打击 | Feugen |
-| 0:29.649 | 压制 | Feugen |
+| 0:26.999 | 猛击 | 费尔根 |
+| 0:27.999 | 致死打击 | 费尔根 |
+| 0:28.622 | 英勇打击 | 费尔根 |
+| 0:29.649 | 压制 | 费尔根 |
 | 0:30.794 | 猛击 | 环境 |
-| 0:31.298 | 猛击 | Feugen |
+| 0:31.298 | 猛击 | 费尔根 |
 | 0:32.293 | 猛击 | 环境 |
-| 0:32.800 | 猛击 | Feugen |
-| 0:34.005 | 致死打击 | Feugen |
-| 0:35.583 | 压制 | Feugen |
+| 0:32.800 | 猛击 | 费尔根 |
+| 0:34.005 | 致死打击 | 费尔根 |
+| 0:35.583 | 压制 | 费尔根 |
 | 0:36.660 | 猛击 | 环境 |
-| 0:37.148 | 猛击 | Feugen |
+| 0:37.148 | 猛击 | 费尔根 |
 | 0:38.151 | 猛击 | 环境 |
-| 0:38.668 | 猛击 | Feugen |
-| 0:40.006 | 致死打击 | Feugen |
-| 0:40.366 | 英勇打击 | Feugen |
-| 0:41.663 | 压制 | Feugen |
+| 0:38.668 | 猛击 | 费尔根 |
+| 0:40.006 | 致死打击 | 费尔根 |
+| 0:40.366 | 英勇打击 | 费尔根 |
+| 0:41.663 | 压制 | 费尔根 |
 | 0:42.726 | 猛击 | 环境 |
-| 0:43.231 | 猛击 | Feugen |
+| 0:43.231 | 猛击 | 费尔根 |
 | 0:44.221 | 猛击 | 环境 |
-| 0:44.746 | 猛击 | Feugen |
+| 0:44.746 | 猛击 | 费尔根 |
 | 1:01.348 | 撕裂 | 塔迪乌斯 |
 | 1:02.850 | 致死打击 | 塔迪乌斯 |
 | 1:04.356 | 猛击 | 环境 |
@@ -4464,43 +4464,43 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Gift of the Wild | - | 413.7s |
-| Flask of Endless Rage | - | 413.7s |
-| Well Fed | - | 413.7s |
+| 野性赐福 | - | 413.7s |
+| 无尽怒气合剂 | - | 413.7s |
+| 进食充分 | - | 413.7s |
 | 肯瑞托的智慧 | - | 413.7s |
-| Greater Blessing of Might | - | 413.7s |
+| 强效力量祝福 | - | 413.7s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 413.7s |
-| Greater Blessing of Kings | - | 413.7s |
+| 强效王者祝福 | - | 413.7s |
 | 战斗姿态 | - | 412.5s |
-| Commanding Shout | - | 411.8s |
-| Moonkin Aura | - | 411.8s |
-| Demonic Pact | - | 408.2s |
-| Enrage | - | 404.6s |
-| Devotion Aura | - | 386.0s |
-| Red Ogre Costume | - | 370.3s |
-| Berserk | - | 339.2s |
-| Taste for Blood | - | 180.9s |
-| Sudden Death | - | 177.7s |
+| 命令怒吼 | - | 411.8s |
+| 枭兽光环 | - | 411.8s |
+| 恶魔契约 | - | 408.2s |
+| 激怒 | - | 404.6s |
+| 虔诚光环 | - | 386.0s |
+| 红色食人魔装束 | - | 370.3s |
+| 狂暴 | - | 339.2s |
+| 血之气息 | - | 180.9s |
+| 猝死 | - | 177.7s |
 | 破坏能手 | - | 134.2s |
 | 不灭药水 | - | 120.0s |
-| Grim Toll | - | 80.0s |
-| Fury of the Crashing Waves | - | 70.0s |
+| 死亡之钟 | - | 80.0s |
+| 怒涛之力 | - | 70.0s |
 | 剑刃风暴 | - | 48.0s |
-| Horn of Winter | - | 40.9s |
-| Heroism | - | 40.0s |
-| Earthliving | - | 36.0s |
+| 寒冬号角 | - | 40.9s |
+| 英勇 | - | 40.0s |
+| 大地生命 | - | 36.0s |
 | 外交 | - | 30.0s |
-| Ancestral Fortitude | - | 25.6s |
+| 先祖坚韧 | - | 25.6s |
 | 血性狂暴 | - | 19.9s |
-| Divine Guardian | - | 18.0s |
+| 神圣守护者 | - | 18.0s |
 | 速度 | - | 14.2s |
 | 鲁莽 | - | 11.5s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 2.4s |
-| Blood Pact | - | 1.9s |
-| Berserker Stance | - | 1.1s |
-| Divine Sacrifice | - | 0.3s |
-| Ferocious Inspiration | - | 0.1s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 2.4s |
+| 血之契印 | - | 1.9s |
+| 狂暴姿态 | - | 1.1s |
+| 神圣牺牲 | - | 0.3s |
+| 凶猛灵感 | - | 0.1s |
 
 ### 塔迪乌斯 - 风导星歌
 
@@ -4508,75 +4508,75 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42702 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42702 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40037, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42142 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | - | gem#40002, gem#40002 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#42153 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40037, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42142 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 | 无情攻击护腕 | 232 | - | gem#40002, gem#40002 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#42153 |
 | 戒指1 |  | 219 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +16 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +16 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
-| 战袍 | Tabard of the Wyrmrest Accord | 75 | - | - |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
+| 战袍 | 龙眠联军战袍 | 75 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:00.566 | 冲锋 | Feugen |
-| 0:01.574 | 撕裂 | Feugen |
+| 0:00.566 | 冲锋 | 费尔根 |
+| 0:01.574 | 撕裂 | 费尔根 |
 | 0:02.601 | 萨隆邪铁炸弹 | 环境 |
-| 0:03.068 | 致死打击 | Feugen |
+| 0:03.068 | 致死打击 | 费尔根 |
 | 0:04.583 | 猛击 | 环境 |
-| 0:05.090 | 猛击 | Feugen |
-| 0:06.107 | 压制 | Feugen |
+| 0:05.090 | 猛击 | 费尔根 |
+| 0:06.107 | 压制 | 费尔根 |
 | 0:07.093 | 剑刃风暴 | 环境 |
 | 0:07.093 | 剑刃风暴 | 环境 |
-| 0:07.849 | 英勇打击 | Feugen |
+| 0:07.849 | 英勇打击 | 费尔根 |
 | 0:08.126 | 剑刃风暴 | 环境 |
 | 0:09.100 | 剑刃风暴 | 环境 |
 | 0:10.094 | 剑刃风暴 | 环境 |
 | 0:11.100 | 剑刃风暴 | 环境 |
 | 0:12.112 | 剑刃风暴 | 环境 |
 | 0:13.103 | 剑刃风暴 | 环境 |
-| 0:13.249 | 致死打击 | Feugen |
-| 0:14.739 | 压制 | Feugen |
-| 0:15.204 | 英勇打击 | Feugen |
+| 0:13.249 | 致死打击 | 费尔根 |
+| 0:14.739 | 压制 | 费尔根 |
+| 0:15.204 | 英勇打击 | 费尔根 |
 | 0:17.242 | 猛击 | 环境 |
-| 0:17.749 | 猛击 | Feugen |
-| 0:18.747 | 压制 | Feugen |
-| 0:19.740 | 致死打击 | Feugen |
+| 0:17.749 | 猛击 | 费尔根 |
+| 0:18.747 | 压制 | 费尔根 |
+| 0:19.740 | 致死打击 | 费尔根 |
 | 0:22.874 | 猛击 | 环境 |
-| 0:23.370 | 猛击 | Feugen |
-| 0:24.373 | 撕裂 | Feugen |
-| 0:25.877 | 致死打击 | Feugen |
-| 0:27.385 | 压制 | Feugen |
+| 0:23.370 | 猛击 | 费尔根 |
+| 0:24.373 | 撕裂 | 费尔根 |
+| 0:25.877 | 致死打击 | 费尔根 |
+| 0:27.385 | 压制 | 费尔根 |
 | 0:28.385 | 猛击 | 环境 |
-| 0:28.898 | 猛击 | Feugen |
+| 0:28.898 | 猛击 | 费尔根 |
 | 0:29.887 | 猛击 | 环境 |
-| 0:30.394 | 猛击 | Feugen |
-| 0:31.882 | 致死打击 | Feugen |
-| 0:31.933 | 英勇打击 | Feugen |
-| 0:33.394 | 压制 | Feugen |
+| 0:30.394 | 猛击 | 费尔根 |
+| 0:31.882 | 致死打击 | 费尔根 |
+| 0:31.933 | 英勇打击 | 费尔根 |
+| 0:33.394 | 压制 | 费尔根 |
 | 0:35.901 | 猛击 | 环境 |
-| 0:36.405 | 猛击 | Feugen |
-| 0:37.400 | 压制 | Feugen |
-| 0:38.407 | 致死打击 | Feugen |
+| 0:36.405 | 猛击 | 费尔根 |
+| 0:37.400 | 压制 | 费尔根 |
+| 0:38.407 | 致死打击 | 费尔根 |
 | 0:39.897 | 猛击 | 环境 |
-| 0:40.401 | 猛击 | Feugen |
+| 0:40.401 | 猛击 | 费尔根 |
 | 0:41.502 | 猛击 | 环境 |
-| 0:42.012 | 猛击 | Feugen |
-| 0:43.251 | 英勇打击 | Feugen |
-| 0:44.504 | 压制 | Feugen |
+| 0:42.012 | 猛击 | 费尔根 |
+| 0:43.251 | 英勇打击 | 费尔根 |
+| 0:44.504 | 压制 | 费尔根 |
 | 0:57.457 | 狂暴姿态 | 环境 |
 | 0:58.466 | 战斗姿态 | 环境 |
 | 1:03.684 | 撕裂 | 塔迪乌斯 |
@@ -5002,42 +5002,42 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Gift of the Wild | - | 424.4s |
+| 野性赐福 | - | 424.4s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 424.4s |
-| Well Fed | - | 424.4s |
-| Greater Blessing of Kings | - | 424.4s |
+| 进食充分 | - | 424.4s |
+| 强效王者祝福 | - | 424.4s |
 | 肯瑞托的智慧 | - | 424.4s |
-| Flask of Endless Rage | - | 424.4s |
-| Leader of the Pack | - | 424.4s |
-| Moonkin Aura | - | 424.4s |
-| Commanding Shout | - | 424.4s |
-| Chain of the Twilight Owl | - | 424.4s |
-| Focus Magic | - | 424.4s |
-| Greater Blessing of Might | - | 424.4s |
-| Demonic Pact | - | 423.5s |
+| 无尽怒气合剂 | - | 424.4s |
+| 兽群领袖 | - | 424.4s |
+| 枭兽光环 | - | 424.4s |
+| 命令怒吼 | - | 424.4s |
+| 暮色枭兽之链 | - | 424.4s |
+| 专注魔法 | - | 424.4s |
+| 强效力量祝福 | - | 424.4s |
+| 恶魔契约 | - | 423.5s |
 | 战斗姿态 | - | 423.4s |
-| Leader of the Pack | - | 421.7s |
-| Enrage | - | 412.1s |
-| Devotion Aura | - | 396.8s |
-| Berserk | - | 283.8s |
+| 兽群领袖 | - | 421.7s |
+| 激怒 | - | 412.1s |
+| 虔诚光环 | - | 396.8s |
+| 狂暴 | - | 283.8s |
 | 不灭药水 | - | 238.9s |
-| Taste for Blood | - | 198.3s |
-| Sudden Death | - | 152.1s |
-| Ancestral Fortitude | - | 139.6s |
-| Strength | - | 135.1s |
+| 血之气息 | - | 198.3s |
+| 猝死 | - | 152.1s |
+| 先祖坚韧 | - | 139.6s |
+| 力量 | - | 135.1s |
 | 破坏能手 | - | 98.9s |
-| Grim Toll | - | 90.0s |
-| Earthliving | - | 76.0s |
+| 死亡之钟 | - | 90.0s |
+| 大地生命 | - | 76.0s |
 | 血性狂暴 | - | 54.8s |
 | 剑刃风暴 | - | 48.1s |
-| Heroism | - | 40.0s |
+| 英勇 | - | 40.0s |
 | 外交 | - | 30.0s |
-| Riptide | - | 15.0s |
-| Horn of Winter | - | 8.5s |
+| 激流 | - | 15.0s |
+| 寒冬号角 | - | 8.5s |
 | 鲁莽 | - | 6.1s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 2.5s |
-| Berserker Stance | - | 1.0s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 2.5s |
+| 狂暴姿态 | - | 1.0s |
 
 ### 药剂师诺斯 - 林晚荣丷
 
@@ -5045,24 +5045,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
 | 颈部 |  | 232 | - | - |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40014 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40014 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42142, gem#42142, gem#39996 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 |  | 213 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Ancestral Ring of Conquest | 219 | - | gem#39996 |
-| 戒指2 | Ring of Reciprocity | 219 | - | gem#40014 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42142, gem#42142, gem#39996 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 |  | 213 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 征服者的先祖指环 | 219 | - | gem#39996 |
+| 戒指2 | 互惠指环 | 219 | - | gem#40014 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -5188,35 +5188,35 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Leader of the Pack | - | 88.6s |
-| Flask of Endless Rage | - | 88.6s |
+| 兽群领袖 | - | 88.6s |
+| 无尽怒气合剂 | - | 88.6s |
 | 战斗姿态 | - | 88.6s |
-| Gift of the Wild | - | 88.6s |
-| Greater Blessing of Kings | - | 88.6s |
-| Well Fed | - | 88.6s |
+| 野性赐福 | - | 88.6s |
+| 强效王者祝福 | - | 88.6s |
+| 进食充分 | - | 88.6s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 88.6s |
-| Horn of Winter | - | 88.6s |
-| Moonkin Aura | - | 88.6s |
+| 寒冬号角 | - | 88.6s |
+| 枭兽光环 | - | 88.6s |
 | 不灭药水 | - | 88.6s |
 | 肯瑞托的智慧 | - | 88.6s |
-| Greater Blessing of Might | - | 88.6s |
-| Leader of the Pack | - | 88.6s |
-| Enrage | - | 87.3s |
-| Demonic Pact | - | 83.1s |
-| Berserk | - | 75.3s |
-| Heroism | - | 40.0s |
+| 强效力量祝福 | - | 88.6s |
+| 兽群领袖 | - | 88.6s |
+| 激怒 | - | 87.3s |
+| 恶魔契约 | - | 83.1s |
+| 狂暴 | - | 75.3s |
+| 英勇 | - | 40.0s |
 | 破坏能手 | - | 35.4s |
-| Strength | - | 30.0s |
-| Taste for Blood | - | 26.2s |
-| Sudden Death | - | 21.9s |
-| Grim Toll | - | 20.0s |
+| 力量 | - | 30.0s |
+| 血之气息 | - | 26.2s |
+| 猝死 | - | 21.9s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 16.1s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
-| Divine Guardian | - | 6.0s |
-| Cleaving | - | 4.2s |
+| 神圣守护者 | - | 6.0s |
+| 顺劈 | - | 4.2s |
 | 鲁莽 | - | 4.0s |
-| Nitro Boosts | - | 4.0s |
+| 硝化甘油推进器 | - | 4.0s |
 
 ### 药剂师诺斯 - 春哥不是哥
 
@@ -5224,24 +5224,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
-| 背部 | Precious's Ribbon | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#42153, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#40014 |
-| 戒指1 | Circle of Death | 232 | - | gem#40037 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Thalassian Wildercloak | 219 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
+| 背部 | 普雷舍斯的丝带 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#42153, gem#42153 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#40014 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40037 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 萨拉斯荒野披风 | 219 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -5355,31 +5355,31 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Greater Blessing of Kings | - | 82.9s |
+| 强效王者祝福 | - | 82.9s |
 | 不灭药水 | - | 82.9s |
-| Gift of the Wild | - | 82.9s |
-| Flask of Endless Rage | - | 82.9s |
+| 野性赐福 | - | 82.9s |
+| 无尽怒气合剂 | - | 82.9s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 82.9s |
-| Well Fed | - | 82.9s |
-| Greater Blessing of Might | - | 82.9s |
+| 进食充分 | - | 82.9s |
+| 强效力量祝福 | - | 82.9s |
 | 肯瑞托的智慧 | - | 82.9s |
-| Moonkin Aura | - | 82.9s |
+| 枭兽光环 | - | 82.9s |
 | 战斗姿态 | - | 82.9s |
-| Enrage | - | 81.0s |
-| Berserk | - | 68.8s |
-| Demonic Pact | - | 66.4s |
-| Sudden Death | - | 57.5s |
-| Heroism | - | 40.0s |
+| 激怒 | - | 81.0s |
+| 狂暴 | - | 68.8s |
+| 恶魔契约 | - | 66.4s |
+| 猝死 | - | 57.5s |
+| 英勇 | - | 40.0s |
 | 破坏能手 | - | 35.1s |
-| Strength | - | 30.0s |
-| Taste for Blood | - | 23.2s |
-| Grim Toll | - | 20.0s |
+| 力量 | - | 30.0s |
+| 血之气息 | - | 23.2s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 17.5s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
-| Cleaving | - | 4.9s |
+| 顺劈 | - | 4.9s |
 | 鲁莽 | - | 4.8s |
-| Nitro Boosts | - | 4.2s |
+| 硝化甘油推进器 | - | 4.2s |
 | 狂暴之怒 | - | 4.2s |
 
 ### 药剂师诺斯 - 要脸不要盾
@@ -5388,24 +5388,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#42153 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#42153 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#39996, gem#39996 |
-| 手套 | Greaves of the Bloodwarder | 219 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#40037, gem#42702 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Lost Sentiments | 226 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Valorous Dreadnaught Gauntlets | 226 | +6 Attack Power | gem#40038, gem#39996 |
-| 戒指1 | Band of the Ranger-General | 219 | - | gem#39996 |
-| 戒指2 | Ancestral Ring of Conquest | 219 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#39996, gem#39996 |
+| 手套 | 血卫士胫甲 | 219 | +1 攻击强度和 +2 爆击 | gem#39996, gem#40037, gem#42702 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 失落情感护腕 | 226 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 勇猛的无畏护手 | 226 | +6 攻击强度 | gem#40038, gem#39996 |
+| 戒指1 | 游侠将军指环 | 219 | - | gem#39996 |
+| 戒指2 | 征服者的先祖指环 | 219 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42153 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42153 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -5503,32 +5503,32 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Moonkin Aura | - | 85.4s |
+| 枭兽光环 | - | 85.4s |
 | 不灭药水 | - | 85.4s |
 | 肯瑞托的智慧 | - | 85.4s |
 | 战斗姿态 | - | 85.4s |
-| Flask of Endless Rage | - | 85.4s |
-| Greater Blessing of Might | - | 85.4s |
-| Well Fed | - | 85.4s |
+| 无尽怒气合剂 | - | 85.4s |
+| 强效力量祝福 | - | 85.4s |
+| 进食充分 | - | 85.4s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 85.4s |
-| Demonic Pact | - | 85.4s |
-| Gift of the Wild | - | 85.4s |
-| Greater Blessing of Kings | - | 85.4s |
-| Horn of Winter | - | 85.4s |
-| Enrage | - | 83.0s |
-| Berserk | - | 69.7s |
-| Heroism | - | 39.8s |
-| Sudden Death | - | 35.8s |
-| Strength | - | 30.0s |
-| Taste for Blood | - | 26.1s |
+| 恶魔契约 | - | 85.4s |
+| 野性赐福 | - | 85.4s |
+| 强效王者祝福 | - | 85.4s |
+| 寒冬号角 | - | 85.4s |
+| 激怒 | - | 83.0s |
+| 狂暴 | - | 69.7s |
+| 英勇 | - | 39.8s |
+| 猝死 | - | 35.8s |
+| 力量 | - | 30.0s |
+| 血之气息 | - | 26.1s |
 | 破坏能手 | - | 21.5s |
-| Grim Toll | - | 20.0s |
+| 死亡之钟 | - | 20.0s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
 | 血性狂暴 | - | 8.3s |
 | 鲁莽 | - | 6.4s |
-| Cleaving | - | 5.4s |
-| Nitro Boosts | - | 5.0s |
+| 顺劈 | - | 5.4s |
+| 硝化甘油推进器 | - | 5.0s |
 
 ### 肮脏的希尔盖 - 刀烺
 
@@ -5536,24 +5536,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42153 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#40002 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42153 |
+| 颈部 | 龙后青睐 | 232 | - | gem#40002 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#39996, gem#39996 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#40022, gem#40038 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#40014 |
-| 脚部 |  | 213 | +6 Attack Power | gem#39996, gem#42153 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#39996, gem#39996 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#40022, gem#40038 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#40014 |
+| 脚部 |  | 213 | +6 攻击强度 | gem#39996, gem#42153 |
 | 戒指1 |  | 219 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40014 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40014 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -5713,42 +5713,42 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Flask of Endless Rage | - | 119.8s |
+| 无尽怒气合剂 | - | 119.8s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 119.8s |
-| Renewed Hope | - | 119.8s |
-| Retribution Aura | - | 119.8s |
-| Commanding Shout | - | 119.8s |
-| Well Fed | - | 119.8s |
+| 新生希望 | - | 119.8s |
+| 惩罚光环 | - | 119.8s |
+| 命令怒吼 | - | 119.8s |
+| 进食充分 | - | 119.8s |
 | 肯瑞托的智慧 | - | 119.8s |
-| Greater Blessing of Kings | - | 119.8s |
-| Greater Blessing of Might | - | 119.8s |
+| 强效王者祝福 | - | 119.8s |
+| 强效力量祝福 | - | 119.8s |
 | 战斗姿态 | - | 119.8s |
-| Gift of the Wild | - | 119.8s |
-| Enrage | - | 118.7s |
+| 野性赐福 | - | 119.8s |
+| 激怒 | - | 118.7s |
 | 不灭药水 | - | 118.5s |
-| Moonkin Aura | - | 114.8s |
-| Demonic Pact | - | 110.5s |
-| Berserk | - | 97.9s |
-| Power Word: Shield | - | 52.3s |
-| Taste for Blood | - | 52.2s |
-| Sudden Death | - | 46.9s |
+| 枭兽光环 | - | 114.8s |
+| 恶魔契约 | - | 110.5s |
+| 狂暴 | - | 97.9s |
+| 真言术：盾 | - | 52.3s |
+| 血之气息 | - | 52.2s |
+| 猝死 | - | 46.9s |
 | 破坏能手 | - | 45.7s |
-| Strength | - | 45.0s |
-| Concentration Aura | - | 40.6s |
-| Bloodlust | - | 40.0s |
-| Rejuvenation | - | 33.1s |
-| Grim Toll | - | 29.3s |
-| Wild Growth | - | 21.0s |
+| 力量 | - | 45.0s |
+| 专注光环 | - | 40.6s |
+| 嗜血 | - | 40.0s |
+| 回春术 | - | 33.1s |
+| 死亡之钟 | - | 29.3s |
+| 野性成长 | - | 21.0s |
 | 剑刃风暴 | - | 18.0s |
 | 血性狂暴 | - | 15.5s |
-| Divine Aegis | - | 12.0s |
-| Divine Hymn | - | 11.2s |
+| 神圣庇护 | - | 12.0s |
+| 神圣赞美诗 | - | 11.2s |
 | 狂暴 | - | 10.0s |
-| Divine Guardian | - | 8.6s |
+| 神圣守护者 | - | 8.6s |
 | 鲁莽 | - | 5.6s |
-| Nitro Boosts | - | 4.5s |
-| Horn of Winter | - | 2.6s |
-| Cleaving | - | 2.3s |
+| 硝化甘油推进器 | - | 4.5s |
+| 寒冬号角 | - | 2.6s |
+| 顺劈 | - | 2.3s |
 
 ### 肮脏的希尔盖 - 恨生剑舞
 
@@ -5756,24 +5756,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40014 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40014 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Krakken-Heart Breastplate | 219 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Belt of One-Hundred Deaths | 219 | - | gem#39996, gem#39996 |
-| 手套 | Leggings of Murderous Intent | 219 | +1 Attack Power and +2 Critical Strike | gem#40002, gem#40002 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#42142 |
-| 腿部 | Bracers of Lost Sentiments | 226 | +4 Attack Power | gem#40033, gem#40014 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#40002, gem#39996 |
-| 戒指1 | Band of Vile Aggression | 219 | - | gem#40014 |
-| 戒指2 | Ruthlessness | 232 | - | gem#40002 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Lunar Crescent | 226 | Berserking | gem#42142 |
+| 胸部 | 海怪之心胸甲 | 219 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 百亡腰带 | 219 | - | gem#39996, gem#39996 |
+| 手套 | 刺杀护腿 | 219 | +1 攻击强度和 +2 爆击 | gem#40002, gem#40002 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#42142 |
+| 腿部 | 失落情感护腕 | 226 | +4 攻击强度 | gem#40033, gem#40014 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#40002, gem#39996 |
+| 戒指1 | 邪恶侵略指环 | 219 | - | gem#40014 |
+| 戒指2 | 冷酷 | 232 | - | gem#40002 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 新月战斧 | 226 | 狂暴 | gem#42142 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -5928,40 +5928,40 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 泰坦重铸服务器 - 受到伤害光环 | - | 117.2s |
-| Gift of the Wild | - | 117.2s |
+| 野性赐福 | - | 117.2s |
 | 不灭药水 | - | 117.2s |
-| Renewed Hope | - | 117.2s |
+| 新生希望 | - | 117.2s |
 | 战斗姿态 | - | 117.2s |
 | 肯瑞托的智慧 | - | 117.2s |
-| Well Fed | - | 117.2s |
-| Greater Blessing of Might | - | 117.2s |
-| Greater Blessing of Kings | - | 117.2s |
-| Flask of Endless Rage | - | 117.2s |
-| Horn of Winter | - | 117.2s |
-| Enrage | - | 116.0s |
-| Moonkin Aura | - | 112.3s |
-| Demonic Pact | - | 107.9s |
-| Berserk | - | 100.6s |
-| Sudden Death | - | 49.7s |
-| Power Word: Shield | - | 48.8s |
-| Strength | - | 45.0s |
-| Heroism | - | 40.0s |
-| Taste for Blood | - | 37.9s |
+| 进食充分 | - | 117.2s |
+| 强效力量祝福 | - | 117.2s |
+| 强效王者祝福 | - | 117.2s |
+| 无尽怒气合剂 | - | 117.2s |
+| 寒冬号角 | - | 117.2s |
+| 激怒 | - | 116.0s |
+| 枭兽光环 | - | 112.3s |
+| 恶魔契约 | - | 107.9s |
+| 狂暴 | - | 100.6s |
+| 猝死 | - | 49.7s |
+| 真言术：盾 | - | 48.8s |
+| 力量 | - | 45.0s |
+| 英勇 | - | 40.0s |
+| 血之气息 | - | 37.9s |
 | 破坏能手 | - | 34.9s |
-| Grim Toll | - | 30.0s |
-| Earthliving | - | 27.0s |
+| 死亡之钟 | - | 30.0s |
+| 大地生命 | - | 27.0s |
 | 血性狂暴 | - | 20.0s |
 | 剑刃风暴 | - | 18.1s |
-| Grace | - | 15.3s |
+| 恩典 | - | 15.3s |
 | 外交 | - | 15.0s |
-| Divine Guardian | - | 12.0s |
-| Cleaving | - | 10.0s |
-| Divine Hymn | - | 8.0s |
-| Ancestral Fortitude | - | 7.9s |
-| Inspiration | - | 7.2s |
+| 神圣守护者 | - | 12.0s |
+| 顺劈 | - | 10.0s |
+| 神圣赞美诗 | - | 8.0s |
+| 先祖坚韧 | - | 7.9s |
+| 灵感 | - | 7.2s |
 | 鲁莽 | - | 7.0s |
-| Divine Aegis | - | 3.2s |
-| Prayer of Mending | - | 0.7s |
+| 神圣庇护 | - | 3.2s |
+| 愈合祷言 | - | 0.7s |
 
 ### 肮脏的希尔盖 - 春哥不是哥
 
@@ -5969,24 +5969,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
-| 背部 | Precious's Ribbon | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#42153, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#40014 |
-| 戒指1 | Circle of Death | 232 | - | gem#40037 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Thalassian Wildercloak | 219 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
+| 背部 | 普雷舍斯的丝带 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#42153, gem#42153 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#40014 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40037 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 萨拉斯荒野披风 | 219 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -6107,34 +6107,34 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Greater Blessing of Might | - | 97.2s |
+| 强效力量祝福 | - | 97.2s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 97.2s |
-| Greater Blessing of Kings | - | 97.2s |
-| Well Fed | - | 97.2s |
-| Flask of Endless Rage | - | 97.2s |
-| Gift of the Wild | - | 97.2s |
+| 强效王者祝福 | - | 97.2s |
+| 进食充分 | - | 97.2s |
+| 无尽怒气合剂 | - | 97.2s |
+| 野性赐福 | - | 97.2s |
 | 肯瑞托的智慧 | - | 97.2s |
 | 不灭药水 | - | 97.2s |
-| Moonkin Aura | - | 97.2s |
+| 枭兽光环 | - | 97.2s |
 | 战斗姿态 | - | 97.2s |
-| Enrage | - | 95.0s |
-| Demonic Pact | - | 94.5s |
-| Commanding Shout | - | 76.7s |
-| Berserk | - | 56.2s |
-| Sudden Death | - | 55.7s |
-| Heroism | - | 40.0s |
-| Strength | - | 30.0s |
-| Taste for Blood | - | 23.8s |
+| 激怒 | - | 95.0s |
+| 恶魔契约 | - | 94.5s |
+| 命令怒吼 | - | 76.7s |
+| 狂暴 | - | 56.2s |
+| 猝死 | - | 55.7s |
+| 英勇 | - | 40.0s |
+| 力量 | - | 30.0s |
+| 血之气息 | - | 23.8s |
 | 破坏能手 | - | 21.9s |
-| Grim Toll | - | 20.0s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 17.1s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
 | 鲁莽 | - | 5.0s |
-| Divine Guardian | - | 4.7s |
-| Nitro Boosts | - | 4.6s |
+| 神圣守护者 | - | 4.7s |
+| 硝化甘油推进器 | - | 4.6s |
 | 狂暴之怒 | - | 4.0s |
-| Cleaving | - | 2.2s |
+| 顺劈 | - | 2.2s |
 
 ### 洛欧塞布 - 小靑皮丶
 
@@ -6142,24 +6142,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42702 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Precious's Ribbon | 1 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#40014, gem#40014 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#39996 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#39996 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#42142, gem#42142 |
-| 脚部 |  | 213 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Ancestral Ring of Conquest | 219 | - | gem#39996 |
-| 戒指2 | Circle of Death | 232 | - | gem#39996 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 |  | 238 | Berserking | gem#42142 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42702 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 普雷舍斯的丝带 | 1 | - | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#40014, gem#40014 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#39996 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#39996 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#42142, gem#42142 |
+| 脚部 |  | 213 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 征服者的先祖指环 | 219 | - | gem#39996 |
+| 戒指2 | 死亡之环 | 232 | - | gem#39996 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 |  | 238 | 狂暴 | gem#42142 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Arcanite Steam-Pistol | 219 | - | gem#40014 |
+| 圣物 | 奥金气枪 | 219 | - | gem#40014 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -6484,47 +6484,47 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Well Fed | - | 264.8s |
-| Greater Blessing of Might | - | 264.8s |
-| Shadow Resistance Aura | - | 264.8s |
+| 进食充分 | - | 264.8s |
+| 强效力量祝福 | - | 264.8s |
+| 暗影抗性光环 | - | 264.8s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 264.8s |
-| Mark of the Wild | - | 264.8s |
+| 野性印记 | - | 264.8s |
 | 肯瑞托的智慧 | - | 264.8s |
-| Moonkin Aura | - | 264.8s |
+| 枭兽光环 | - | 264.8s |
 | 战斗姿态 | - | 264.8s |
-| Greater Blessing of Kings | - | 264.8s |
-| Concentration Aura | - | 264.8s |
-| Flask of Endless Rage | - | 264.8s |
-| Retribution Aura | - | 264.8s |
-| Demonic Pact | - | 263.6s |
-| Renewed Hope | - | 262.9s |
-| Enrage | - | 225.6s |
-| Berserk | - | 222.6s |
+| 强效王者祝福 | - | 264.8s |
+| 专注光环 | - | 264.8s |
+| 无尽怒气合剂 | - | 264.8s |
+| 惩罚光环 | - | 264.8s |
+| 恶魔契约 | - | 263.6s |
+| 新生希望 | - | 262.9s |
+| 激怒 | - | 225.6s |
+| 狂暴 | - | 222.6s |
 | 破坏能手 | - | 141.1s |
-| Commanding Shout | - | 139.7s |
-| Sudden Death | - | 137.0s |
-| Blood Pact | - | 125.2s |
+| 命令怒吼 | - | 139.7s |
+| 猝死 | - | 137.0s |
+| 血之契印 | - | 125.2s |
 | 不灭药水 | - | 119.5s |
-| Taste for Blood | - | 93.2s |
-| Strength | - | 90.0s |
-| Unholy Frenzy | - | 60.0s |
-| Grim Toll | - | 55.6s |
-| Bloodlust | - | 40.0s |
-| Prayer of Mending | - | 37.0s |
+| 血之气息 | - | 93.2s |
+| 力量 | - | 90.0s |
+| 邪恶狂热 | - | 60.0s |
+| 死亡之钟 | - | 55.6s |
+| 嗜血 | - | 40.0s |
+| 愈合祷言 | - | 37.0s |
 | 剑刃风暴 | - | 36.0s |
 | 血性狂暴 | - | 34.7s |
-| Riptide | - | 33.5s |
-| Blood Fury | - | 30.0s |
-| Inspiration | - | 30.0s |
-| Power Word: Shield | - | 30.0s |
-| Ancestral Fortitude | - | 29.5s |
-| Earthliving | - | 24.0s |
-| Divine Aegis | - | 24.0s |
+| 激流 | - | 33.5s |
+| 血性狂怒 | - | 30.0s |
+| 灵感 | - | 30.0s |
+| 真言术：盾 | - | 30.0s |
+| 先祖坚韧 | - | 29.5s |
+| 大地生命 | - | 24.0s |
+| 神圣庇护 | - | 24.0s |
 | 速度 | - | 15.0s |
-| Divine Guardian | - | 12.0s |
-| Nitro Boosts | - | 5.0s |
+| 神圣守护者 | - | 12.0s |
+| 硝化甘油推进器 | - | 5.0s |
 | 鲁莽 | - | 4.8s |
-| Cleaving | - | 3.4s |
+| 顺劈 | - | 3.4s |
 
 ### 洛欧塞布 - 张跳跳
 
@@ -6532,24 +6532,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41285, gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41285, gem#40037 |
 | 颈部 |  | 238 | - | - |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
-| 背部 | White Swashbuckler's Shirt | 32 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40038, gem#42702 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#39996, gem#42142, gem#42142 |
-| 手套 | Destroyer Greaves | 219 | +1 Attack Power and +2 Critical Strike | gem#40037, gem#40037 |
-| 腰带 | Iron-Spring Jumpers | 226 | 8640 | - |
-| 腿部 | Cuffs of Dark Shadows | 226 | +4 Attack Power | gem#39996 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#40037 |
-| 戒指1 | Greatring of Collision | 232 | +32 Attack Power | gem#40088 |
-| 戒指2 | Ruthlessness | 232 | +32 Attack Power | gem#42142 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Tsunami Talisman | 219 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 |  | 238 | Berserking | gem#40038 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
+| 背部 | 白色冒险者衬衣 | 32 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40038, gem#42702 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#39996, gem#42142, gem#42142 |
+| 手套 | 毁灭者胫甲 | 219 | +1 攻击强度和 +2 爆击 | gem#40037, gem#40037 |
+| 腰带 | 铁簧战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 暗影腕环 | 226 | +4 攻击强度 | gem#39996 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#40037 |
+| 戒指1 | 碰撞巨戒 | 232 | +32 攻击强度 | gem#40088 |
+| 戒指2 | 冷酷 | 232 | +32 攻击强度 | gem#42142 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 海啸护符 | 219 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 |  | 238 | 狂暴 | gem#40038 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40038 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40038 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -6939,42 +6939,42 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 战斗姿态 | - | 312.6s |
-| Greater Blessing of Might | - | 312.6s |
-| Flask of Endless Rage | - | 312.6s |
-| Well Fed | - | 312.6s |
-| Gift of the Wild | - | 312.6s |
-| Greater Blessing of Kings | - | 312.6s |
-| Horn of Winter | - | 312.6s |
+| 强效力量祝福 | - | 312.6s |
+| 无尽怒气合剂 | - | 312.6s |
+| 进食充分 | - | 312.6s |
+| 野性赐福 | - | 312.6s |
+| 强效王者祝福 | - | 312.6s |
+| 寒冬号角 | - | 312.6s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 312.6s |
-| Greater Blessing of Sanctuary | - | 312.6s |
+| 强效庇护祝福 | - | 312.6s |
 | 肯瑞托的智慧 | - | 312.6s |
-| Shadow Resistance Aura | - | 312.6s |
-| Renewed Hope | - | 309.7s |
-| Moonkin Aura | - | 308.3s |
-| Enrage | - | 307.6s |
-| Demonic Pact | - | 304.5s |
-| Beacon of Light | - | 302.0s |
-| Berserk | - | 228.5s |
-| Retribution Aura | - | 211.0s |
+| 暗影抗性光环 | - | 312.6s |
+| 新生希望 | - | 309.7s |
+| 枭兽光环 | - | 308.3s |
+| 激怒 | - | 307.6s |
+| 恶魔契约 | - | 304.5s |
+| 圣光道标 | - | 302.0s |
+| 狂暴 | - | 228.5s |
+| 惩罚光环 | - | 211.0s |
 | 破坏能手 | - | 152.3s |
 | 不灭药水 | - | 120.0s |
-| Inspiration | - | 105.0s |
-| Sudden Death | - | 103.0s |
-| Taste for Blood | - | 97.2s |
-| Divine Aegis | - | 87.3s |
-| Grim Toll | - | 70.0s |
-| Sacred Shield | - | 60.0s |
+| 灵感 | - | 105.0s |
+| 猝死 | - | 103.0s |
+| 血之气息 | - | 97.2s |
+| 神圣庇护 | - | 87.3s |
+| 死亡之钟 | - | 70.0s |
+| 圣洁护盾 | - | 60.0s |
 | 血性狂暴 | - | 54.9s |
-| Fury of the Crashing Waves | - | 50.0s |
+| 怒涛之力 | - | 50.0s |
 | 剑刃风暴 | - | 42.0s |
-| Heroism | - | 40.0s |
-| Power Word: Shield | - | 30.0s |
-| Sacred Shield | - | 24.0s |
-| Wild Growth | - | 14.0s |
-| Divine Guardian | - | 12.0s |
-| Earthliving | - | 12.0s |
-| Prayer of Mending | - | 1.9s |
-| Divine Sacrifice | - | 0.4s |
+| 英勇 | - | 40.0s |
+| 真言术：盾 | - | 30.0s |
+| 圣洁护盾 | - | 24.0s |
+| 野性成长 | - | 14.0s |
+| 神圣守护者 | - | 12.0s |
+| 大地生命 | - | 12.0s |
+| 愈合祷言 | - | 1.9s |
+| 神圣牺牲 | - | 0.4s |
 
 ### 洛欧塞布 - 迷茫的战士
 
@@ -6982,24 +6982,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Red Linen Shirt | 10 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 红色亚麻衬衣 | 10 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
 | 护腕 |  | 219 | - | gem#39996, gem#40014 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40038 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Band of Vile Aggression | 219 | - | gem#39996 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 |  | 238 | Berserking | gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40038 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 邪恶侵略指环 | 219 | - | gem#39996 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 |  | 238 | 狂暴 | gem#42142 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -7301,8 +7301,8 @@
 | 3:51.404 | 压制 | 洛欧塞布 |
 | 3:52.425 | 猛击 | 环境 |
 | 3:52.902 | 猛击 | 洛欧塞布 |
-| 3:54.507 | 冲锋 | Spore |
-| 3:55.653 | 压制 | Spore |
+| 3:54.507 | 冲锋 | 孢子 |
+| 3:55.653 | 压制 | 孢子 |
 | 3:56.536 | 狂暴姿态 | 环境 |
 | 3:56.536 | 拦截 | 洛欧塞布 |
 | 3:57.539 | 战斗姿态 | 环境 |
@@ -7381,45 +7381,45 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Greater Blessing of Kings | - | 290.6s |
-| Horn of Winter | - | 290.6s |
-| Flask of Endless Rage | - | 290.6s |
+| 强效王者祝福 | - | 290.6s |
+| 寒冬号角 | - | 290.6s |
+| 无尽怒气合剂 | - | 290.6s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 290.6s |
-| Well Fed | - | 290.6s |
+| 进食充分 | - | 290.6s |
 | 肯瑞托的智慧 | - | 290.6s |
-| Greater Blessing of Might | - | 290.6s |
-| Moonkin Aura | - | 290.6s |
-| Gift of the Wild | - | 290.6s |
+| 强效力量祝福 | - | 290.6s |
+| 枭兽光环 | - | 290.6s |
+| 野性赐福 | - | 290.6s |
 | 战斗姿态 | - | 289.6s |
-| Demonic Pact | - | 288.6s |
-| Enrage | - | 287.0s |
-| Renewed Hope | - | 265.9s |
-| Commanding Shout | - | 236.9s |
-| Berserk | - | 189.7s |
+| 恶魔契约 | - | 288.6s |
+| 激怒 | - | 287.0s |
+| 新生希望 | - | 265.9s |
+| 命令怒吼 | - | 236.9s |
+| 狂暴 | - | 189.7s |
 | 破坏能手 | - | 147.6s |
-| Sudden Death | - | 133.4s |
+| 猝死 | - | 133.4s |
 | 不灭药水 | - | 119.1s |
-| Taste for Blood | - | 98.8s |
-| Strength | - | 90.0s |
-| Grim Toll | - | 60.0s |
-| Blood Pact | - | 53.8s |
-| Rejuvenation | - | 49.8s |
-| Blood Fury | - | 40.5s |
+| 血之气息 | - | 98.8s |
+| 力量 | - | 90.0s |
+| 死亡之钟 | - | 60.0s |
+| 血之契印 | - | 53.8s |
+| 回春术 | - | 49.8s |
+| 血性狂怒 | - | 40.5s |
 | 血性狂暴 | - | 40.0s |
-| Bloodlust | - | 40.0s |
+| 嗜血 | - | 40.0s |
 | 剑刃风暴 | - | 36.1s |
-| Divine Aegis | - | 36.0s |
-| Inspiration | - | 30.0s |
+| 神圣庇护 | - | 36.0s |
+| 灵感 | - | 30.0s |
 | 横扫攻击 | - | 30.0s |
-| Wild Growth | - | 28.0s |
+| 野性成长 | - | 28.0s |
 | 速度 | - | 15.0s |
-| Power Word: Shield | - | 14.9s |
-| Cleaving | - | 8.6s |
-| Divine Guardian | - | 6.0s |
+| 真言术：盾 | - | 14.9s |
+| 顺劈 | - | 8.6s |
+| 神圣守护者 | - | 6.0s |
 | 鲁莽 | - | 5.9s |
-| Nitro Boosts | - | 5.0s |
-| Berserker Stance | - | 1.0s |
-| Prayer of Mending | - | 0.9s |
+| 硝化甘油推进器 | - | 5.0s |
+| 狂暴姿态 | - | 1.0s |
+| 愈合祷言 | - | 0.9s |
 
 ### 教官拉苏维奥斯 - 伊卡洛斯
 
@@ -7427,24 +7427,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41285, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Trapper's Shirt | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41285, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 捕兽者衬衣 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
 | 护腕 |  | 219 | - | gem#42153, gem#42153 |
-| 手套 | Greaves of the Bloodwarder | 219 | +1 Attack Power and +2 Critical Strike | gem#42153, gem#40038, gem#42702 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#40033, gem#39996 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#39996, gem#40014 |
-| 戒指1 | Greatring of Collision | 232 | - | gem#39996 |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Tsunami Talisman | 219 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 手套 | 血卫士胫甲 | 219 | +1 攻击强度和 +2 爆击 | gem#42153, gem#40038, gem#42702 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#40033, gem#39996 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#39996, gem#40014 |
+| 戒指1 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 海啸护符 | 219 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -7588,36 +7588,36 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Flask of Endless Rage | - | 105.7s |
-| Scourgebane Draught | - | 105.7s |
-| Greater Blessing of Kings | - | 105.7s |
+| 无尽怒气合剂 | - | 105.7s |
+| 天灾克星药水 | - | 105.7s |
+| 强效王者祝福 | - | 105.7s |
 | 肯瑞托的智慧 | - | 105.7s |
-| Leader of the Pack | - | 105.7s |
+| 兽群领袖 | - | 105.7s |
 | 战斗姿态 | - | 105.7s |
-| Moonkin Aura | - | 105.7s |
+| 枭兽光环 | - | 105.7s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 105.7s |
-| Well Fed | - | 105.7s |
-| Gift of the Wild | - | 105.7s |
+| 进食充分 | - | 105.7s |
+| 野性赐福 | - | 105.7s |
 | 不灭药水 | - | 105.7s |
-| Leader of the Pack | - | 105.7s |
-| Greater Blessing of Might | - | 105.7s |
-| Enrage | - | 104.7s |
-| Demonic Pact | - | 104.3s |
-| Berserk | - | 85.9s |
-| Sudden Death | - | 54.2s |
-| Taste for Blood | - | 50.8s |
-| Bloodlust | - | 39.9s |
+| 兽群领袖 | - | 105.7s |
+| 强效力量祝福 | - | 105.7s |
+| 激怒 | - | 104.7s |
+| 恶魔契约 | - | 104.3s |
+| 狂暴 | - | 85.9s |
+| 猝死 | - | 54.2s |
+| 血之气息 | - | 50.8s |
+| 嗜血 | - | 39.9s |
 | 破坏能手 | - | 33.6s |
-| Grim Toll | - | 28.5s |
-| Fury of the Crashing Waves | - | 27.1s |
+| 死亡之钟 | - | 28.5s |
+| 怒涛之力 | - | 27.1s |
 | 剑刃风暴 | - | 17.1s |
 | 血性狂暴 | - | 15.9s |
-| Blood Fury | - | 15.0s |
-| Blood Pact | - | 7.5s |
-| Divine Guardian | - | 6.0s |
-| Nitro Boosts | - | 5.0s |
+| 血性狂怒 | - | 15.0s |
+| 血之契印 | - | 7.5s |
+| 神圣守护者 | - | 6.0s |
+| 硝化甘油推进器 | - | 5.0s |
 | 鲁莽 | - | 4.2s |
-| Cleaving | - | 2.9s |
+| 顺劈 | - | 2.9s |
 
 ### 教官拉苏维奥斯 - 問切
 
@@ -7625,25 +7625,25 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#39996, gem#39996, gem#39996 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#40037 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Tsunami Talisman | 219 | - | - |
-| 主手 | Aged Winter Cloak | 226 | Swordguard Embroidery | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#39996, gem#39996, gem#39996 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40037 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 海啸护符 | 219 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | 剑刃刺绣 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
-| 战袍 | Tabard of the Explorer | 1 | - | - |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
+| 战袍 | 探索者战袍 | 1 | - | - |
 
 #### 技能释放
 
@@ -7784,38 +7784,38 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Nexus Residue | - | 111.7s |
-| Well Fed | - | 111.7s |
+| 魔枢残渣 | - | 111.7s |
+| 进食充分 | - | 111.7s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 111.7s |
-| Greater Blessing of Kings | - | 111.7s |
-| Leader of the Pack | - | 111.7s |
-| Gift of the Wild | - | 111.7s |
+| 强效王者祝福 | - | 111.7s |
+| 兽群领袖 | - | 111.7s |
+| 野性赐福 | - | 111.7s |
 | 战斗姿态 | - | 111.7s |
-| Greater Blessing of Might | - | 111.7s |
+| 强效力量祝福 | - | 111.7s |
 | 不灭药水 | - | 111.7s |
-| Leader of the Pack | - | 111.7s |
-| Flask of Endless Rage | - | 111.7s |
-| Residue of Darkness | - | 111.7s |
-| Moonkin Aura | - | 111.7s |
+| 兽群领袖 | - | 111.7s |
+| 无尽怒气合剂 | - | 111.7s |
+| 黑暗残渣 | - | 111.7s |
+| 枭兽光环 | - | 111.7s |
 | 肯瑞托的智慧 | - | 111.7s |
-| Enrage | - | 110.3s |
-| Berserk | - | 107.5s |
-| Demonic Pact | - | 106.8s |
+| 激怒 | - | 110.3s |
+| 狂暴 | - | 107.5s |
+| 恶魔契约 | - | 106.8s |
 | 破坏能手 | - | 57.2s |
-| Taste for Blood | - | 53.2s |
-| Heroism | - | 39.9s |
-| Sudden Death | - | 35.1s |
-| Swordguard Embroidery | - | 30.0s |
-| Fury of the Crashing Waves | - | 29.8s |
-| Grim Toll | - | 22.8s |
+| 血之气息 | - | 53.2s |
+| 英勇 | - | 39.9s |
+| 猝死 | - | 35.1s |
+| 剑刃刺绣 | - | 30.0s |
+| 怒涛之力 | - | 29.8s |
+| 死亡之钟 | - | 22.8s |
 | 血性狂暴 | - | 19.6s |
 | 剑刃风暴 | - | 18.0s |
 | 外交 | - | 15.0s |
 | 鲁莽 | - | 5.5s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 4.0s |
-| Horn of Winter | - | 3.8s |
-| Ferocious Inspiration | - | 0.0s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 4.0s |
+| 寒冬号角 | - | 3.8s |
+| 凶猛灵感 | - | 0.0s |
 
 ### 教官拉苏维奥斯 - 柴多多
 
@@ -7823,24 +7823,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42153 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42153 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#39996 |
-| 背部 | Stylish Blue Shirt | 25 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#40002, gem#40002, gem#40002 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#40002 |
-| 戒指1 | Surge Needle Ring | 226 | - | - |
-| 戒指2 | Ruthlessness | 232 | - | gem#39996 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Eskhandar's Pelt | 213 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42153 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42153 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#39996 |
+| 背部 | 漂亮的蓝衬衣 | 25 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#40002, gem#40002, gem#40002 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#40002 |
+| 戒指1 | 强能针刺指环 | 226 | - | - |
+| 戒指2 | 冷酷 | 232 | - | gem#39996 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 艾斯卡达尔的毛皮 | 213 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -7985,35 +7985,35 @@
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 不灭药水 | - | 109.9s |
-| Greater Blessing of Might | - | 109.9s |
-| Leader of the Pack | - | 109.9s |
-| Well Fed | - | 109.9s |
-| Gift of the Wild | - | 109.9s |
-| Scourgebane Draught | - | 109.9s |
+| 强效力量祝福 | - | 109.9s |
+| 兽群领袖 | - | 109.9s |
+| 进食充分 | - | 109.9s |
+| 野性赐福 | - | 109.9s |
+| 天灾克星药水 | - | 109.9s |
 | 战斗姿态 | - | 109.9s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 109.9s |
-| Leader of the Pack | - | 109.9s |
+| 兽群领袖 | - | 109.9s |
 | 肯瑞托的智慧 | - | 109.9s |
-| Greater Blessing of Kings | - | 109.9s |
-| Moonkin Aura | - | 109.9s |
-| Flask of Endless Rage | - | 109.9s |
-| Demonic Pact | - | 108.5s |
-| Enrage | - | 108.3s |
-| Berserk | - | 92.5s |
-| Blood Pact | - | 57.9s |
-| Renewed Hope | - | 57.0s |
-| Sudden Death | - | 48.4s |
-| Strength | - | 43.5s |
+| 强效王者祝福 | - | 109.9s |
+| 枭兽光环 | - | 109.9s |
+| 无尽怒气合剂 | - | 109.9s |
+| 恶魔契约 | - | 108.5s |
+| 激怒 | - | 108.3s |
+| 狂暴 | - | 92.5s |
+| 血之契印 | - | 57.9s |
+| 新生希望 | - | 57.0s |
+| 猝死 | - | 48.4s |
+| 力量 | - | 43.5s |
 | 破坏能手 | - | 43.3s |
-| Bloodlust | - | 40.0s |
-| Taste for Blood | - | 39.1s |
-| Grim Toll | - | 20.4s |
+| 嗜血 | - | 40.0s |
+| 血之气息 | - | 39.1s |
+| 死亡之钟 | - | 20.4s |
 | 剑刃风暴 | - | 16.5s |
 | 血性狂暴 | - | 16.1s |
-| Blood Fury | - | 15.0s |
+| 血性狂怒 | - | 15.0s |
 | 鲁莽 | - | 5.1s |
-| Nitro Boosts | - | 4.7s |
-| Cleaving | - | 1.3s |
+| 硝化甘油推进器 | - | 4.7s |
+| 顺劈 | - | 1.3s |
 
 ### 收割者戈提克 - 小狗扎克斯
 
@@ -8021,44 +8021,44 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40014 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40014 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +2 All Stats | gem#40014, gem#40014 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#42153, gem#42153 |
-| 手套 | Destroyer Greaves | 219 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#40014 |
-| 腰带 | Warboots of Obliteration | 226 | +24 Critical Strike Rating | - |
-| 腿部 |  | 213 | +4 Attack Power | gem#40014 |
-| 脚部 | Gauntlets of Combined Strength | 232 | Hyperspeed Accelerators | gem#39996 |
-| 戒指1 | Ruthlessness | 232 | - | gem#39996 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#42702 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | Flexweave Underlay | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +2 全属性 | gem#40014, gem#40014 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#42153, gem#42153 |
+| 手套 | 毁灭者胫甲 | 219 | +1 攻击强度和 +2 爆击 | gem#39996, gem#40014 |
+| 腰带 | 湮灭战靴 | 226 | +24 爆击等级 | - |
+| 腿部 |  | 213 | +4 攻击强度 | gem#40014 |
+| 脚部 | 合力护手 | 232 | 超级加速器 | gem#39996 |
+| 戒指1 | 冷酷 | 232 | - | gem#39996 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#42702 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | 弹力蛛丝衬垫 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Spinning Fate | 232 | - | - |
+| 圣物 | 命运之轮 | 232 | - | - |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:26.605 | 撕裂 | Unrelenting Trainee |
-| 0:28.248 | 致死打击 | Unrelenting Trainee |
+| 0:26.605 | 撕裂 | 无情的学徒 |
+| 0:28.248 | 致死打击 | 无情的学徒 |
 | 0:28.460 | 血性狂暴 | 环境 |
 | 0:29.272 | 横扫攻击 | 环境 |
-| 0:29.435 | 顺劈斩 | Unrelenting Trainee |
-| 0:29.873 | 撕裂 | Unrelenting Trainee |
-| 0:32.132 | 压制 | Unrelenting Trainee |
-| 0:32.295 | 顺劈斩 | Unrelenting Trainee |
-| 0:36.383 | 致死打击 | Unrelenting Trainee |
-| 0:37.008 | 英勇打击 | Unrelenting Trainee |
-| 0:46.325 | 撕裂 | Unrelenting Trainee |
-| 0:47.686 | 冲锋 | Unrelenting Trainee |
-| 0:48.582 | 撕裂 | Unrelenting Trainee |
-| 0:48.779 | 英勇打击 | Unrelenting Trainee |
+| 0:29.435 | 顺劈斩 | 无情的学徒 |
+| 0:29.873 | 撕裂 | 无情的学徒 |
+| 0:32.132 | 压制 | 无情的学徒 |
+| 0:32.295 | 顺劈斩 | 无情的学徒 |
+| 0:36.383 | 致死打击 | 无情的学徒 |
+| 0:37.008 | 英勇打击 | 无情的学徒 |
+| 0:46.325 | 撕裂 | 无情的学徒 |
+| 0:47.686 | 冲锋 | 无情的学徒 |
+| 0:48.582 | 撕裂 | 无情的学徒 |
+| 0:48.779 | 英勇打击 | 无情的学徒 |
 | 0:50.444 | 剑刃风暴 | 环境 |
 | 0:50.444 | 剑刃风暴 | 环境 |
 | 0:51.449 | 剑刃风暴 | 环境 |
@@ -8068,107 +8068,107 @@
 | 0:55.443 | 剑刃风暴 | 环境 |
 | 0:56.454 | 剑刃风暴 | 环境 |
 | 1:00.360 | 横扫攻击 | 环境 |
-| 1:00.582 | 致死打击 | Spectral Trainee |
-| 1:00.662 | 顺劈斩 | Spectral Trainee |
-| 1:08.515 | 撕裂 | Unrelenting Trainee |
-| 1:10.764 | 冲锋 | Unrelenting Trainee |
-| 1:11.437 | 英勇打击 | Unrelenting Trainee |
-| 1:13.956 | 压制 | Unrelenting Trainee |
-| 1:18.861 | 致死打击 | Unrelenting Trainee |
-| 1:21.479 | 撕裂 | Unrelenting Death Knight |
-| 1:23.700 | 撕裂 | Unrelenting Death Knight |
-| 1:23.986 | 顺劈斩 | Unrelenting Death Knight |
-| 1:25.345 | 致死打击 | Unrelenting Death Knight |
-| 1:26.330 | 顺劈斩 | Unrelenting Death Knight |
-| 1:26.971 | 压制 | Unrelenting Death Knight |
-| 1:28.183 | 胜利冲锋 | Unrelenting Death Knight |
+| 1:00.582 | 致死打击 | 鬼灵学徒 |
+| 1:00.662 | 顺劈斩 | 鬼灵学徒 |
+| 1:08.515 | 撕裂 | 无情的学徒 |
+| 1:10.764 | 冲锋 | 无情的学徒 |
+| 1:11.437 | 英勇打击 | 无情的学徒 |
+| 1:13.956 | 压制 | 无情的学徒 |
+| 1:18.861 | 致死打击 | 无情的学徒 |
+| 1:21.479 | 撕裂 | 无情的死亡骑士 |
+| 1:23.700 | 撕裂 | 无情的死亡骑士 |
+| 1:23.986 | 顺劈斩 | 无情的死亡骑士 |
+| 1:25.345 | 致死打击 | 无情的死亡骑士 |
+| 1:26.330 | 顺劈斩 | 无情的死亡骑士 |
+| 1:26.971 | 压制 | 无情的死亡骑士 |
+| 1:28.183 | 胜利冲锋 | 无情的死亡骑士 |
 | 1:28.616 | 血性狂暴 | 环境 |
 | 1:29.805 | 雷霆一击 | 环境 |
 | 1:30.435 | 横扫攻击 | 环境 |
-| 1:31.040 | 顺劈斩 | Unrelenting Death Knight |
-| 1:31.672 | 致死打击 | Unrelenting Death Knight |
-| 1:33.261 | 撕裂 | Unrelenting Trainee |
+| 1:31.040 | 顺劈斩 | 无情的死亡骑士 |
+| 1:31.672 | 致死打击 | 无情的死亡骑士 |
+| 1:33.261 | 撕裂 | 无情的学徒 |
 | 1:34.895 | 猛击 | 环境 |
-| 1:35.389 | 猛击 | Unrelenting Trainee |
-| 1:38.130 | 冲锋 | Spectral Trainee |
-| 1:38.703 | 顺劈斩 | Spectral Trainee |
+| 1:35.389 | 猛击 | 无情的学徒 |
+| 1:38.130 | 冲锋 | 鬼灵学徒 |
+| 1:38.703 | 顺劈斩 | 鬼灵学徒 |
 | 1:38.735 | 雷霆一击 | 环境 |
-| 1:40.372 | 压制 | Spectral Trainee |
-| 1:45.849 | 撕裂 | Unrelenting Death Knight |
-| 1:46.078 | 顺劈斩 | Unrelenting Death Knight |
-| 1:47.517 | 压制 | Unrelenting Death Knight |
-| 1:49.108 | 压制 | Unrelenting Death Knight |
+| 1:40.372 | 压制 | 鬼灵学徒 |
+| 1:45.849 | 撕裂 | 无情的死亡骑士 |
+| 1:46.078 | 顺劈斩 | 无情的死亡骑士 |
+| 1:47.517 | 压制 | 无情的死亡骑士 |
+| 1:49.108 | 压制 | 无情的死亡骑士 |
 | 1:50.323 | 雷霆一击 | 环境 |
 | 1:50.654 | 地精热力工兵炸药 | 环境 |
-| 1:51.952 | 撕裂 | Unrelenting Trainee |
-| 1:53.498 | 顺劈斩 | Unrelenting Trainee |
-| 1:53.769 | 致死打击 | Unrelenting Trainee |
+| 1:51.952 | 撕裂 | 无情的学徒 |
+| 1:53.498 | 顺劈斩 | 无情的学徒 |
+| 1:53.769 | 致死打击 | 无情的学徒 |
 | 1:55.602 | 猛击 | 环境 |
-| 1:59.900 | 撕裂 | Spectral Death Knight |
-| 2:00.188 | 顺劈斩 | Spectral Death Knight |
-| 2:01.485 | 胜利冲锋 | Spectral Death Knight |
-| 2:03.134 | 压制 | Spectral Death Knight |
-| 2:04.362 | 致死打击 | Spectral Death Knight |
-| 2:04.897 | 英勇打击 | Spectral Death Knight |
-| 2:10.670 | 致死打击 | Unrelenting Trainee |
-| 2:11.805 | 顺劈斩 | Unrelenting Trainee |
+| 1:59.900 | 撕裂 | 鬼灵死亡骑士 |
+| 2:00.188 | 顺劈斩 | 鬼灵死亡骑士 |
+| 2:01.485 | 胜利冲锋 | 鬼灵死亡骑士 |
+| 2:03.134 | 压制 | 鬼灵死亡骑士 |
+| 2:04.362 | 致死打击 | 鬼灵死亡骑士 |
+| 2:04.897 | 英勇打击 | 鬼灵死亡骑士 |
+| 2:10.670 | 致死打击 | 无情的学徒 |
+| 2:11.805 | 顺劈斩 | 无情的学徒 |
 | 2:14.289 | 横扫攻击 | 环境 |
 | 2:14.705 | 雷霆一击 | 环境 |
-| 2:16.933 | 撕裂 | Unrelenting Death Knight |
-| 2:18.545 | 致死打击 | Unrelenting Death Knight |
-| 2:20.186 | 压制 | Unrelenting Death Knight |
-| 2:21.224 | 顺劈斩 | Unrelenting Death Knight |
+| 2:16.933 | 撕裂 | 无情的死亡骑士 |
+| 2:18.545 | 致死打击 | 无情的死亡骑士 |
+| 2:20.186 | 压制 | 无情的死亡骑士 |
+| 2:21.224 | 顺劈斩 | 无情的死亡骑士 |
 | 2:21.598 | 猛击 | 环境 |
-| 2:22.102 | 猛击 | Unrelenting Death Knight |
-| 2:24.657 | 撕裂 | Unrelenting Rider |
+| 2:22.102 | 猛击 | 无情的死亡骑士 |
+| 2:24.657 | 撕裂 | 无情的骑兵 |
 | 2:26.265 | 雷霆一击 | 环境 |
-| 2:26.441 | 顺劈斩 | Unrelenting Rider |
-| 2:27.895 | 压制 | Unrelenting Rider |
-| 2:28.789 | 顺劈斩 | Unrelenting Rider |
+| 2:26.441 | 顺劈斩 | 无情的骑兵 |
+| 2:27.895 | 压制 | 无情的骑兵 |
+| 2:28.789 | 顺劈斩 | 无情的骑兵 |
 | 2:29.125 | 血性狂暴 | 环境 |
-| 2:29.328 | 致死打击 | Unrelenting Rider |
+| 2:29.328 | 致死打击 | 无情的骑兵 |
 | 2:30.828 | 剑刃风暴 | 环境 |
 | 2:30.829 | 剑刃风暴 | 环境 |
-| 2:31.141 | 顺劈斩 | Unrelenting Rider |
+| 2:31.141 | 顺劈斩 | 无情的骑兵 |
 | 2:31.841 | 剑刃风暴 | 环境 |
 | 2:32.835 | 剑刃风暴 | 环境 |
 | 2:33.840 | 剑刃风暴 | 环境 |
 | 2:34.831 | 剑刃风暴 | 环境 |
 | 2:35.827 | 剑刃风暴 | 环境 |
 | 2:36.835 | 剑刃风暴 | 环境 |
-| 2:37.811 | 顺劈斩 | Unrelenting Death Knight |
-| 2:37.917 | 撕裂 | Unrelenting Death Knight |
-| 2:39.539 | 致死打击 | Unrelenting Death Knight |
-| 2:40.662 | 顺劈斩 | Unrelenting Death Knight |
-| 2:41.148 | 压制 | Unrelenting Death Knight |
+| 2:37.811 | 顺劈斩 | 无情的死亡骑士 |
+| 2:37.917 | 撕裂 | 无情的死亡骑士 |
+| 2:39.539 | 致死打击 | 无情的死亡骑士 |
+| 2:40.662 | 顺劈斩 | 无情的死亡骑士 |
+| 2:41.148 | 压制 | 无情的死亡骑士 |
 | 2:42.351 | 猛击 | 环境 |
-| 2:42.859 | 猛击 | Unrelenting Death Knight |
-| 2:43.515 | 顺劈斩 | Unrelenting Death Knight |
+| 2:42.859 | 猛击 | 无情的死亡骑士 |
+| 2:43.515 | 顺劈斩 | 无情的死亡骑士 |
 | 2:43.984 | 猛击 | 环境 |
-| 2:44.486 | 猛击 | Unrelenting Death Knight |
+| 2:44.486 | 猛击 | 无情的死亡骑士 |
 | 2:51.316 | 雷霆一击 | 环境 |
-| 2:51.653 | 顺劈斩 | Unrelenting Rider |
+| 2:51.653 | 顺劈斩 | 无情的骑兵 |
 | 2:51.736 | 横扫攻击 | 环境 |
-| 2:52.945 | 撕裂 | Unrelenting Rider |
-| 2:54.001 | 顺劈斩 | Unrelenting Rider |
-| 2:54.589 | 致死打击 | Unrelenting Rider |
-| 2:56.187 | 压制 | Unrelenting Rider |
-| 2:56.349 | 顺劈斩 | Unrelenting Rider |
+| 2:52.945 | 撕裂 | 无情的骑兵 |
+| 2:54.001 | 顺劈斩 | 无情的骑兵 |
+| 2:54.589 | 致死打击 | 无情的骑兵 |
+| 2:56.187 | 压制 | 无情的骑兵 |
+| 2:56.349 | 顺劈斩 | 无情的骑兵 |
 | 2:57.808 | 雷霆一击 | 环境 |
-| 3:00.858 | 致死打击 | Unrelenting Rider |
-| 3:01.045 | 顺劈斩 | Unrelenting Rider |
-| 3:02.513 | 压制 | Unrelenting Rider |
-| 3:03.403 | 顺劈斩 | Unrelenting Rider |
+| 3:00.858 | 致死打击 | 无情的骑兵 |
+| 3:01.045 | 顺劈斩 | 无情的骑兵 |
+| 3:02.513 | 压制 | 无情的骑兵 |
+| 3:03.403 | 顺劈斩 | 无情的骑兵 |
 | 3:03.923 | 雷霆一击 | 环境 |
-| 3:06.147 | 撕裂 | Unrelenting Death Knight |
-| 3:07.777 | 致死打击 | Unrelenting Death Knight |
-| 3:08.146 | 顺劈斩 | Unrelenting Death Knight |
-| 3:09.426 | 压制 | Unrelenting Death Knight |
+| 3:06.147 | 撕裂 | 无情的死亡骑士 |
+| 3:07.777 | 致死打击 | 无情的死亡骑士 |
+| 3:08.146 | 顺劈斩 | 无情的死亡骑士 |
+| 3:09.426 | 压制 | 无情的死亡骑士 |
 | 3:10.627 | 雷霆一击 | 环境 |
-| 3:11.613 | 顺劈斩 | Unrelenting Death Knight |
-| 3:12.242 | 撕裂 | Unrelenting Death Knight |
-| 3:14.070 | 撕裂 | Unrelenting Trainee |
-| 3:15.696 | 压制 | Unrelenting Trainee |
+| 3:11.613 | 顺劈斩 | 无情的死亡骑士 |
+| 3:12.242 | 撕裂 | 无情的死亡骑士 |
+| 3:14.070 | 撕裂 | 无情的学徒 |
+| 3:15.696 | 压制 | 无情的学徒 |
 | 3:16.705 | 剑刃风暴 | 环境 |
 | 3:16.706 | 剑刃风暴 | 环境 |
 | 3:17.715 | 剑刃风暴 | 环境 |
@@ -8179,68 +8179,68 @@
 | 3:22.700 | 剑刃风暴 | 环境 |
 | 3:22.812 | 横扫攻击 | 环境 |
 | 3:23.199 | 雷霆一击 | 环境 |
-| 3:24.841 | 撕裂 | Spectral Rider |
-| 3:26.211 | 顺劈斩 | Spectral Rider |
-| 3:26.774 | 冲锋 | Unrelenting Death Knight |
-| 3:27.898 | 撕裂 | Unrelenting Death Knight |
-| 3:28.564 | 顺劈斩 | Unrelenting Death Knight |
+| 3:24.841 | 撕裂 | 鬼灵骑兵 |
+| 3:26.211 | 顺劈斩 | 鬼灵骑兵 |
+| 3:26.774 | 冲锋 | 无情的死亡骑士 |
+| 3:27.898 | 撕裂 | 无情的死亡骑士 |
+| 3:28.564 | 顺劈斩 | 无情的死亡骑士 |
 | 3:29.538 | 雷霆一击 | 环境 |
-| 3:30.905 | 顺劈斩 | Unrelenting Death Knight |
-| 3:31.344 | 压制 | Unrelenting Death Knight |
-| 3:32.588 | 撕裂 | Unrelenting Rider |
+| 3:30.905 | 顺劈斩 | 无情的死亡骑士 |
+| 3:31.344 | 压制 | 无情的死亡骑士 |
+| 3:32.588 | 撕裂 | 无情的骑兵 |
 | 3:32.798 | 血性狂暴 | 环境 |
-| 3:33.261 | 顺劈斩 | Unrelenting Rider |
-| 3:34.187 | 压制 | Unrelenting Rider |
-| 3:35.423 | 致死打击 | Unrelenting Rider |
-| 3:35.613 | 顺劈斩 | Unrelenting Rider |
+| 3:33.261 | 顺劈斩 | 无情的骑兵 |
+| 3:34.187 | 压制 | 无情的骑兵 |
+| 3:35.423 | 致死打击 | 无情的骑兵 |
+| 3:35.613 | 顺劈斩 | 无情的骑兵 |
 | 3:37.046 | 雷霆一击 | 环境 |
-| 3:40.318 | 顺劈斩 | Unrelenting Death Knight |
-| 3:40.329 | 撕裂 | Unrelenting Death Knight |
-| 3:41.915 | 压制 | Unrelenting Death Knight |
-| 3:42.668 | 顺劈斩 | Unrelenting Death Knight |
-| 3:46.626 | 胜利冲锋 | Spectral Death Knight |
-| 3:49.019 | 致死打击 | Spectral Death Knight |
-| 3:49.383 | 英勇打击 | Spectral Death Knight |
-| 3:50.751 | 冲锋 | Unrelenting Rider |
+| 3:40.318 | 顺劈斩 | 无情的死亡骑士 |
+| 3:40.329 | 撕裂 | 无情的死亡骑士 |
+| 3:41.915 | 压制 | 无情的死亡骑士 |
+| 3:42.668 | 顺劈斩 | 无情的死亡骑士 |
+| 3:46.626 | 胜利冲锋 | 鬼灵死亡骑士 |
+| 3:49.019 | 致死打击 | 鬼灵死亡骑士 |
+| 3:49.383 | 英勇打击 | 鬼灵死亡骑士 |
+| 3:50.751 | 冲锋 | 无情的骑兵 |
 | 3:51.459 | 雷霆一击 | 环境 |
-| 3:51.739 | 顺劈斩 | Unrelenting Rider |
+| 3:51.739 | 顺劈斩 | 无情的骑兵 |
 | 3:52.889 | 横扫攻击 | 环境 |
-| 3:53.298 | 撕裂 | Unrelenting Rider |
-| 3:54.098 | 顺劈斩 | Unrelenting Rider |
+| 3:53.298 | 撕裂 | 无情的骑兵 |
+| 3:54.098 | 顺劈斩 | 无情的骑兵 |
 | 3:57.595 | 雷霆一击 | 环境 |
-| 3:57.968 | 顺劈斩 | Unrelenting Rider |
-| 3:59.209 | 压制 | Unrelenting Rider |
-| 4:00.325 | 顺劈斩 | Unrelenting Rider |
-| 4:00.405 | 胜利冲锋 | Unrelenting Rider |
-| 4:02.469 | 压制 | Unrelenting Rider |
+| 3:57.968 | 顺劈斩 | 无情的骑兵 |
+| 3:59.209 | 压制 | 无情的骑兵 |
+| 4:00.325 | 顺劈斩 | 无情的骑兵 |
+| 4:00.405 | 胜利冲锋 | 无情的骑兵 |
+| 4:02.469 | 压制 | 无情的骑兵 |
 | 4:03.666 | 雷霆一击 | 环境 |
 | 4:05.171 | 剑刃风暴 | 环境 |
 | 4:05.171 | 剑刃风暴 | 环境 |
 | 4:06.184 | 剑刃风暴 | 环境 |
-| 4:06.560 | 顺劈斩 | Unrelenting Trainee |
+| 4:06.560 | 顺劈斩 | 无情的学徒 |
 | 4:07.167 | 剑刃风暴 | 环境 |
 | 4:08.175 | 剑刃风暴 | 环境 |
 | 4:09.162 | 剑刃风暴 | 环境 |
 | 4:10.169 | 剑刃风暴 | 环境 |
 | 4:11.172 | 剑刃风暴 | 环境 |
-| 4:11.588 | 撕裂 | Spectral Rider |
-| 4:13.223 | 致死打击 | Spectral Rider |
-| 4:13.617 | 顺劈斩 | Spectral Rider |
+| 4:11.588 | 撕裂 | 鬼灵骑兵 |
+| 4:13.223 | 致死打击 | 鬼灵骑兵 |
+| 4:13.617 | 顺劈斩 | 鬼灵骑兵 |
 | 4:14.869 | 雷霆一击 | 环境 |
-| 4:15.849 | 顺劈斩 | Spectral Rider |
-| 4:16.503 | 压制 | Spectral Rider |
-| 4:17.703 | 撕裂 | Spectral Trainee |
-| 4:18.206 | 顺劈斩 | Spectral Trainee |
-| 4:19.311 | 胜利冲锋 | Spectral Trainee |
-| 4:21.340 | 撕裂 | Spectral Rider |
+| 4:15.849 | 顺劈斩 | 鬼灵骑兵 |
+| 4:16.503 | 压制 | 鬼灵骑兵 |
+| 4:17.703 | 撕裂 | 鬼灵学徒 |
+| 4:18.206 | 顺劈斩 | 鬼灵学徒 |
+| 4:19.311 | 胜利冲锋 | 鬼灵学徒 |
+| 4:21.340 | 撕裂 | 鬼灵骑兵 |
 | 4:22.975 | 雷霆一击 | 环境 |
 | 4:23.162 | 横扫攻击 | 环境 |
-| 4:24.816 | 撕裂 | Spectral Trainee |
-| 4:27.044 | 压制 | Spectral Trainee |
-| 4:27.769 | 顺劈斩 | Spectral Rider |
-| 4:28.278 | 致死打击 | Spectral Rider |
+| 4:24.816 | 撕裂 | 鬼灵学徒 |
+| 4:27.044 | 压制 | 鬼灵学徒 |
+| 4:27.769 | 顺劈斩 | 鬼灵骑兵 |
+| 4:28.278 | 致死打击 | 鬼灵骑兵 |
 | 4:30.112 | 猛击 | 环境 |
-| 4:30.622 | 猛击 | Spectral Rider |
+| 4:30.622 | 猛击 | 鬼灵骑兵 |
 | 4:32.002 | 冲锋 | 收割者戈提克 |
 | 4:32.504 | 超级加速器 | 环境 |
 | 4:32.751 | 萨隆邪铁炸弹 | 环境 |
@@ -8306,55 +8306,55 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Commanding Shout | - | 323.5s |
-| Leader of the Pack | - | 323.5s |
+| 命令怒吼 | - | 323.5s |
+| 兽群领袖 | - | 323.5s |
 | 肯瑞托的智慧 | - | 323.5s |
-| Gift of the Wild | - | 323.5s |
-| Leader of the Pack | - | 323.5s |
-| Greater Blessing of Might | - | 323.5s |
-| Well Fed | - | 323.5s |
-| Greater Blessing of Kings | - | 323.5s |
+| 野性赐福 | - | 323.5s |
+| 兽群领袖 | - | 323.5s |
+| 强效力量祝福 | - | 323.5s |
+| 进食充分 | - | 323.5s |
+| 强效王者祝福 | - | 323.5s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 323.5s |
-| Flask of Endless Rage | - | 323.5s |
+| 无尽怒气合剂 | - | 323.5s |
 | 战斗姿态 | - | 322.5s |
-| Moonkin Aura | - | 318.9s |
-| Renewed Hope | - | 311.8s |
-| Concentration Aura | - | 310.9s |
-| Devotion Aura | - | 290.2s |
-| Enrage | - | 290.0s |
-| Horn of Winter | - | 254.7s |
-| Demonic Pact | - | 254.3s |
-| Tree of Life | - | 245.0s |
+| 枭兽光环 | - | 318.9s |
+| 新生希望 | - | 311.8s |
+| 专注光环 | - | 310.9s |
+| 虔诚光环 | - | 290.2s |
+| 激怒 | - | 290.0s |
+| 寒冬号角 | - | 254.7s |
+| 恶魔契约 | - | 254.3s |
+| 生命之树 | - | 245.0s |
 | 横扫攻击 | - | 175.5s |
-| Berserk | - | 173.2s |
-| Sudden Death | - | 148.6s |
-| Abolish Disease | - | 98.5s |
-| Strength | - | 90.0s |
-| Power Word: Shield | - | 86.7s |
-| Rejuvenation | - | 67.3s |
-| Earthliving | - | 65.3s |
-| Grim Toll | - | 60.0s |
-| Cleaving | - | 58.7s |
-| Taste for Blood | - | 58.2s |
-| Ancestral Fortitude | - | 57.0s |
+| 狂暴 | - | 173.2s |
+| 猝死 | - | 148.6s |
+| 驱除疾病 | - | 98.5s |
+| 力量 | - | 90.0s |
+| 真言术：盾 | - | 86.7s |
+| 回春术 | - | 67.3s |
+| 大地生命 | - | 65.3s |
+| 死亡之钟 | - | 60.0s |
+| 顺劈 | - | 58.7s |
+| 血之气息 | - | 58.2s |
+| 先祖坚韧 | - | 57.0s |
 | 血性狂暴 | - | 50.0s |
-| Regrowth | - | 48.3s |
-| Heroism | - | 40.0s |
-| Inspiration | - | 30.0s |
+| 愈合 | - | 48.3s |
+| 英勇 | - | 40.0s |
+| 灵感 | - | 30.0s |
 | 剑刃风暴 | - | 30.0s |
 | 破坏能手 | - | 19.0s |
 | 外交 | - | 15.0s |
-| Wild Growth | - | 14.0s |
-| Prayer of Mending | - | 13.0s |
+| 野性成长 | - | 14.0s |
+| 愈合祷言 | - | 13.0s |
 | 超级加速器 | - | 12.0s |
 | 集结呐喊 | - | 10.0s |
-| Living Seed | - | 7.3s |
-| Divine Guardian | - | 6.0s |
-| Divine Aegis | - | 5.7s |
-| Nitro Boosts | - | 5.0s |
+| 生命之种 | - | 7.3s |
+| 神圣守护者 | - | 6.0s |
+| 神圣庇护 | - | 5.7s |
+| 硝化甘油推进器 | - | 5.0s |
 | 鲁莽 | - | 4.5s |
-| Grace | - | 4.3s |
-| Berserker Stance | - | 1.0s |
+| 恩典 | - | 4.3s |
+| 狂暴姿态 | - | 1.0s |
 
 ### 收割者戈提克 - 武器小子啊
 
@@ -8366,12 +8366,12 @@
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:00.744 | 撕裂 | Unrelenting Death Knight |
+| 0:00.744 | 撕裂 | 无情的死亡骑士 |
 | 0:00.966 | 横扫攻击 | 环境 |
-| 0:01.942 | 致死打击 | Unrelenting Death Knight |
-| 0:02.988 | 顺劈斩 | Unrelenting Death Knight |
+| 0:01.942 | 致死打击 | 无情的死亡骑士 |
+| 0:02.988 | 顺劈斩 | 无情的死亡骑士 |
 | 0:03.562 | 猛击 | 环境 |
-| 0:03.952 | 猛击 | Unrelenting Death Knight |
+| 0:03.952 | 猛击 | 无情的死亡骑士 |
 | 0:08.064 | 血性狂暴 | 环境 |
 | 0:08.586 | 剑刃风暴 | 环境 |
 | 0:08.587 | 剑刃风暴 | 环境 |
@@ -8380,34 +8380,34 @@
 | 0:11.596 | 剑刃风暴 | 环境 |
 | 0:12.601 | 剑刃风暴 | 环境 |
 | 0:13.597 | 剑刃风暴 | 环境 |
-| 0:13.892 | 冲锋 | Spectral Trainee |
+| 0:13.892 | 冲锋 | 鬼灵学徒 |
 | 0:14.710 | 雷霆一击 | 环境 |
 | 0:15.231 | 狂暴姿态 | 环境 |
 | 0:16.210 | 旋风斩 | 环境 |
 | 0:17.162 | 战斗姿态 | 环境 |
-| 0:24.246 | 英勇投掷 | Unrelenting Death Knight |
+| 0:24.246 | 英勇投掷 | 无情的死亡骑士 |
 | 0:26.863 | 猛击 | 环境 |
-| 0:27.367 | 猛击 | Unrelenting Death Knight |
+| 0:27.367 | 猛击 | 无情的死亡骑士 |
 | 0:28.366 | 雷霆一击 | 环境 |
 | 0:29.864 | 猛击 | 环境 |
-| 0:30.371 | 猛击 | Unrelenting Death Knight |
-| 0:31.469 | 撕裂 | Unrelenting Death Knight |
+| 0:30.371 | 猛击 | 无情的死亡骑士 |
+| 0:31.469 | 撕裂 | 无情的死亡骑士 |
 | 0:32.285 | 超级加速器 | 环境 |
-| 0:35.362 | 冲锋 | Spectral Trainee |
+| 0:35.362 | 冲锋 | 鬼灵学徒 |
 | 0:35.776 | 横扫攻击 | 环境 |
-| 0:36.331 | 致死打击 | Spectral Trainee |
+| 0:36.331 | 致死打击 | 鬼灵学徒 |
 | 0:37.840 | 雷霆一击 | 环境 |
 | 0:39.380 | 猛击 | 环境 |
-| 0:39.879 | 猛击 | Spectral Death Knight |
+| 0:39.879 | 猛击 | 鬼灵死亡骑士 |
 | 0:40.969 | 猛击 | 环境 |
-| 0:41.478 | 猛击 | Spectral Death Knight |
-| 0:42.472 | 致死打击 | Spectral Death Knight |
-| 0:42.665 | 顺劈斩 | Spectral Death Knight |
+| 0:41.478 | 猛击 | 鬼灵死亡骑士 |
+| 0:42.472 | 致死打击 | 鬼灵死亡骑士 |
+| 0:42.665 | 顺劈斩 | 鬼灵死亡骑士 |
 | 0:43.974 | 猛击 | 环境 |
 | 0:48.695 | 雷霆一击 | 环境 |
-| 0:49.483 | 顺劈斩 | Spectral Death Knight |
-| 0:50.207 | 撕裂 | Spectral Death Knight |
-| 0:51.706 | 致死打击 | Spectral Death Knight |
+| 0:49.483 | 顺劈斩 | 鬼灵死亡骑士 |
+| 0:50.207 | 撕裂 | 鬼灵死亡骑士 |
+| 0:51.706 | 致死打击 | 鬼灵死亡骑士 |
 | 0:53.593 | 剑刃风暴 | 环境 |
 | 0:53.594 | 剑刃风暴 | 环境 |
 | 0:54.596 | 剑刃风暴 | 环境 |
@@ -8417,35 +8417,35 @@
 | 0:58.603 | 剑刃风暴 | 环境 |
 | 0:59.606 | 剑刃风暴 | 环境 |
 | 1:01.078 | 雷霆一击 | 环境 |
-| 1:02.575 | 压制 | Unrelenting Rider |
-| 1:03.585 | 致死打击 | Unrelenting Rider |
+| 1:02.575 | 压制 | 无情的骑兵 |
+| 1:03.585 | 致死打击 | 无情的骑兵 |
 | 1:05.099 | 猛击 | 环境 |
-| 1:05.600 | 猛击 | Unrelenting Rider |
+| 1:05.600 | 猛击 | 无情的骑兵 |
 | 1:06.591 | 猛击 | 环境 |
-| 1:07.109 | 猛击 | Unrelenting Rider |
-| 1:08.369 | 冲锋 | Unrelenting Trainee |
+| 1:07.109 | 猛击 | 无情的骑兵 |
+| 1:08.369 | 冲锋 | 无情的学徒 |
 | 1:08.939 | 狂暴姿态 | 环境 |
 | 1:08.940 | 血性狂暴 | 环境 |
 | 1:09.260 | 旋风斩 | 环境 |
 | 1:10.337 | 战斗姿态 | 环境 |
 | 1:12.043 | 猛击 | 环境 |
-| 1:13.550 | 撕裂 | Unrelenting Death Knight |
+| 1:13.550 | 撕裂 | 无情的死亡骑士 |
 | 1:14.440 | 横扫攻击 | 环境 |
-| 1:15.250 | 致死打击 | Unrelenting Death Knight |
-| 1:16.140 | 顺劈斩 | Unrelenting Death Knight |
+| 1:15.250 | 致死打击 | 无情的死亡骑士 |
+| 1:16.140 | 顺劈斩 | 无情的死亡骑士 |
 | 1:16.778 | 猛击 | 环境 |
-| 1:17.292 | 猛击 | Unrelenting Death Knight |
-| 1:18.275 | 压制 | Unrelenting Death Knight |
+| 1:17.292 | 猛击 | 无情的死亡骑士 |
+| 1:18.275 | 压制 | 无情的死亡骑士 |
 | 1:22.740 | 狂暴姿态 | 环境 |
-| 1:22.877 | 拦截 | Spectral Trainee |
+| 1:22.877 | 拦截 | 鬼灵学徒 |
 | 1:24.903 | 旋风斩 | 环境 |
 | 1:25.588 | 战斗姿态 | 环境 |
-| 1:26.764 | 撕裂 | Spectral Rider |
+| 1:26.764 | 撕裂 | 鬼灵骑兵 |
 | 1:28.519 | 反击风暴 | 环境 |
-| 1:33.388 | 撕裂 | Unrelenting Rider |
+| 1:33.388 | 撕裂 | 无情的骑兵 |
 | 1:34.899 | 雷霆一击 | 环境 |
-| 1:36.397 | 撕裂 | Unrelenting Rider |
-| 1:38.298 | 顺劈斩 | Unrelenting Rider |
+| 1:36.397 | 撕裂 | 无情的骑兵 |
+| 1:38.298 | 顺劈斩 | 无情的骑兵 |
 | 1:38.635 | 剑刃风暴 | 环境 |
 | 1:38.635 | 剑刃风暴 | 环境 |
 | 1:39.655 | 剑刃风暴 | 环境 |
@@ -8457,44 +8457,44 @@
 | 1:44.830 | 先锋 | 环境 |
 | 1:44.978 | 盾墙 | 环境 |
 | 1:45.899 | 盾牌格挡 | 环境 |
-| 1:46.343 | 盾牌猛击 | Unrelenting Death Knight |
-| 1:47.847 | 复仇 | Unrelenting Death Knight |
-| 1:48.937 | 致死打击 | Unrelenting Death Knight |
+| 1:46.343 | 盾牌猛击 | 无情的死亡骑士 |
+| 1:47.847 | 复仇 | 无情的死亡骑士 |
+| 1:48.937 | 致死打击 | 无情的死亡骑士 |
 | 1:48.966 | 超级加速器 | 环境 |
 | 1:50.030 | 战斗姿态 | 环境 |
 | 1:52.173 | 横扫攻击 | 环境 |
-| 1:53.264 | 压制 | Spectral Death Knight |
-| 1:56.629 | 撕裂 | Spectral Trainee |
-| 1:59.947 | 致死打击 | Spectral Trainee |
-| 2:02.498 | 压制 | Spectral Horse |
-| 2:03.520 | 顺劈斩 | Spectral Horse |
-| 2:03.639 | 撕裂 | Spectral Horse |
+| 1:53.264 | 压制 | 鬼灵死亡骑士 |
+| 1:56.629 | 撕裂 | 鬼灵学徒 |
+| 1:59.947 | 致死打击 | 鬼灵学徒 |
+| 2:02.498 | 压制 | 鬼灵战马 |
+| 2:03.520 | 顺劈斩 | 鬼灵战马 |
+| 2:03.639 | 撕裂 | 鬼灵战马 |
 | 2:05.149 | 猛击 | 环境 |
-| 2:05.645 | 猛击 | Spectral Rider |
+| 2:05.645 | 猛击 | 鬼灵骑兵 |
 | 2:06.656 | 猛击 | 环境 |
-| 2:07.153 | 猛击 | Spectral Rider |
+| 2:07.153 | 猛击 | 鬼灵骑兵 |
 | 2:07.575 | 先锋 | 环境 |
 | 2:07.575 | 援护 | 方掌柜 |
 | 2:08.876 | 战斗姿态 | 环境 |
-| 2:09.305 | 冲锋 | Unrelenting Death Knight |
+| 2:09.305 | 冲锋 | 无情的死亡骑士 |
 | 2:10.080 | 雷霆一击 | 环境 |
 | 2:11.546 | 血性狂暴 | 环境 |
-| 2:11.594 | 致死打击 | Unrelenting Death Knight |
-| 2:12.389 | 顺劈斩 | Unrelenting Death Knight |
+| 2:11.594 | 致死打击 | 无情的死亡骑士 |
+| 2:12.389 | 顺劈斩 | 无情的死亡骑士 |
 | 2:13.238 | 猛击 | 环境 |
-| 2:13.735 | 猛击 | Unrelenting Death Knight |
+| 2:13.735 | 猛击 | 无情的死亡骑士 |
 | 2:14.939 | 猛击 | 环境 |
-| 2:15.458 | 猛击 | Unrelenting Death Knight |
-| 2:16.631 | 撕裂 | Spectral Rider |
-| 2:18.129 | 致死打击 | Spectral Rider |
-| 2:18.313 | 顺劈斩 | Spectral Rider |
+| 2:15.458 | 猛击 | 无情的死亡骑士 |
+| 2:16.631 | 撕裂 | 鬼灵骑兵 |
+| 2:18.129 | 致死打击 | 鬼灵骑兵 |
+| 2:18.313 | 顺劈斩 | 鬼灵骑兵 |
 | 2:19.628 | 猛击 | 环境 |
-| 2:20.155 | 猛击 | Spectral Rider |
-| 2:21.586 | 压制 | Spectral Rider |
+| 2:20.155 | 猛击 | 鬼灵骑兵 |
+| 2:21.586 | 压制 | 鬼灵骑兵 |
 | 2:29.534 | 横扫攻击 | 环境 |
 | 2:29.944 | 雷霆一击 | 环境 |
-| 2:32.210 | 撕裂 | Spectral Horse |
-| 2:35.848 | 冲锋 | Unrelenting Death Knight |
+| 2:32.210 | 撕裂 | 鬼灵战马 |
+| 2:35.848 | 冲锋 | 无情的死亡骑士 |
 | 2:36.704 | 剑刃风暴 | 环境 |
 | 2:36.704 | 剑刃风暴 | 环境 |
 | 2:37.715 | 剑刃风暴 | 环境 |
@@ -8504,30 +8504,30 @@
 | 2:41.715 | 剑刃风暴 | 环境 |
 | 2:42.716 | 剑刃风暴 | 环境 |
 | 2:44.009 | 雷霆一击 | 环境 |
-| 2:44.341 | 顺劈斩 | Unrelenting Rider |
-| 2:45.503 | 压制 | Unrelenting Rider |
-| 2:46.649 | 撕裂 | Unrelenting Death Knight |
-| 2:48.798 | 致死打击 | Spectral Rider |
+| 2:44.341 | 顺劈斩 | 无情的骑兵 |
+| 2:45.503 | 压制 | 无情的骑兵 |
+| 2:46.649 | 撕裂 | 无情的死亡骑士 |
+| 2:48.798 | 致死打击 | 鬼灵骑兵 |
 | 2:48.958 | 超级加速器 | 环境 |
-| 2:49.209 | 顺劈斩 | Spectral Rider |
-| 2:50.291 | 撕裂 | Spectral Rider |
-| 2:51.818 | 撕裂 | Spectral Death Knight |
+| 2:49.209 | 顺劈斩 | 鬼灵骑兵 |
+| 2:50.291 | 撕裂 | 鬼灵骑兵 |
+| 2:51.818 | 撕裂 | 鬼灵死亡骑士 |
 | 2:53.770 | 猛击 | 环境 |
-| 2:54.227 | 猛击 | Spectral Death Knight |
-| 2:54.227 | 顺劈斩 | Spectral Death Knight |
-| 2:55.217 | 压制 | Spectral Death Knight |
-| 2:56.333 | 致死打击 | Spectral Death Knight |
-| 2:57.880 | 冲锋 | Spectral Death Knight |
+| 2:54.227 | 猛击 | 鬼灵死亡骑士 |
+| 2:54.227 | 顺劈斩 | 鬼灵死亡骑士 |
+| 2:55.217 | 压制 | 鬼灵死亡骑士 |
+| 2:56.333 | 致死打击 | 鬼灵死亡骑士 |
+| 2:57.880 | 冲锋 | 鬼灵死亡骑士 |
 | 2:58.434 | 狂暴姿态 | 环境 |
 | 2:58.638 | 旋风斩 | 环境 |
 | 2:59.892 | 横扫攻击 | 环境 |
 | 3:00.212 | 战斗姿态 | 环境 |
 | 3:01.155 | 雷霆一击 | 环境 |
-| 3:02.656 | 撕裂 | Spectral Death Knight |
-| 3:04.161 | 撕裂 | Spectral Rider |
-| 3:05.665 | 致死打击 | Spectral Rider |
-| 3:07.197 | 压制 | Spectral Rider |
-| 3:07.201 | 顺劈斩 | Spectral Rider |
+| 3:02.656 | 撕裂 | 鬼灵死亡骑士 |
+| 3:04.161 | 撕裂 | 鬼灵骑兵 |
+| 3:05.665 | 致死打击 | 鬼灵骑兵 |
+| 3:07.197 | 压制 | 鬼灵骑兵 |
+| 3:07.201 | 顺劈斩 | 鬼灵骑兵 |
 | 3:08.183 | 猛击 | 环境 |
 | 3:10.851 | 撕裂 | 收割者戈提克 |
 | 3:11.808 | 血性狂暴 | 环境 |
@@ -8590,50 +8590,50 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Renewed Hope | - | 251.3s |
-| Gift of the Wild | - | 251.3s |
-| Horn of Winter | - | 251.3s |
-| Retribution Aura | - | 247.2s |
-| Enrage | - | 246.4s |
-| Shadow Resistance Aura | - | 237.1s |
+| 新生希望 | - | 251.3s |
+| 野性赐福 | - | 251.3s |
+| 寒冬号角 | - | 251.3s |
+| 惩罚光环 | - | 247.2s |
+| 激怒 | - | 246.4s |
+| 暗影抗性光环 | - | 237.1s |
 | 战斗姿态 | - | 235.5s |
-| Demonic Pact | - | 232.4s |
-| Tree of Life | - | 229.1s |
-| Leader of the Pack | - | 229.0s |
-| Devotion Aura | - | 204.6s |
-| Berserk | - | 189.5s |
-| Rejuvenation | - | 149.6s |
-| Wild Growth | - | 141.3s |
+| 恶魔契约 | - | 232.4s |
+| 生命之树 | - | 229.1s |
+| 兽群领袖 | - | 229.0s |
+| 虔诚光环 | - | 204.6s |
+| 狂暴 | - | 189.5s |
+| 回春术 | - | 149.6s |
+| 野性成长 | - | 141.3s |
 | 横扫攻击 | - | 129.8s |
-| Blood Pact | - | 124.7s |
-| Commanding Shout | - | 122.9s |
-| Sudden Death | - | 101.2s |
-| Ancestral Fortitude | - | 88.8s |
-| Taste for Blood | - | 82.2s |
-| Power Word: Shield | - | 81.1s |
-| Strength | - | 80.1s |
-| Grim Toll | - | 49.7s |
+| 血之契印 | - | 124.7s |
+| 命令怒吼 | - | 122.9s |
+| 猝死 | - | 101.2s |
+| 先祖坚韧 | - | 88.8s |
+| 血之气息 | - | 82.2s |
+| 真言术：盾 | - | 81.1s |
+| 力量 | - | 80.1s |
+| 死亡之钟 | - | 49.7s |
 | 超级加速器 | - | 48.0s |
-| Riptide | - | 45.0s |
-| Cleaving | - | 42.0s |
+| 激流 | - | 45.0s |
+| 顺劈 | - | 42.0s |
 | 血性狂暴 | - | 40.0s |
-| Bloodlust | - | 40.0s |
+| 嗜血 | - | 40.0s |
 | 破坏能手 | - | 35.9s |
-| Divine Aegis | - | 34.6s |
-| Grace | - | 32.6s |
+| 神圣庇护 | - | 34.6s |
+| 恩典 | - | 32.6s |
 | 剑刃风暴 | - | 31.2s |
-| Blood Fury | - | 15.0s |
-| Inspiration | - | 13.5s |
-| Retaliation | - | 12.0s |
-| Prayer of Mending | - | 11.9s |
-| Hand of Salvation | - | 10.0s |
+| 血性狂怒 | - | 15.0s |
+| 灵感 | - | 13.5s |
+| 反击风暴 | - | 12.0s |
+| 愈合祷言 | - | 11.9s |
+| 拯救之手 | - | 10.0s |
 | 集结呐喊 | - | 10.0s |
-| Berserker Stance | - | 8.0s |
-| Vanguard | - | 7.8s |
-| Divine Guardian | - | 6.0s |
-| Shield Wall | - | 5.9s |
-| Nitro Boosts | - | 5.0s |
-| Shield Block | - | 4.9s |
+| 狂暴姿态 | - | 8.0s |
+| 先锋 | - | 7.8s |
+| 神圣守护者 | - | 6.0s |
+| 盾墙 | - | 5.9s |
+| 硝化甘油推进器 | - | 5.0s |
+| 盾牌格挡 | - | 4.9s |
 
 ### 收割者戈提克 - 慢舞
 
@@ -8641,24 +8641,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Destroyer Battle-Helm | 219 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#40037 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40058 |
-| 背部 | Recruit's Shirt | 1 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#40037, gem#40037 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40013, gem#39996 |
-| 手套 | Valorous Dreadnaught Legplates | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42702 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Cuffs of Dark Shadows | 226 | +4 Attack Power | gem#42142, gem#39996 |
-| 脚部 | Destroyer Gauntlets | 219 | +6 Attack Power | gem#42142, gem#42142 |
-| 戒指1 | Ruthlessness | 232 | - | gem#39996 |
-| 戒指2 | Band of Eternity | 219 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Lunar Crescent | 226 | Berserking | gem#39996 |
+| 头部 | 毁灭者战盔 | 219 | +3 攻击强度和 +3 爆击 | gem#41398, gem#40037 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40058 |
+| 背部 | 新兵衬衣 | 1 | - | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#40037, gem#40037 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40013, gem#39996 |
+| 手套 | 勇猛的无畏腿铠 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42702 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 暗影腕环 | 226 | +4 攻击强度 | gem#42142, gem#39996 |
+| 脚部 | 毁灭者护手 | 219 | +6 攻击强度 | gem#42142, gem#42142 |
+| 戒指1 | 冷酷 | 232 | - | gem#39996 |
+| 戒指2 | 永恒之戒 | 219 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 新月战斧 | 226 | 狂暴 | gem#39996 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Spinning Fate | 232 | - | - |
+| 圣物 | 命运之轮 | 232 | - | - |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -8666,40 +8666,40 @@
 | 时间 | 技能 | 目标 |
 |------|------|------|
 | 0:07.620 | 横扫攻击 | 环境 |
-| 0:29.102 | 冲锋 | Unrelenting Trainee |
-| 0:30.179 | 致死打击 | Unrelenting Trainee |
+| 0:29.102 | 冲锋 | 无情的学徒 |
+| 0:30.179 | 致死打击 | 无情的学徒 |
 | 0:31.711 | 雷霆一击 | 环境 |
 | 0:31.809 | 血性狂暴 | 环境 |
-| 0:33.312 | 顺劈斩 | Unrelenting Trainee |
+| 0:33.312 | 顺劈斩 | 无情的学徒 |
 | 0:40.436 | 横扫攻击 | 环境 |
-| 0:46.522 | 致死打击 | Unrelenting Trainee |
+| 0:46.522 | 致死打击 | 无情的学徒 |
 | 0:49.538 | 猛击 | 环境 |
-| 0:50.069 | 猛击 | Unrelenting Trainee |
-| 0:50.932 | 顺劈斩 | Unrelenting Trainee |
-| 0:51.431 | 胜利冲锋 | Unrelenting Trainee |
+| 0:50.069 | 猛击 | 无情的学徒 |
+| 0:50.932 | 顺劈斩 | 无情的学徒 |
+| 0:51.431 | 胜利冲锋 | 无情的学徒 |
 | 0:52.933 | 雷霆一击 | 环境 |
-| 0:53.363 | 顺劈斩 | Unrelenting Trainee |
-| 0:54.486 | 致死打击 | Unrelenting Trainee |
-| 0:57.972 | 冲锋 | Spectral Trainee |
+| 0:53.363 | 顺劈斩 | 无情的学徒 |
+| 0:54.486 | 致死打击 | 无情的学徒 |
+| 0:57.972 | 冲锋 | 鬼灵学徒 |
 | 0:59.150 | 雷霆一击 | 环境 |
-| 0:59.251 | 顺劈斩 | Spectral Trainee |
-| 1:00.648 | 致死打击 | Spectral Trainee |
-| 1:08.114 | 致死打击 | Unrelenting Trainee |
+| 0:59.251 | 顺劈斩 | 鬼灵学徒 |
+| 1:00.648 | 致死打击 | 鬼灵学徒 |
+| 1:08.114 | 致死打击 | 无情的学徒 |
 | 1:09.613 | 猛击 | 环境 |
-| 1:10.130 | 猛击 | Unrelenting Trainee |
+| 1:10.130 | 猛击 | 无情的学徒 |
 | 1:11.957 | 雷霆一击 | 环境 |
 | 1:11.959 | 横扫攻击 | 环境 |
-| 1:13.330 | 顺劈斩 | Unrelenting Trainee |
-| 1:16.693 | 胜利冲锋 | Spectral Trainee |
-| 1:18.191 | 致死打击 | Spectral Trainee |
+| 1:13.330 | 顺劈斩 | 无情的学徒 |
+| 1:16.693 | 胜利冲锋 | 鬼灵学徒 |
+| 1:18.191 | 致死打击 | 鬼灵学徒 |
 | 1:19.879 | 猛击 | 环境 |
-| 1:20.384 | 猛击 | Spectral Trainee |
+| 1:20.384 | 猛击 | 鬼灵学徒 |
 | 1:21.376 | 猛击 | 环境 |
-| 1:21.887 | 猛击 | Spectral Trainee |
-| 1:22.856 | 冲锋 | Unrelenting Death Knight |
-| 1:24.192 | 致死打击 | Unrelenting Death Knight |
+| 1:21.887 | 猛击 | 鬼灵学徒 |
+| 1:22.856 | 冲锋 | 无情的死亡骑士 |
+| 1:24.192 | 致死打击 | 无情的死亡骑士 |
 | 1:25.697 | 雷霆一击 | 环境 |
-| 1:26.256 | 顺劈斩 | Unrelenting Death Knight |
+| 1:26.256 | 顺劈斩 | 无情的死亡骑士 |
 | 1:29.442 | 剑刃风暴 | 环境 |
 | 1:29.443 | 剑刃风暴 | 环境 |
 | 1:30.436 | 剑刃风暴 | 环境 |
@@ -8710,26 +8710,26 @@
 | 1:35.452 | 剑刃风暴 | 环境 |
 | 1:35.679 | 血性狂暴 | 环境 |
 | 1:38.702 | 狂暴姿态 | 环境 |
-| 1:38.703 | 拦截 | Spectral Trainee |
+| 1:38.703 | 拦截 | 鬼灵学徒 |
 | 1:39.711 | 战斗姿态 | 环境 |
 | 1:39.805 | 雷霆一击 | 环境 |
-| 1:45.121 | 冲锋 | Unrelenting Death Knight |
-| 1:45.873 | 致死打击 | Unrelenting Death Knight |
+| 1:45.121 | 冲锋 | 无情的死亡骑士 |
+| 1:45.873 | 致死打击 | 无情的死亡骑士 |
 | 1:46.558 | 横扫攻击 | 环境 |
 | 1:47.381 | 猛击 | 环境 |
-| 1:47.870 | 猛击 | Unrelenting Death Knight |
+| 1:47.870 | 猛击 | 无情的死亡骑士 |
 | 1:49.619 | 雷霆一击 | 环境 |
-| 1:51.100 | 胜利冲锋 | Unrelenting Death Knight |
-| 1:52.769 | 致死打击 | Unrelenting Trainee |
-| 1:54.359 | 顺劈斩 | Unrelenting Trainee |
+| 1:51.100 | 胜利冲锋 | 无情的死亡骑士 |
+| 1:52.769 | 致死打击 | 无情的学徒 |
+| 1:54.359 | 顺劈斩 | 无情的学徒 |
 | 1:56.482 | 雷霆一击 | 环境 |
-| 1:58.068 | 胜利冲锋 | Spectral Death Knight |
-| 1:59.687 | 致死打击 | Spectral Death Knight |
-| 1:59.929 | 顺劈斩 | Spectral Death Knight |
-| 2:07.006 | 冲锋 | Unrelenting Trainee |
-| 2:07.576 | 致死打击 | Unrelenting Trainee |
+| 1:58.068 | 胜利冲锋 | 鬼灵死亡骑士 |
+| 1:59.687 | 致死打击 | 鬼灵死亡骑士 |
+| 1:59.929 | 顺劈斩 | 鬼灵死亡骑士 |
+| 2:07.006 | 冲锋 | 无情的学徒 |
+| 2:07.576 | 致死打击 | 无情的学徒 |
 | 2:09.930 | 雷霆一击 | 环境 |
-| 2:12.863 | 顺劈斩 | Unrelenting Death Knight |
+| 2:12.863 | 顺劈斩 | 无情的死亡骑士 |
 | 2:14.512 | 剑刃风暴 | 环境 |
 | 2:14.513 | 剑刃风暴 | 环境 |
 | 2:15.520 | 剑刃风暴 | 环境 |
@@ -8738,69 +8738,69 @@
 | 2:18.519 | 剑刃风暴 | 环境 |
 | 2:19.522 | 剑刃风暴 | 环境 |
 | 2:20.525 | 剑刃风暴 | 环境 |
-| 2:20.715 | 致死打击 | Spectral Death Knight |
+| 2:20.715 | 致死打击 | 鬼灵死亡骑士 |
 | 2:20.909 | 横扫攻击 | 环境 |
-| 2:21.161 | 顺劈斩 | Spectral Death Knight |
+| 2:21.161 | 顺劈斩 | 鬼灵死亡骑士 |
 | 2:22.212 | 雷霆一击 | 环境 |
-| 2:23.595 | 顺劈斩 | Spectral Death Knight |
-| 2:23.722 | 胜利冲锋 | Spectral Death Knight |
-| 2:26.036 | 顺劈斩 | Unrelenting Rider |
-| 2:26.746 | 胜利冲锋 | Unrelenting Rider |
-| 2:28.234 | 致死打击 | Unrelenting Rider |
+| 2:23.595 | 顺劈斩 | 鬼灵死亡骑士 |
+| 2:23.722 | 胜利冲锋 | 鬼灵死亡骑士 |
+| 2:26.036 | 顺劈斩 | 无情的骑兵 |
+| 2:26.746 | 胜利冲锋 | 无情的骑兵 |
+| 2:28.234 | 致死打击 | 无情的骑兵 |
 | 2:31.547 | 雷霆一击 | 环境 |
-| 2:33.960 | 顺劈斩 | Unrelenting Trainee |
-| 2:35.190 | 致死打击 | Unrelenting Trainee |
+| 2:33.960 | 顺劈斩 | 无情的学徒 |
+| 2:35.190 | 致死打击 | 无情的学徒 |
 | 2:35.693 | 血性狂暴 | 环境 |
-| 2:37.209 | 顺劈斩 | Spectral Trainee |
+| 2:37.209 | 顺劈斩 | 鬼灵学徒 |
 | 2:37.538 | 雷霆一击 | 环境 |
-| 2:41.226 | 致死打击 | Spectral Death Knight |
-| 2:42.091 | 顺劈斩 | Spectral Death Knight |
+| 2:41.226 | 致死打击 | 鬼灵死亡骑士 |
+| 2:42.091 | 顺劈斩 | 鬼灵死亡骑士 |
 | 2:43.840 | 雷霆一击 | 环境 |
-| 2:44.527 | 顺劈斩 | Spectral Death Knight |
-| 2:48.994 | 顺劈斩 | Spectral Rider |
+| 2:44.527 | 顺劈斩 | 鬼灵死亡骑士 |
+| 2:48.994 | 顺劈斩 | 鬼灵骑兵 |
 | 2:49.837 | 雷霆一击 | 环境 |
 | 2:51.541 | 横扫攻击 | 环境 |
-| 2:53.848 | 顺劈斩 | Spectral Rider |
-| 2:56.295 | 顺劈斩 | Spectral Rider |
+| 2:53.848 | 顺劈斩 | 鬼灵骑兵 |
+| 2:56.295 | 顺劈斩 | 鬼灵骑兵 |
 | 2:57.631 | 雷霆一击 | 环境 |
-| 2:59.137 | 致死打击 | Spectral Trainee |
-| 3:01.688 | 胜利冲锋 | Spectral Rider |
-| 3:01.802 | 顺劈斩 | Spectral Rider |
+| 2:59.137 | 致死打击 | 鬼灵学徒 |
+| 3:01.688 | 胜利冲锋 | 鬼灵骑兵 |
+| 3:01.802 | 顺劈斩 | 鬼灵骑兵 |
 | 3:03.673 | 雷霆一击 | 环境 |
-| 3:05.152 | 致死打击 | Unrelenting Death Knight |
+| 3:05.152 | 致死打击 | 无情的死亡骑士 |
 | 3:06.672 | 剑刃风暴 | 环境 |
 | 3:06.673 | 剑刃风暴 | 环境 |
-| 3:06.949 | 顺劈斩 | Unrelenting Death Knight |
+| 3:06.949 | 顺劈斩 | 无情的死亡骑士 |
 | 3:07.672 | 剑刃风暴 | 环境 |
 | 3:08.675 | 剑刃风暴 | 环境 |
 | 3:09.683 | 剑刃风暴 | 环境 |
 | 3:10.674 | 剑刃风暴 | 环境 |
 | 3:11.671 | 剑刃风暴 | 环境 |
 | 3:12.678 | 剑刃风暴 | 环境 |
-| 3:13.376 | 胜利冲锋 | Unrelenting Trainee |
-| 3:13.867 | 顺劈斩 | Unrelenting Trainee |
-| 3:15.760 | 致死打击 | Spectral Trainee |
-| 3:16.315 | 顺劈斩 | Spectral Trainee |
-| 3:20.025 | 冲锋 | Spectral Trainee |
+| 3:13.376 | 胜利冲锋 | 无情的学徒 |
+| 3:13.867 | 顺劈斩 | 无情的学徒 |
+| 3:15.760 | 致死打击 | 鬼灵学徒 |
+| 3:16.315 | 顺劈斩 | 鬼灵学徒 |
+| 3:20.025 | 冲锋 | 鬼灵学徒 |
 | 3:20.872 | 猛击 | 环境 |
-| 3:21.375 | 猛击 | Spectral Trainee |
+| 3:21.375 | 猛击 | 鬼灵学徒 |
 | 3:23.589 | 狂暴姿态 | 环境 |
-| 3:23.589 | 拦截 | Unrelenting Rider |
+| 3:23.589 | 拦截 | 无情的骑兵 |
 | 3:24.507 | 战斗姿态 | 环境 |
-| 3:24.952 | 致死打击 | Unrelenting Rider |
+| 3:24.952 | 致死打击 | 无情的骑兵 |
 | 3:26.750 | 横扫攻击 | 环境 |
 | 3:29.147 | 雷霆一击 | 环境 |
-| 3:30.961 | 致死打击 | Unrelenting Rider |
-| 3:31.435 | 顺劈斩 | Unrelenting Rider |
+| 3:30.961 | 致死打击 | 无情的骑兵 |
+| 3:31.435 | 顺劈斩 | 无情的骑兵 |
 | 3:32.500 | 反击风暴 | 环境 |
 | 3:35.157 | 雷霆一击 | 环境 |
 | 3:35.923 | 血性狂暴 | 环境 |
-| 3:37.187 | 致死打击 | Unrelenting Death Knight |
-| 3:39.118 | 顺劈斩 | Spectral Rider |
-| 3:49.442 | 致死打击 | Unrelenting Trainee |
+| 3:37.187 | 致死打击 | 无情的死亡骑士 |
+| 3:39.118 | 顺劈斩 | 鬼灵骑兵 |
+| 3:49.442 | 致死打击 | 无情的学徒 |
 | 3:52.411 | 雷霆一击 | 环境 |
-| 3:55.457 | 致死打击 | Unrelenting Trainee |
-| 3:55.979 | 顺劈斩 | Unrelenting Trainee |
+| 3:55.457 | 致死打击 | 无情的学徒 |
+| 3:55.979 | 顺劈斩 | 无情的学徒 |
 | 3:56.760 | 横扫攻击 | 环境 |
 | 3:56.970 | 剑刃风暴 | 环境 |
 | 3:56.971 | 剑刃风暴 | 环境 |
@@ -8810,27 +8810,27 @@
 | 4:00.969 | 剑刃风暴 | 环境 |
 | 4:01.966 | 剑刃风暴 | 环境 |
 | 4:02.958 | 剑刃风暴 | 环境 |
-| 4:03.389 | 致死打击 | Unrelenting Trainee |
-| 4:05.331 | 顺劈斩 | Spectral Death Knight |
+| 4:03.389 | 致死打击 | 无情的学徒 |
+| 4:05.331 | 顺劈斩 | 鬼灵死亡骑士 |
 | 4:05.389 | 雷霆一击 | 环境 |
-| 4:06.899 | 胜利冲锋 | Spectral Death Knight |
-| 4:07.755 | 顺劈斩 | Spectral Death Knight |
-| 4:08.395 | 胜利冲锋 | Spectral Death Knight |
-| 4:09.988 | 冲锋 | Spectral Trainee |
-| 4:10.575 | 致死打击 | Spectral Trainee |
+| 4:06.899 | 胜利冲锋 | 鬼灵死亡骑士 |
+| 4:07.755 | 顺劈斩 | 鬼灵死亡骑士 |
+| 4:08.395 | 胜利冲锋 | 鬼灵死亡骑士 |
+| 4:09.988 | 冲锋 | 鬼灵学徒 |
+| 4:10.575 | 致死打击 | 鬼灵学徒 |
 | 4:12.066 | 雷霆一击 | 环境 |
-| 4:14.178 | 顺劈斩 | Spectral Trainee |
-| 4:18.952 | 致死打击 | Spectral Death Knight |
+| 4:14.178 | 顺劈斩 | 鬼灵学徒 |
+| 4:18.952 | 致死打击 | 鬼灵死亡骑士 |
 | 4:20.465 | 雷霆一击 | 环境 |
-| 4:21.899 | 顺劈斩 | Spectral Rider |
-| 4:24.350 | 顺劈斩 | Spectral Trainee |
-| 4:24.963 | 致死打击 | Spectral Trainee |
+| 4:21.899 | 顺劈斩 | 鬼灵骑兵 |
+| 4:24.350 | 顺劈斩 | 鬼灵学徒 |
+| 4:24.963 | 致死打击 | 鬼灵学徒 |
 | 4:26.456 | 雷霆一击 | 环境 |
 | 4:26.751 | 横扫攻击 | 环境 |
-| 4:28.484 | 胜利冲锋 | Spectral Rider |
-| 4:29.733 | 顺劈斩 | Spectral Rider |
-| 4:30.960 | 致死打击 | Spectral Rider |
-| 4:32.243 | 顺劈斩 | Spectral Rider |
+| 4:28.484 | 胜利冲锋 | 鬼灵骑兵 |
+| 4:29.733 | 顺劈斩 | 鬼灵骑兵 |
+| 4:30.960 | 致死打击 | 鬼灵骑兵 |
+| 4:32.243 | 顺劈斩 | 鬼灵骑兵 |
 | 4:32.470 | 雷霆一击 | 环境 |
 | 4:35.654 | 猛击 | 环境 |
 | 4:36.158 | 猛击 | 收割者戈提克 |
@@ -8875,47 +8875,47 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Leader of the Pack | - | 319.1s |
-| Greater Blessing of Might | - | 319.1s |
-| Well Fed | - | 319.1s |
-| Flask of Endless Rage | - | 319.1s |
-| Greater Blessing of Kings | - | 319.1s |
-| Moonkin Aura | - | 319.1s |
-| Leader of the Pack | - | 319.1s |
+| 兽群领袖 | - | 319.1s |
+| 强效力量祝福 | - | 319.1s |
+| 进食充分 | - | 319.1s |
+| 无尽怒气合剂 | - | 319.1s |
+| 强效王者祝福 | - | 319.1s |
+| 枭兽光环 | - | 319.1s |
+| 兽群领袖 | - | 319.1s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 319.1s |
-| Gift of the Wild | - | 319.1s |
+| 野性赐福 | - | 319.1s |
 | 肯瑞托的智慧 | - | 319.1s |
-| Concentration Aura | - | 319.1s |
+| 专注光环 | - | 319.1s |
 | 战斗姿态 | - | 317.1s |
-| Devotion Aura | - | 299.7s |
-| Enrage | - | 295.6s |
-| Demonic Pact | - | 266.9s |
-| Renewed Hope | - | 233.0s |
+| 虔诚光环 | - | 299.7s |
+| 激怒 | - | 295.6s |
+| 恶魔契约 | - | 266.9s |
+| 新生希望 | - | 233.0s |
 | 横扫攻击 | - | 222.3s |
-| Horn of Winter | - | 208.4s |
-| Berserk | - | 204.9s |
-| Rejuvenation | - | 144.7s |
-| Ancestral Fortitude | - | 142.9s |
-| Strength | - | 105.1s |
-| Wild Growth | - | 89.3s |
-| Sudden Death | - | 81.5s |
-| Blood Pact | - | 62.7s |
-| Grim Toll | - | 60.1s |
+| 寒冬号角 | - | 208.4s |
+| 狂暴 | - | 204.9s |
+| 回春术 | - | 144.7s |
+| 先祖坚韧 | - | 142.9s |
+| 力量 | - | 105.1s |
+| 野性成长 | - | 89.3s |
+| 猝死 | - | 81.5s |
+| 血之契印 | - | 62.7s |
+| 死亡之钟 | - | 60.1s |
 | 破坏能手 | - | 51.6s |
 | 血性狂暴 | - | 50.0s |
-| Heroism | - | 39.9s |
+| 英勇 | - | 39.9s |
 | 剑刃风暴 | - | 30.0s |
-| Power Word: Shield | - | 26.5s |
-| Regeneration | - | 24.0s |
+| 真言术：盾 | - | 26.5s |
+| 再生 | - | 24.0s |
 | 外交 | - | 15.0s |
-| Retaliation | - | 12.0s |
-| Nitro Boosts | - | 10.0s |
-| Cleaving | - | 9.5s |
-| Divine Guardian | - | 6.0s |
-| Living Seed | - | 2.1s |
-| Berserker Stance | - | 1.9s |
-| Prayer of Mending | - | 1.9s |
-| Divine Aegis | - | 0.5s |
+| 反击风暴 | - | 12.0s |
+| 硝化甘油推进器 | - | 10.0s |
+| 顺劈 | - | 9.5s |
+| 神圣守护者 | - | 6.0s |
+| 生命之种 | - | 2.1s |
+| 狂暴姿态 | - | 1.9s |
+| 愈合祷言 | - | 1.9s |
+| 神圣庇护 | - | 0.5s |
 
 ### 天启四骑士 - 浪客水水
 
@@ -8923,57 +8923,57 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42702 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42702 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Krakken-Heart Breastplate | 219 | +2 All Stats | gem#40003, gem#39996 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40058, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42153, gem#42153 |
-| 腰带 | Iron-Spring Jumpers | 226 | 8640 | - |
-| 腿部 | Cuffs of Dark Shadows | 226 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 |  | 213 | +6 Attack Power | gem#40002, gem#40002 |
-| 戒指1 | Circle of Death | 232 | - | gem#40058 |
-| 戒指2 | Ruthlessness | 232 | - | gem#39996 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 海怪之心胸甲 | 219 | +2 全属性 | gem#40003, gem#39996 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40058, gem#42153 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42153, gem#42153 |
+| 腰带 | 铁簧战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 暗影腕环 | 226 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 |  | 213 | +6 攻击强度 | gem#40002, gem#40002 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40058 |
+| 戒指2 | 冷酷 | 232 | - | gem#39996 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Arcanite Steam-Pistol | 219 | - | gem#39996 |
+| 圣物 | 奥金气枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:01.528 | 撕裂 | Lady Blaumeux |
-| 0:03.025 | 致死打击 | Lady Blaumeux |
-| 0:03.964 | 英勇打击 | Lady Blaumeux |
+| 0:01.528 | 撕裂 | 女公爵布劳缪克丝 |
+| 0:03.025 | 致死打击 | 女公爵布劳缪克丝 |
+| 0:03.964 | 英勇打击 | 女公爵布劳缪克丝 |
 | 0:04.526 | 猛击 | 环境 |
-| 0:05.038 | 猛击 | Lady Blaumeux |
-| 0:06.044 | 压制 | Lady Blaumeux |
+| 0:05.038 | 猛击 | 女公爵布劳缪克丝 |
+| 0:06.044 | 压制 | 女公爵布劳缪克丝 |
 | 0:07.040 | 猛击 | 环境 |
-| 0:07.544 | 猛击 | Lady Blaumeux |
+| 0:07.544 | 猛击 | 女公爵布劳缪克丝 |
 | 0:08.541 | 猛击 | 环境 |
-| 0:09.042 | 猛击 | Lady Blaumeux |
-| 0:10.042 | 致死打击 | Lady Blaumeux |
-| 0:11.542 | 压制 | Lady Blaumeux |
+| 0:09.042 | 猛击 | 女公爵布劳缪克丝 |
+| 0:10.042 | 致死打击 | 女公爵布劳缪克丝 |
+| 0:11.542 | 压制 | 女公爵布劳缪克丝 |
 | 0:12.674 | 猛击 | 环境 |
-| 0:13.174 | 猛击 | Lady Blaumeux |
-| 0:13.324 | 英勇打击 | Lady Blaumeux |
+| 0:13.174 | 猛击 | 女公爵布劳缪克丝 |
+| 0:13.324 | 英勇打击 | 女公爵布劳缪克丝 |
 | 0:14.528 | 猛击 | 环境 |
-| 0:15.029 | 猛击 | Lady Blaumeux |
-| 0:16.040 | 撕裂 | Thane Korth'azz |
+| 0:15.029 | 猛击 | 女公爵布劳缪克丝 |
+| 0:16.040 | 撕裂 | 库尔塔兹领主 |
 | 0:17.193 | 外交 | 环境 |
 | 0:17.193 | 地精热力工兵炸药 | 环境 |
-| 0:17.874 | 撕裂 | Lady Blaumeux |
-| 0:19.375 | 撕裂 | Baron Rivendare |
-| 0:20.644 | 顺劈斩 | Thane Korth'azz |
+| 0:17.874 | 撕裂 | 女公爵布劳缪克丝 |
+| 0:19.375 | 撕裂 | 瑞文戴尔男爵 |
+| 0:20.644 | 顺劈斩 | 库尔塔兹领主 |
 | 0:20.896 | 剑刃风暴 | 环境 |
 | 0:20.896 | 剑刃风暴 | 环境 |
 | 0:21.893 | 剑刃风暴 | 环境 |
-| 0:22.526 | 顺劈斩 | Thane Korth'azz |
+| 0:22.526 | 顺劈斩 | 库尔塔兹领主 |
 | 0:22.891 | 剑刃风暴 | 环境 |
 | 0:23.889 | 剑刃风暴 | 环境 |
 | 0:24.881 | 剑刃风暴 | 环境 |
@@ -8981,47 +8981,47 @@
 | 0:26.891 | 剑刃风暴 | 环境 |
 | 0:27.076 | 雷霆一击 | 环境 |
 | 0:27.543 | 横扫攻击 | 环境 |
-| 0:28.216 | 顺劈斩 | Thane Korth'azz |
-| 0:28.580 | 压制 | Thane Korth'azz |
+| 0:28.216 | 顺劈斩 | 库尔塔兹领主 |
+| 0:28.580 | 压制 | 库尔塔兹领主 |
 | 0:29.945 | 猛击 | 环境 |
-| 0:30.443 | 猛击 | Thane Korth'azz |
+| 0:30.443 | 猛击 | 库尔塔兹领主 |
 | 0:31.493 | 猛击 | 环境 |
-| 0:31.992 | 猛击 | Thane Korth'azz |
-| 0:33.028 | 顺劈斩 | Thane Korth'azz |
-| 0:35.060 | 压制 | Baron Rivendare |
+| 0:31.992 | 猛击 | 库尔塔兹领主 |
+| 0:33.028 | 顺劈斩 | 库尔塔兹领主 |
+| 0:35.060 | 压制 | 瑞文戴尔男爵 |
 | 0:37.016 | 雷霆一击 | 环境 |
-| 0:38.525 | 致死打击 | Lady Blaumeux |
-| 0:38.658 | 顺劈斩 | Lady Blaumeux |
-| 0:40.028 | 撕裂 | Lady Blaumeux |
-| 0:41.525 | 撕裂 | Thane Korth'azz |
-| 0:43.045 | 撕裂 | Lady Blaumeux |
-| 0:44.554 | 撕裂 | Baron Rivendare |
+| 0:38.525 | 致死打击 | 女公爵布劳缪克丝 |
+| 0:38.658 | 顺劈斩 | 女公爵布劳缪克丝 |
+| 0:40.028 | 撕裂 | 女公爵布劳缪克丝 |
+| 0:41.525 | 撕裂 | 库尔塔兹领主 |
+| 0:43.045 | 撕裂 | 女公爵布劳缪克丝 |
+| 0:44.554 | 撕裂 | 瑞文戴尔男爵 |
 | 0:46.059 | 雷霆一击 | 环境 |
-| 0:46.205 | 顺劈斩 | Baron Rivendare |
-| 0:47.571 | 压制 | Thane Korth'azz |
+| 0:46.205 | 顺劈斩 | 瑞文戴尔男爵 |
+| 0:47.571 | 压制 | 库尔塔兹领主 |
 | 0:48.646 | 猛击 | 环境 |
-| 0:49.146 | 猛击 | Thane Korth'azz |
-| 0:50.195 | 致死打击 | Thane Korth'azz |
-| 0:50.491 | 顺劈斩 | Thane Korth'azz |
+| 0:49.146 | 猛击 | 库尔塔兹领主 |
+| 0:50.195 | 致死打击 | 库尔塔兹领主 |
+| 0:50.491 | 顺劈斩 | 库尔塔兹领主 |
 | 0:51.708 | 猛击 | 环境 |
-| 0:52.208 | 猛击 | Thane Korth'azz |
+| 0:52.208 | 猛击 | 库尔塔兹领主 |
 | 0:53.207 | 雷霆一击 | 环境 |
-| 0:54.725 | 压制 | Thane Korth'azz |
-| 0:54.763 | 顺劈斩 | Thane Korth'azz |
+| 0:54.725 | 压制 | 库尔塔兹领主 |
+| 0:54.763 | 顺劈斩 | 库尔塔兹领主 |
 | 0:55.506 | 血性狂暴 | 环境 |
-| 0:56.695 | 顺劈斩 | Thane Korth'azz |
+| 0:56.695 | 顺劈斩 | 库尔塔兹领主 |
 | 0:58.126 | 横扫攻击 | 环境 |
-| 0:59.154 | 顺劈斩 | Thane Korth'azz |
+| 0:59.154 | 顺劈斩 | 库尔塔兹领主 |
 | 0:59.205 | 雷霆一击 | 环境 |
-| 1:00.716 | 压制 | Thane Korth'azz |
-| 1:01.742 | 撕裂 | Thane Korth'azz |
-| 1:03.274 | 撕裂 | Lady Blaumeux |
-| 1:04.891 | 撕裂 | Baron Rivendare |
-| 1:06.394 | 压制 | Thane Korth'azz |
+| 1:00.716 | 压制 | 库尔塔兹领主 |
+| 1:01.742 | 撕裂 | 库尔塔兹领主 |
+| 1:03.274 | 撕裂 | 女公爵布劳缪克丝 |
+| 1:04.891 | 撕裂 | 瑞文戴尔男爵 |
+| 1:06.394 | 压制 | 库尔塔兹领主 |
 | 1:07.398 | 剑刃风暴 | 环境 |
 | 1:07.399 | 剑刃风暴 | 环境 |
 | 1:08.408 | 剑刃风暴 | 环境 |
-| 1:08.943 | 顺劈斩 | Thane Korth'azz |
+| 1:08.943 | 顺劈斩 | 库尔塔兹领主 |
 | 1:09.391 | 剑刃风暴 | 环境 |
 | 1:10.407 | 剑刃风暴 | 环境 |
 | 1:11.411 | 剑刃风暴 | 环境 |
@@ -9029,45 +9029,45 @@
 | 1:13.397 | 剑刃风暴 | 环境 |
 | 1:13.524 | 极效治疗石 | 环境 |
 | 1:14.191 | 雷霆一击 | 环境 |
-| 1:15.690 | 压制 | Thane Korth'azz |
-| 1:16.309 | 顺劈斩 | Thane Korth'azz |
-| 1:16.693 | 致死打击 | Thane Korth'azz |
+| 1:15.690 | 压制 | 库尔塔兹领主 |
+| 1:16.309 | 顺劈斩 | 库尔塔兹领主 |
+| 1:16.693 | 致死打击 | 库尔塔兹领主 |
 | 1:17.226 | 萨隆邪铁炸弹 | 环境 |
 | 1:18.208 | 猛击 | 环境 |
-| 1:18.709 | 猛击 | Lady Blaumeux |
+| 1:18.709 | 猛击 | 女公爵布劳缪克丝 |
 
 #### 获取 Buff
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
 | 泰坦重铸服务器 - 受到伤害光环 | - | 79.3s |
-| Greater Blessing of Might | - | 79.3s |
-| Flask of Endless Rage | - | 79.3s |
+| 强效力量祝福 | - | 79.3s |
+| 无尽怒气合剂 | - | 79.3s |
 | 不灭药水 | - | 79.3s |
-| Gift of the Wild | - | 79.3s |
-| Well Fed | - | 79.3s |
-| Greater Blessing of Kings | - | 79.3s |
+| 野性赐福 | - | 79.3s |
+| 进食充分 | - | 79.3s |
+| 强效王者祝福 | - | 79.3s |
 | 战斗姿态 | - | 79.3s |
 | 肯瑞托的智慧 | - | 79.3s |
-| Demonic Pact | - | 78.4s |
-| Enrage | - | 77.7s |
-| Moonkin Aura | - | 73.7s |
-| Retribution Aura | - | 72.5s |
-| Sudden Death | - | 67.4s |
-| Berserk | - | 40.9s |
-| Heroism | - | 40.0s |
+| 恶魔契约 | - | 78.4s |
+| 激怒 | - | 77.7s |
+| 枭兽光环 | - | 73.7s |
+| 惩罚光环 | - | 72.5s |
+| 猝死 | - | 67.4s |
+| 狂暴 | - | 40.9s |
+| 英勇 | - | 40.0s |
 | 横扫攻击 | - | 38.9s |
-| Strength | - | 30.0s |
-| Taste for Blood | - | 29.9s |
+| 力量 | - | 30.0s |
+| 血之气息 | - | 29.9s |
 | 破坏能手 | - | 25.1s |
-| Grim Toll | - | 20.0s |
+| 死亡之钟 | - | 20.0s |
 | 血性狂暴 | - | 15.5s |
 | 外交 | - | 15.0s |
-| Divine Guardian | - | 12.0s |
+| 神圣守护者 | - | 12.0s |
 | 剑刃风暴 | - | 12.0s |
 | 鲁莽 | - | 5.0s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 3.0s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 3.0s |
 
 ### 天启四骑士 - 风导星歌
 
@@ -9075,148 +9075,148 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#42702 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#42702 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40037, gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42142 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40002 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | - | gem#40002, gem#40002 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#40002, gem#42153 |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40037, gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42142 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40002 |
+| 腿部 | 无情攻击护腕 | 232 | - | gem#40002, gem#40002 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#40002, gem#42153 |
 | 戒指1 |  | 219 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Darkmoon Card: Greatness | 200 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +16 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 暗月卡片：伟大 | 200 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +16 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
-| 战袍 | Tabard of the Wyrmrest Accord | 75 | - | - |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
+| 战袍 | 龙眠联军战袍 | 75 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:00.578 | 冲锋 | Lady Blaumeux |
-| 0:01.361 | 撕裂 | Lady Blaumeux |
-| 0:02.964 | 撕裂 | Lady Blaumeux |
-| 0:04.473 | 致死打击 | Lady Blaumeux |
+| 0:00.578 | 冲锋 | 女公爵布劳缪克丝 |
+| 0:01.361 | 撕裂 | 女公爵布劳缪克丝 |
+| 0:02.964 | 撕裂 | 女公爵布劳缪克丝 |
+| 0:04.473 | 致死打击 | 女公爵布劳缪克丝 |
 | 0:05.534 | 横扫攻击 | 环境 |
 | 0:05.978 | 猛击 | 环境 |
-| 0:06.485 | 猛击 | Lady Blaumeux |
-| 0:07.502 | 压制 | Lady Blaumeux |
+| 0:06.485 | 猛击 | 女公爵布劳缪克丝 |
+| 0:07.502 | 压制 | 女公爵布劳缪克丝 |
 | 0:08.501 | 猛击 | 环境 |
-| 0:09.019 | 猛击 | Lady Blaumeux |
+| 0:09.019 | 猛击 | 女公爵布劳缪克丝 |
 | 0:10.006 | 猛击 | 环境 |
-| 0:10.522 | 猛击 | Lady Blaumeux |
-| 0:11.505 | 致死打击 | Lady Blaumeux |
+| 0:10.522 | 猛击 | 女公爵布劳缪克丝 |
+| 0:11.505 | 致死打击 | 女公爵布劳缪克丝 |
 | 0:13.005 | 猛击 | 环境 |
-| 0:13.522 | 猛击 | Lady Blaumeux |
-| 0:14.507 | 压制 | Lady Blaumeux |
+| 0:13.522 | 猛击 | 女公爵布劳缪克丝 |
+| 0:14.507 | 压制 | 女公爵布劳缪克丝 |
 | 0:15.526 | 猛击 | 环境 |
-| 0:16.025 | 猛击 | Lady Blaumeux |
-| 0:17.010 | 破甲攻击 | Thane Korth'azz |
-| 0:18.527 | 撕裂 | Thane Korth'azz |
-| 0:20.029 | 撕裂 | Baron Rivendare |
+| 0:16.025 | 猛击 | 女公爵布劳缪克丝 |
+| 0:17.010 | 破甲攻击 | 库尔塔兹领主 |
+| 0:18.527 | 撕裂 | 库尔塔兹领主 |
+| 0:20.029 | 撕裂 | 瑞文戴尔男爵 |
 | 0:20.848 | 外交 | 环境 |
 | 0:21.544 | 剑刃风暴 | 环境 |
 | 0:21.544 | 剑刃风暴 | 环境 |
 | 0:22.544 | 剑刃风暴 | 环境 |
-| 0:22.597 | 顺劈斩 | Baron Rivendare |
+| 0:22.597 | 顺劈斩 | 瑞文戴尔男爵 |
 | 0:23.537 | 剑刃风暴 | 环境 |
 | 0:24.549 | 剑刃风暴 | 环境 |
 | 0:25.555 | 剑刃风暴 | 环境 |
 | 0:26.550 | 剑刃风暴 | 环境 |
 | 0:27.544 | 剑刃风暴 | 环境 |
-| 0:27.713 | 压制 | Thane Korth'azz |
-| 0:28.262 | 顺劈斩 | Thane Korth'azz |
+| 0:27.713 | 压制 | 库尔塔兹领主 |
+| 0:28.262 | 顺劈斩 | 库尔塔兹领主 |
 | 0:28.603 | 地精热力工兵炸药 | 环境 |
 | 0:28.933 | 雷霆一击 | 环境 |
-| 0:30.159 | 顺劈斩 | Thane Korth'azz |
-| 0:31.084 | 压制 | Thane Korth'azz |
-| 0:32.033 | 顺劈斩 | Thane Korth'azz |
+| 0:30.159 | 顺劈斩 | 库尔塔兹领主 |
+| 0:31.084 | 压制 | 库尔塔兹领主 |
+| 0:32.033 | 顺劈斩 | 库尔塔兹领主 |
 | 0:33.192 | 猛击 | 环境 |
-| 0:33.698 | 猛击 | Thane Korth'azz |
-| 0:34.780 | 致死打击 | Thane Korth'azz |
+| 0:33.698 | 猛击 | 库尔塔兹领主 |
+| 0:34.780 | 致死打击 | 库尔塔兹领主 |
 | 0:35.614 | 横扫攻击 | 环境 |
-| 0:36.657 | 压制 | Thane Korth'azz |
+| 0:36.657 | 压制 | 库尔塔兹领主 |
 | 0:37.753 | 雷霆一击 | 环境 |
-| 0:38.213 | 顺劈斩 | Thane Korth'azz |
-| 0:39.744 | 撕裂 | Thane Korth'azz |
-| 0:40.091 | 顺劈斩 | Thane Korth'azz |
-| 0:42.629 | 致死打击 | Thane Korth'azz |
-| 0:43.868 | 顺劈斩 | Thane Korth'azz |
-| 0:44.148 | 压制 | Thane Korth'azz |
+| 0:38.213 | 顺劈斩 | 库尔塔兹领主 |
+| 0:39.744 | 撕裂 | 库尔塔兹领主 |
+| 0:40.091 | 顺劈斩 | 库尔塔兹领主 |
+| 0:42.629 | 致死打击 | 库尔塔兹领主 |
+| 0:43.868 | 顺劈斩 | 库尔塔兹领主 |
+| 0:44.148 | 压制 | 库尔塔兹领主 |
 | 0:45.396 | 雷霆一击 | 环境 |
-| 0:45.756 | 顺劈斩 | Thane Korth'azz |
-| 0:47.650 | 顺劈斩 | Thane Korth'azz |
-| 0:49.744 | 压制 | Thane Korth'azz |
-| 0:51.205 | 致死打击 | Thane Korth'azz |
-| 0:51.423 | 顺劈斩 | Thane Korth'azz |
+| 0:45.756 | 顺劈斩 | 库尔塔兹领主 |
+| 0:47.650 | 顺劈斩 | 库尔塔兹领主 |
+| 0:49.744 | 压制 | 库尔塔兹领主 |
+| 0:51.205 | 致死打击 | 库尔塔兹领主 |
+| 0:51.423 | 顺劈斩 | 库尔塔兹领主 |
 | 0:52.706 | 雷霆一击 | 环境 |
-| 0:53.322 | 顺劈斩 | Thane Korth'azz |
-| 0:55.505 | 压制 | Thane Korth'azz |
-| 0:57.085 | 顺劈斩 | Thane Korth'azz |
+| 0:53.322 | 顺劈斩 | 库尔塔兹领主 |
+| 0:55.505 | 压制 | 库尔塔兹领主 |
+| 0:57.085 | 顺劈斩 | 库尔塔兹领主 |
 | 0:57.241 | 碎裂投掷 | 环境 |
-| 0:57.241 | 碎裂投掷 | Thane Korth'azz |
+| 0:57.241 | 碎裂投掷 | 库尔塔兹领主 |
 | 0:58.411 | 血性狂暴 | 环境 |
-| 0:59.144 | 顺劈斩 | Thane Korth'azz |
-| 1:00.982 | 撕裂 | Thane Korth'azz |
-| 1:02.488 | 压制 | Thane Korth'azz |
+| 0:59.144 | 顺劈斩 | 库尔塔兹领主 |
+| 1:00.982 | 撕裂 | 库尔塔兹领主 |
+| 1:02.488 | 压制 | 库尔塔兹领主 |
 | 1:02.967 | 速度 | 环境 |
-| 1:03.471 | 顺劈斩 | Thane Korth'azz |
+| 1:03.471 | 顺劈斩 | 库尔塔兹领主 |
 | 1:03.781 | 雷霆一击 | 环境 |
 | 1:06.536 | 剑刃风暴 | 环境 |
 | 1:06.536 | 剑刃风暴 | 环境 |
 | 1:07.556 | 剑刃风暴 | 环境 |
-| 1:07.742 | 顺劈斩 | Thane Korth'azz |
+| 1:07.742 | 顺劈斩 | 库尔塔兹领主 |
 | 1:08.551 | 剑刃风暴 | 环境 |
 | 1:09.545 | 剑刃风暴 | 环境 |
 | 1:10.537 | 剑刃风暴 | 环境 |
 | 1:11.537 | 剑刃风暴 | 环境 |
 | 1:12.555 | 剑刃风暴 | 环境 |
-| 1:12.661 | 压制 | Thane Korth'azz |
+| 1:12.661 | 压制 | 库尔塔兹领主 |
 | 1:12.696 | 极效治疗石 | 环境 |
 | 1:13.338 | 横扫攻击 | 环境 |
-| 1:13.655 | 致死打击 | Thane Korth'azz |
+| 1:13.655 | 致死打击 | 库尔塔兹领主 |
 
 #### 获取 Buff
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Flask of Endless Rage | - | 74.1s |
+| 无尽怒气合剂 | - | 74.1s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 74.1s |
-| Greater Blessing of Might | - | 74.1s |
-| Greater Blessing of Kings | - | 74.1s |
+| 强效力量祝福 | - | 74.1s |
+| 强效王者祝福 | - | 74.1s |
 | 肯瑞托的智慧 | - | 74.1s |
-| Well Fed | - | 74.1s |
+| 进食充分 | - | 74.1s |
 | 战斗姿态 | - | 74.1s |
-| Gift of the Wild | - | 74.1s |
-| Moonkin Aura | - | 74.1s |
-| Shadow Resistance Aura | - | 74.1s |
-| Enrage | - | 73.7s |
-| Concentration Aura | - | 72.9s |
-| Devotion Aura | - | 72.9s |
-| Berserk | - | 63.2s |
-| Demonic Pact | - | 56.9s |
-| Sudden Death | - | 43.4s |
-| Heroism | - | 39.9s |
+| 野性赐福 | - | 74.1s |
+| 枭兽光环 | - | 74.1s |
+| 暗影抗性光环 | - | 74.1s |
+| 激怒 | - | 73.7s |
+| 专注光环 | - | 72.9s |
+| 虔诚光环 | - | 72.9s |
+| 狂暴 | - | 63.2s |
+| 恶魔契约 | - | 56.9s |
+| 猝死 | - | 43.4s |
+| 英勇 | - | 39.9s |
 | 横扫攻击 | - | 32.9s |
-| Taste for Blood | - | 26.1s |
-| Strength | - | 25.6s |
+| 血之气息 | - | 26.1s |
+| 力量 | - | 25.6s |
 | 速度 | - | 25.4s |
-| Grim Toll | - | 20.0s |
-| Shadow Protection | - | 19.8s |
+| 死亡之钟 | - | 20.0s |
+| 暗影防护 | - | 19.8s |
 | 血性狂暴 | - | 16.5s |
 | 破坏能手 | - | 16.5s |
 | 外交 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
 | 鲁莽 | - | 6.5s |
-| Divine Guardian | - | 6.0s |
-| Nitro Boosts | - | 5.0s |
-| Cleaving | - | 3.9s |
+| 神圣守护者 | - | 6.0s |
+| 硝化甘油推进器 | - | 5.0s |
+| 顺劈 | - | 3.9s |
 
 ### 天启四骑士 - 春哥不是哥
 
@@ -9224,51 +9224,51 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
-| 背部 | Precious's Ribbon | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#42153, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Frosted Adroit Handguards | 232 | +6 Attack Power | gem#39996, gem#40014 |
-| 戒指1 | Circle of Death | 232 | - | gem#40037 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Thalassian Wildercloak | 219 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
+| 背部 | 普雷舍斯的丝带 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#42153, gem#42153 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 冰霜灵巧护手 | 232 | +6 攻击强度 | gem#39996, gem#40014 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40037 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 萨拉斯荒野披风 | 219 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:00.850 | 致死打击 | Lady Blaumeux |
+| 0:00.850 | 致死打击 | 女公爵布劳缪克丝 |
 | 0:02.337 | 猛击 | 环境 |
-| 0:02.845 | 猛击 | Lady Blaumeux |
+| 0:02.845 | 猛击 | 女公爵布劳缪克丝 |
 | 0:03.882 | 猛击 | 环境 |
-| 0:04.374 | 猛击 | Lady Blaumeux |
-| 0:05.403 | 撕裂 | Lady Blaumeux |
-| 0:06.958 | 致死打击 | Lady Blaumeux |
+| 0:04.374 | 猛击 | 女公爵布劳缪克丝 |
+| 0:05.403 | 撕裂 | 女公爵布劳缪克丝 |
+| 0:06.958 | 致死打击 | 女公爵布劳缪克丝 |
 | 0:08.466 | 猛击 | 环境 |
-| 0:08.962 | 猛击 | Lady Blaumeux |
-| 0:09.976 | 压制 | Lady Blaumeux |
+| 0:08.962 | 猛击 | 女公爵布劳缪克丝 |
+| 0:09.976 | 压制 | 女公爵布劳缪克丝 |
 | 0:11.007 | 猛击 | 环境 |
-| 0:11.503 | 猛击 | Lady Blaumeux |
+| 0:11.503 | 猛击 | 女公爵布劳缪克丝 |
 | 0:12.512 | 猛击 | 环境 |
-| 0:13.008 | 猛击 | Lady Blaumeux |
+| 0:13.008 | 猛击 | 女公爵布劳缪克丝 |
 | 0:14.011 | 雷霆一击 | 环境 |
 | 0:14.803 | 外交 | 环境 |
 | 0:14.803 | 地精热力工兵炸药 | 环境 |
 | 0:15.527 | 碎裂投掷 | 环境 |
-| 0:15.528 | 碎裂投掷 | Thane Korth'azz |
-| 0:17.040 | 压制 | Thane Korth'azz |
-| 0:17.895 | 顺劈斩 | Thane Korth'azz |
+| 0:15.528 | 碎裂投掷 | 库尔塔兹领主 |
+| 0:17.040 | 压制 | 库尔塔兹领主 |
+| 0:17.895 | 顺劈斩 | 库尔塔兹领主 |
 | 0:18.620 | 剑刃风暴 | 环境 |
 | 0:18.621 | 剑刃风暴 | 环境 |
 | 0:19.623 | 剑刃风暴 | 环境 |
@@ -9278,34 +9278,34 @@
 | 0:23.618 | 剑刃风暴 | 环境 |
 | 0:24.622 | 剑刃风暴 | 环境 |
 | 0:24.837 | 雷霆一击 | 环境 |
-| 0:27.569 | 压制 | Thane Korth'azz |
+| 0:27.569 | 压制 | 库尔塔兹领主 |
 | 0:29.727 | 横扫攻击 | 环境 |
-| 0:29.728 | 顺劈斩 | Thane Korth'azz |
+| 0:29.728 | 顺劈斩 | 库尔塔兹领主 |
 | 0:32.267 | 雷霆一击 | 环境 |
-| 0:33.500 | 顺劈斩 | Baron Rivendare |
-| 0:33.772 | 致死打击 | Baron Rivendare |
-| 0:35.288 | 撕裂 | Baron Rivendare |
-| 0:35.398 | 顺劈斩 | Baron Rivendare |
-| 0:37.282 | 顺劈斩 | Baron Rivendare |
+| 0:33.500 | 顺劈斩 | 瑞文戴尔男爵 |
+| 0:33.772 | 致死打击 | 瑞文戴尔男爵 |
+| 0:35.288 | 撕裂 | 瑞文戴尔男爵 |
+| 0:35.398 | 顺劈斩 | 瑞文戴尔男爵 |
+| 0:37.282 | 顺劈斩 | 瑞文戴尔男爵 |
 | 0:38.379 | 雷霆一击 | 环境 |
-| 0:39.934 | 压制 | Baron Rivendare |
-| 0:41.058 | 顺劈斩 | Baron Rivendare |
-| 0:42.937 | 顺劈斩 | Baron Rivendare |
-| 0:44.830 | 顺劈斩 | Lady Blaumeux |
-| 0:45.932 | 压制 | Lady Blaumeux |
+| 0:39.934 | 压制 | 瑞文戴尔男爵 |
+| 0:41.058 | 顺劈斩 | 瑞文戴尔男爵 |
+| 0:42.937 | 顺劈斩 | 瑞文戴尔男爵 |
+| 0:44.830 | 顺劈斩 | 女公爵布劳缪克丝 |
+| 0:45.932 | 压制 | 女公爵布劳缪克丝 |
 | 0:47.604 | 雷霆一击 | 环境 |
-| 0:51.128 | 顺劈斩 | Lady Blaumeux |
-| 0:51.246 | 压制 | Lady Blaumeux |
-| 0:52.272 | 致死打击 | Lady Blaumeux |
-| 0:53.018 | 顺劈斩 | Lady Blaumeux |
+| 0:51.128 | 顺劈斩 | 女公爵布劳缪克丝 |
+| 0:51.246 | 压制 | 女公爵布劳缪克丝 |
+| 0:52.272 | 致死打击 | 女公爵布劳缪克丝 |
+| 0:53.018 | 顺劈斩 | 女公爵布劳缪克丝 |
 | 0:55.982 | 雷霆一击 | 环境 |
 | 0:58.100 | 速度 | 环境 |
-| 0:58.878 | 顺劈斩 | Thane Korth'azz |
-| 0:59.002 | 致死打击 | Thane Korth'azz |
+| 0:58.878 | 顺劈斩 | 库尔塔兹领主 |
+| 0:59.002 | 致死打击 | 库尔塔兹领主 |
 | 0:59.783 | 横扫攻击 | 环境 |
-| 1:01.017 | 顺劈斩 | Thane Korth'azz |
+| 1:01.017 | 顺劈斩 | 库尔塔兹领主 |
 | 1:01.856 | 血性狂暴 | 环境 |
-| 1:03.144 | 顺劈斩 | Thane Korth'azz |
+| 1:03.144 | 顺劈斩 | 库尔塔兹领主 |
 | 1:03.622 | 剑刃风暴 | 环境 |
 | 1:03.623 | 剑刃风暴 | 环境 |
 | 1:04.620 | 剑刃风暴 | 环境 |
@@ -9314,45 +9314,45 @@
 | 1:07.626 | 剑刃风暴 | 环境 |
 | 1:08.639 | 剑刃风暴 | 环境 |
 | 1:09.633 | 剑刃风暴 | 环境 |
-| 1:10.062 | 顺劈斩 | Thane Korth'azz |
+| 1:10.062 | 顺劈斩 | 库尔塔兹领主 |
 | 1:10.218 | 雷霆一击 | 环境 |
-| 1:12.078 | 致死打击 | Thane Korth'azz |
-| 1:12.195 | 顺劈斩 | Thane Korth'azz |
+| 1:12.078 | 致死打击 | 库尔塔兹领主 |
+| 1:12.195 | 顺劈斩 | 库尔塔兹领主 |
 
 #### 获取 Buff
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Well Fed | - | 74.0s |
+| 进食充分 | - | 74.0s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 74.0s |
 | 肯瑞托的智慧 | - | 74.0s |
-| Greater Blessing of Might | - | 74.0s |
-| Flask of Endless Rage | - | 74.0s |
+| 强效力量祝福 | - | 74.0s |
+| 无尽怒气合剂 | - | 74.0s |
 | 战斗姿态 | - | 74.0s |
-| Greater Blessing of Kings | - | 74.0s |
-| Gift of the Wild | - | 74.0s |
-| Shadow Resistance Aura | - | 74.0s |
-| Demonic Pact | - | 73.7s |
-| Enrage | - | 73.2s |
-| Moonkin Aura | - | 64.1s |
+| 强效王者祝福 | - | 74.0s |
+| 野性赐福 | - | 74.0s |
+| 暗影抗性光环 | - | 74.0s |
+| 恶魔契约 | - | 73.7s |
+| 激怒 | - | 73.2s |
+| 枭兽光环 | - | 64.1s |
 | 不灭药水 | - | 57.9s |
-| Berserk | - | 56.6s |
-| Sudden Death | - | 47.3s |
-| Heroism | - | 40.0s |
+| 狂暴 | - | 56.6s |
+| 猝死 | - | 47.3s |
+| 英勇 | - | 40.0s |
 | 横扫攻击 | - | 34.4s |
-| Strength | - | 25.9s |
-| Grim Toll | - | 18.4s |
+| 力量 | - | 25.9s |
+| 死亡之钟 | - | 18.4s |
 | 血性狂暴 | - | 17.1s |
-| Taste for Blood | - | 15.6s |
+| 血之气息 | - | 15.6s |
 | 外交 | - | 15.0s |
 | 速度 | - | 15.0s |
 | 剑刃风暴 | - | 12.0s |
-| Divine Guardian | - | 12.0s |
+| 神圣守护者 | - | 12.0s |
 | 破坏能手 | - | 7.1s |
-| Nitro Boosts | - | 5.0s |
+| 硝化甘油推进器 | - | 5.0s |
 | 鲁莽 | - | 4.4s |
 | 狂暴之怒 | - | 3.9s |
-| Ferocious Inspiration | - | 0.1s |
+| 凶猛灵感 | - | 0.1s |
 
 ### 萨菲隆 - Drinkk
 
@@ -9360,24 +9360,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42153 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#40002 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40014 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42153 |
+| 颈部 | 龙后青睐 | 232 | - | gem#40002 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40014 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#39996, gem#39996 |
-| 护腕 | Spectral Rider's Girdle | 226 | - | gem#40014, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Rusted-Link Spiked Gauntlets | 226 | +6 Attack Power | gem#42153, gem#39996 |
-| 戒指1 | Greatring of Collision | 232 | - | gem#39996 |
-| 戒指2 | Ruthlessness | 232 | - | gem#40002 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#39996, gem#39996 |
+| 护腕 | 鬼灵骑兵束带 | 226 | - | gem#40014, gem#42153 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 锈链尖刺护手 | 226 | +6 攻击强度 | gem#42153, gem#39996 |
+| 戒指1 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 戒指2 | 冷酷 | 232 | - | gem#40002 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -9581,36 +9581,36 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Flask of Endless Rage | - | 156.9s |
+| 无尽怒气合剂 | - | 156.9s |
 | 战斗姿态 | - | 156.9s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 156.9s |
-| Gift of the Wild | - | 156.9s |
-| Greater Blessing of Might | - | 156.9s |
+| 野性赐福 | - | 156.9s |
+| 强效力量祝福 | - | 156.9s |
 | 肯瑞托的智慧 | - | 156.9s |
-| Well Fed | - | 156.9s |
-| Greater Blessing of Kings | - | 156.9s |
-| Frost Resistance Aura | - | 155.7s |
-| Enrage | - | 155.6s |
-| Demonic Pact | - | 155.1s |
-| Devotion Aura | - | 154.7s |
-| Berserk | - | 128.3s |
+| 进食充分 | - | 156.9s |
+| 强效王者祝福 | - | 156.9s |
+| 冰霜抗性光环 | - | 155.7s |
+| 激怒 | - | 155.6s |
+| 恶魔契约 | - | 155.1s |
+| 虔诚光环 | - | 154.7s |
+| 狂暴 | - | 128.3s |
 | 不灭药水 | - | 119.7s |
-| Moonkin Aura | - | 92.7s |
-| Sudden Death | - | 85.6s |
+| 枭兽光环 | - | 92.7s |
+| 猝死 | - | 85.6s |
 | 破坏能手 | - | 78.1s |
-| Strength | - | 60.0s |
-| Taste for Blood | - | 49.8s |
-| Heroism | - | 40.0s |
-| Grim Toll | - | 30.1s |
+| 力量 | - | 60.0s |
+| 血之气息 | - | 49.8s |
+| 英勇 | - | 40.0s |
+| 死亡之钟 | - | 30.1s |
 | 血性狂暴 | - | 28.3s |
 | 剑刃风暴 | - | 18.0s |
 | 外交 | - | 15.0s |
 | 速度 | - | 15.0s |
-| Divine Guardian | - | 9.8s |
+| 神圣守护者 | - | 9.8s |
 | 鲁莽 | - | 4.4s |
-| Divine Sacrifice | - | 3.8s |
-| Cleaving | - | 2.7s |
-| Ferocious Inspiration | - | 0.0s |
+| 神圣牺牲 | - | 3.8s |
+| 顺劈 | - | 2.7s |
+| 凶猛灵感 | - | 0.0s |
 
 ### 萨菲隆 - 伊丨飛
 
@@ -9618,24 +9618,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#40037, gem#40037 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#42142 |
-| 手套 | Belabored Legplates | 232 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#42702 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Zeliek's Gauntlets | 226 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#40037 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Cloak of Darkening | 232 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#40037, gem#40037 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#42142 |
+| 手套 | 劳苦腿甲 | 232 | +1 攻击强度和 +2 爆击 | gem#39996, gem#42702 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 瑟里耶克的护手 | 226 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40037 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 黑暗笼罩披风 | 232 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -9819,36 +9819,36 @@
 |-----------|------|---------|
 | 肯瑞托的智慧 | - | 145.3s |
 | 战斗姿态 | - | 145.3s |
-| Leader of the Pack | - | 145.3s |
-| Well Fed | - | 145.3s |
-| Greater Blessing of Might | - | 145.3s |
-| Gift of the Wild | - | 145.3s |
-| Greater Blessing of Kings | - | 145.3s |
+| 兽群领袖 | - | 145.3s |
+| 进食充分 | - | 145.3s |
+| 强效力量祝福 | - | 145.3s |
+| 野性赐福 | - | 145.3s |
+| 强效王者祝福 | - | 145.3s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 145.3s |
-| Flask of Endless Rage | - | 145.3s |
-| Frost Resistance Aura | - | 145.2s |
-| Leader of the Pack | - | 143.9s |
-| Enrage | - | 142.9s |
-| Devotion Aura | - | 140.8s |
-| Demonic Pact | - | 134.7s |
-| Moonkin Aura | - | 133.4s |
+| 无尽怒气合剂 | - | 145.3s |
+| 冰霜抗性光环 | - | 145.2s |
+| 兽群领袖 | - | 143.9s |
+| 激怒 | - | 142.9s |
+| 虔诚光环 | - | 140.8s |
+| 恶魔契约 | - | 134.7s |
+| 枭兽光环 | - | 133.4s |
 | 不灭药水 | - | 114.8s |
-| Concentration Aura | - | 107.2s |
-| Berserk | - | 100.9s |
-| Taste for Blood | - | 63.1s |
-| Sudden Death | - | 61.7s |
-| Shadow Protection | - | 53.4s |
-| Strength | - | 50.2s |
-| Heroism | - | 39.9s |
-| Grim Toll | - | 30.5s |
+| 专注光环 | - | 107.2s |
+| 狂暴 | - | 100.9s |
+| 血之气息 | - | 63.1s |
+| 猝死 | - | 61.7s |
+| 暗影防护 | - | 53.4s |
+| 力量 | - | 50.2s |
+| 英勇 | - | 39.9s |
+| 死亡之钟 | - | 30.5s |
 | 破坏能手 | - | 30.3s |
 | 血性狂暴 | - | 28.5s |
 | 剑刃风暴 | - | 18.0s |
 | 外交 | - | 15.0s |
-| Divine Sacrifice | - | 10.0s |
-| Divine Guardian | - | 8.6s |
+| 神圣牺牲 | - | 10.0s |
+| 神圣守护者 | - | 8.6s |
 | 鲁莽 | - | 5.6s |
-| Cleaving | - | 5.0s |
+| 顺劈 | - | 5.0s |
 | 自利 | - | 0.1s |
 
 ### 萨菲隆 - Zhong
@@ -9857,24 +9857,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Titan's Outlook | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 泰坦展望 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Breastplate of Kings | 226 | +3 All Stats | gem#42702, gem#40037, gem#40037 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#39996, gem#40002 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#42142, gem#39996 |
-| 脚部 | Valorous Dreadnaught Gauntlets | 226 | +6 Attack Power | gem#40037, gem#39996 |
-| 戒指1 | Ancestral Ring of Conquest | 219 | - | gem#39996 |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 |  | 238 | Berserking | gem#42153 |
+| 胸部 | 王者胸甲 | 226 | +3 全属性 | gem#42702, gem#40037, gem#40037 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#39996, gem#40002 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#42142, gem#39996 |
+| 脚部 | 勇猛的无畏护手 | 226 | +6 攻击强度 | gem#40037, gem#39996 |
+| 戒指1 | 征服者的先祖指环 | 219 | - | gem#39996 |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 |  | 238 | 狂暴 | gem#42153 |
 | 远程 |  | 0 | - | - |
-| 圣物 | Spinning Fate | 232 | - | - |
+| 圣物 | 命运之轮 | 232 | - | - |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -10146,43 +10146,43 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Horn of Winter | - | 210.3s |
+| 寒冬号角 | - | 210.3s |
 | 肯瑞托的智慧 | - | 210.3s |
 | 战斗姿态 | - | 210.3s |
-| Leader of the Pack | - | 210.3s |
-| Commanding Shout | - | 210.3s |
-| Greater Blessing of Kings | - | 210.3s |
-| Moonkin Aura | - | 210.3s |
-| Greater Blessing of Might | - | 210.3s |
-| Gift of the Wild | - | 210.3s |
-| Devotion Aura | - | 210.3s |
-| Flask of Endless Rage | - | 210.3s |
-| Well Fed | - | 210.3s |
-| Leader of the Pack | - | 210.3s |
-| Concentration Aura | - | 210.3s |
+| 兽群领袖 | - | 210.3s |
+| 命令怒吼 | - | 210.3s |
+| 强效王者祝福 | - | 210.3s |
+| 枭兽光环 | - | 210.3s |
+| 强效力量祝福 | - | 210.3s |
+| 野性赐福 | - | 210.3s |
+| 虔诚光环 | - | 210.3s |
+| 无尽怒气合剂 | - | 210.3s |
+| 进食充分 | - | 210.3s |
+| 兽群领袖 | - | 210.3s |
+| 专注光环 | - | 210.3s |
 | 泰坦重铸服务器 - 受到伤害光环 | - | 210.3s |
-| Renewed Hope | - | 209.0s |
-| Enrage | - | 209.0s |
+| 新生希望 | - | 209.0s |
+| 激怒 | - | 209.0s |
 | 不灭药水 | - | 204.0s |
-| Demonic Pact | - | 199.8s |
-| Frost Resistance Aura | - | 171.8s |
-| Berserk | - | 163.3s |
-| Taste for Blood | - | 97.4s |
-| Strength | - | 75.0s |
+| 恶魔契约 | - | 199.8s |
+| 冰霜抗性光环 | - | 171.8s |
+| 狂暴 | - | 163.3s |
+| 血之气息 | - | 97.4s |
+| 力量 | - | 75.0s |
 | 破坏能手 | - | 65.1s |
-| Grim Toll | - | 50.0s |
-| Power Word: Shield | - | 43.0s |
-| Heroism | - | 40.0s |
-| Sudden Death | - | 39.0s |
-| Earthliving | - | 36.0s |
+| 死亡之钟 | - | 50.0s |
+| 真言术：盾 | - | 43.0s |
+| 英勇 | - | 40.0s |
+| 猝死 | - | 39.0s |
+| 大地生命 | - | 36.0s |
 | 剑刃风暴 | - | 30.1s |
 | 血性狂暴 | - | 28.1s |
-| Divine Guardian | - | 23.9s |
-| Divine Sacrifice | - | 15.9s |
-| Ancestral Fortitude | - | 15.1s |
+| 神圣守护者 | - | 23.9s |
+| 神圣牺牲 | - | 15.9s |
+| 先祖坚韧 | - | 15.1s |
 | 鲁莽 | - | 4.8s |
-| Cleaving | - | 3.6s |
-| Divine Aegis | - | 0.1s |
+| 顺劈 | - | 3.6s |
+| 神圣庇护 | - | 0.1s |
 
 ### 克尔苏加德 - 伊卡洛斯
 
@@ -10190,40 +10190,40 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#39996 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40038 |
-| 背部 | Trapper's Shirt | 1 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#42153, gem#39996 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#39996 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40038 |
+| 背部 | 捕兽者衬衣 | 1 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#42153, gem#39996 |
 | 护腕 |  | 219 | - | gem#42153, gem#42153 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40014 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#39996 |
-| 腿部 | Bracers of Eradication | 219 | +4 Attack Power | gem#40002 |
-| 脚部 | Gauntlets of Combined Strength | 232 | +6 Attack Power | gem#39996 |
-| 戒指1 | Surge Needle Ring | 226 | - | - |
-| 戒指2 | Circle of Death | 232 | - | gem#40037 |
-| 饰品1 | Grim Toll | 226 | - | - |
-| 饰品2 | Darkmoon Card: Greatness | 200 | - | - |
-| 主手 | Aged Winter Cloak | 226 | Swordguard Embroidery | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40014 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#39996 |
+| 腿部 | 根除护腕 | 219 | +4 攻击强度 | gem#40002 |
+| 脚部 | 合力护手 | 232 | +6 攻击强度 | gem#39996 |
+| 戒指1 | 强能针刺指环 | 226 | - | - |
+| 戒指2 | 死亡之环 | 232 | - | gem#40037 |
+| 饰品1 | 死亡之钟 | 226 | - | - |
+| 饰品2 | 暗月卡片：伟大 | 200 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | 剑刃刺绣 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#39996 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#39996 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
 
 | 时间 | 技能 | 目标 |
 |------|------|------|
-| 0:05.261 | 冲锋 | Soul Weaver |
-| 0:06.158 | 撕裂 | Soul Weaver |
+| 0:05.261 | 冲锋 | 灵魂织网者 |
+| 0:06.158 | 撕裂 | 灵魂织网者 |
 | 0:07.668 | 雷霆一击 | 环境 |
 | 0:08.149 | 横扫攻击 | 环境 |
 | 0:08.932 | 血性狂怒 | 环境 |
 | 0:09.649 | 碎裂投掷 | 环境 |
-| 0:09.649 | 碎裂投掷 | Soul Weaver |
+| 0:09.649 | 碎裂投掷 | 灵魂织网者 |
 | 0:11.172 | 剑刃风暴 | 环境 |
 | 0:11.172 | 剑刃风暴 | 环境 |
-| 0:11.479 | 顺劈斩 | Soul Weaver |
+| 0:11.479 | 顺劈斩 | 灵魂织网者 |
 | 0:12.242 | 剑刃风暴 | 环境 |
 | 0:13.179 | 剑刃风暴 | 环境 |
 | 0:14.175 | 剑刃风暴 | 环境 |
@@ -10231,48 +10231,48 @@
 | 0:16.169 | 剑刃风暴 | 环境 |
 | 0:17.188 | 剑刃风暴 | 环境 |
 | 0:17.823 | 雷霆一击 | 环境 |
-| 0:18.822 | 顺劈斩 | Soul Weaver |
+| 0:18.822 | 顺劈斩 | 灵魂织网者 |
 | 0:19.445 | 地精热力工兵炸药 | 环境 |
-| 0:20.180 | 致死打击 | Soul Weaver |
+| 0:20.180 | 致死打击 | 灵魂织网者 |
 | 0:21.008 | 血性狂暴 | 环境 |
-| 0:21.762 | 压制 | Soul Weaver |
-| 0:22.518 | 顺劈斩 | Soul Weaver |
-| 0:24.348 | 顺劈斩 | Soul Weaver |
+| 0:21.762 | 压制 | 灵魂织网者 |
+| 0:22.518 | 顺劈斩 | 灵魂织网者 |
+| 0:24.348 | 顺劈斩 | 灵魂织网者 |
 | 0:24.715 | 雷霆一击 | 环境 |
-| 0:26.186 | 顺劈斩 | Soul Weaver |
+| 0:26.186 | 顺劈斩 | 灵魂织网者 |
 | 0:27.731 | 不灭药水 | 环境 |
 | 0:28.152 | 猛击 | 环境 |
-| 0:28.670 | 猛击 | Soul Weaver |
+| 0:28.670 | 猛击 | 灵魂织网者 |
 | 0:29.665 | 猛击 | 环境 |
-| 0:30.173 | 猛击 | Soul Weaver |
+| 0:30.173 | 猛击 | 灵魂织网者 |
 | 0:31.391 | 雷霆一击 | 环境 |
-| 0:32.697 | 顺劈斩 | Soul Weaver |
-| 0:32.883 | 致死打击 | Soul Weaver |
+| 0:32.697 | 顺劈斩 | 灵魂织网者 |
+| 0:32.883 | 致死打击 | 灵魂织网者 |
 | 0:34.399 | 猛击 | 环境 |
-| 0:34.896 | 猛击 | Soul Weaver |
-| 0:35.032 | 顺劈斩 | Soul Weaver |
-| 0:38.463 | 撕裂 | Soul Weaver |
+| 0:34.896 | 猛击 | 灵魂织网者 |
+| 0:35.032 | 顺劈斩 | 灵魂织网者 |
+| 0:38.463 | 撕裂 | 灵魂织网者 |
 | 0:39.774 | 横扫攻击 | 环境 |
 | 0:40.038 | 雷霆一击 | 环境 |
-| 0:40.558 | 顺劈斩 | Soul Weaver |
-| 0:42.588 | 撕裂 | Soul Weaver |
-| 0:44.149 | 致死打击 | Soul Weaver |
-| 0:44.723 | 顺劈斩 | Soul Weaver |
-| 0:45.772 | 压制 | Soul Weaver |
+| 0:40.558 | 顺劈斩 | 灵魂织网者 |
+| 0:42.588 | 撕裂 | 灵魂织网者 |
+| 0:44.149 | 致死打击 | 灵魂织网者 |
+| 0:44.723 | 顺劈斩 | 灵魂织网者 |
+| 0:45.772 | 压制 | 灵魂织网者 |
 | 0:48.123 | 雷霆一击 | 环境 |
-| 0:49.414 | 顺劈斩 | Soul Weaver |
+| 0:49.414 | 顺劈斩 | 灵魂织网者 |
 | 0:49.783 | 猛击 | 环境 |
-| 0:50.305 | 猛击 | Soul Weaver |
-| 0:51.352 | 压制 | Soul Weaver |
-| 0:52.489 | 致死打击 | Soul Weaver |
+| 0:50.305 | 猛击 | 灵魂织网者 |
+| 0:51.352 | 压制 | 灵魂织网者 |
+| 0:52.489 | 致死打击 | 灵魂织网者 |
 | 0:54.260 | 雷霆一击 | 环境 |
-| 0:54.719 | 顺劈斩 | Soul Weaver |
+| 0:54.719 | 顺劈斩 | 灵魂织网者 |
 | 0:58.151 | 猛击 | 环境 |
-| 0:58.652 | 猛击 | Soul Weaver |
-| 0:59.675 | 撕裂 | Soul Weaver |
-| 1:00.978 | 顺劈斩 | Soul Weaver |
+| 0:58.652 | 猛击 | 灵魂织网者 |
+| 0:59.675 | 撕裂 | 灵魂织网者 |
+| 1:00.978 | 顺劈斩 | 灵魂织网者 |
 | 1:01.240 | 雷霆一击 | 环境 |
-| 1:02.904 | 压制 | Soul Weaver |
+| 1:02.904 | 压制 | 灵魂织网者 |
 | 1:03.933 | 剑刃风暴 | 环境 |
 | 1:03.933 | 剑刃风暴 | 环境 |
 | 1:04.930 | 剑刃风暴 | 环境 |
@@ -10282,42 +10282,42 @@
 | 1:08.966 | 剑刃风暴 | 环境 |
 | 1:09.926 | 剑刃风暴 | 环境 |
 | 1:10.134 | 雷霆一击 | 环境 |
-| 1:11.691 | 致死打击 | Soul Weaver |
+| 1:11.691 | 致死打击 | 灵魂织网者 |
 | 1:12.087 | 横扫攻击 | 环境 |
-| 1:13.336 | 压制 | Soul Weaver |
-| 1:13.517 | 顺劈斩 | Soul Weaver |
-| 1:14.342 | 撕裂 | Soul Weaver |
-| 1:15.867 | 压制 | Soul Weaver |
+| 1:13.336 | 压制 | 灵魂织网者 |
+| 1:13.517 | 顺劈斩 | 灵魂织网者 |
+| 1:14.342 | 撕裂 | 灵魂织网者 |
+| 1:15.867 | 压制 | 灵魂织网者 |
 | 1:16.933 | 雷霆一击 | 环境 |
-| 1:18.468 | 撕裂 | Soul Weaver |
-| 1:19.970 | 致死打击 | Soul Weaver |
-| 1:20.672 | 顺劈斩 | Soul Weaver |
+| 1:18.468 | 撕裂 | 灵魂织网者 |
+| 1:19.970 | 致死打击 | 灵魂织网者 |
+| 1:20.672 | 顺劈斩 | 灵魂织网者 |
 | 1:21.252 | 萨隆邪铁炸弹 | 环境 |
 | 1:23.515 | 雷霆一击 | 环境 |
 | 1:24.177 | 血性狂暴 | 环境 |
-| 1:25.019 | 压制 | Soul Weaver |
-| 1:26.159 | 致死打击 | Soul Weaver |
-| 1:26.463 | 顺劈斩 | Soul Weaver |
-| 1:27.719 | 撕裂 | Soul Weaver |
-| 1:29.215 | 压制 | Soul Weaver |
+| 1:25.019 | 压制 | 灵魂织网者 |
+| 1:26.159 | 致死打击 | 灵魂织网者 |
+| 1:26.463 | 顺劈斩 | 灵魂织网者 |
+| 1:27.719 | 撕裂 | 灵魂织网者 |
+| 1:29.215 | 压制 | 灵魂织网者 |
 | 1:30.784 | 雷霆一击 | 环境 |
-| 1:32.353 | 致死打击 | Soul Weaver |
-| 1:33.965 | 撕裂 | Soul Weaver |
-| 1:35.554 | 压制 | Soul Weaver |
-| 1:36.017 | 顺劈斩 | Soul Weaver |
+| 1:32.353 | 致死打击 | 灵魂织网者 |
+| 1:33.965 | 撕裂 | 灵魂织网者 |
+| 1:35.554 | 压制 | 灵魂织网者 |
+| 1:36.017 | 顺劈斩 | 灵魂织网者 |
 | 1:37.232 | 雷霆一击 | 环境 |
-| 1:38.426 | 顺劈斩 | Soul Weaver |
-| 1:38.900 | 致死打击 | Soul Weaver |
-| 1:40.401 | 撕裂 | Soul Weaver |
-| 1:41.986 | 压制 | Soul Weaver |
+| 1:38.426 | 顺劈斩 | 灵魂织网者 |
+| 1:38.900 | 致死打击 | 灵魂织网者 |
+| 1:40.401 | 撕裂 | 灵魂织网者 |
+| 1:41.986 | 压制 | 灵魂织网者 |
 | 1:42.377 | 横扫攻击 | 环境 |
 | 1:43.436 | 雷霆一击 | 环境 |
 | 1:44.938 | 猛击 | 环境 |
-| 1:45.451 | 猛击 | Soul Weaver |
-| 1:46.446 | 致死打击 | Soul Weaver |
-| 1:47.983 | 压制 | Soul Weaver |
-| 1:48.466 | 顺劈斩 | Soul Weaver |
-| 1:49.003 | 撕裂 | Soul Weaver |
+| 1:45.451 | 猛击 | 灵魂织网者 |
+| 1:46.446 | 致死打击 | 灵魂织网者 |
+| 1:47.983 | 压制 | 灵魂织网者 |
+| 1:48.466 | 顺劈斩 | 灵魂织网者 |
+| 1:49.003 | 撕裂 | 灵魂织网者 |
 | 1:50.567 | 剑刃风暴 | 环境 |
 | 1:50.567 | 剑刃风暴 | 环境 |
 | 1:51.591 | 剑刃风暴 | 环境 |
@@ -10327,38 +10327,38 @@
 | 1:55.567 | 剑刃风暴 | 环境 |
 | 1:56.575 | 剑刃风暴 | 环境 |
 | 1:56.806 | 雷霆一击 | 环境 |
-| 1:58.030 | 顺劈斩 | Soul Weaver |
-| 1:58.317 | 压制 | Soul Weaver |
-| 1:59.754 | 致死打击 | Soul Weaver |
-| 2:00.435 | 顺劈斩 | Soul Weaver |
-| 2:05.462 | 压制 | Soul Weaver |
-| 2:06.517 | 撕裂 | Soul Weaver |
+| 1:58.030 | 顺劈斩 | 灵魂织网者 |
+| 1:58.317 | 压制 | 灵魂织网者 |
+| 1:59.754 | 致死打击 | 灵魂织网者 |
+| 2:00.435 | 顺劈斩 | 灵魂织网者 |
+| 2:05.462 | 压制 | 灵魂织网者 |
+| 2:06.517 | 撕裂 | 灵魂织网者 |
 | 2:08.097 | 雷霆一击 | 环境 |
-| 2:09.700 | 致死打击 | Soul Weaver |
+| 2:09.700 | 致死打击 | 灵魂织网者 |
 | 2:11.347 | 猛击 | 环境 |
-| 2:11.849 | 猛击 | Soul Weaver |
+| 2:11.849 | 猛击 | 灵魂织网者 |
 | 2:12.935 | 横扫攻击 | 环境 |
-| 2:13.335 | 压制 | Soul Weaver |
-| 2:14.646 | 撕裂 | Soul Weaver |
-| 2:15.524 | 顺劈斩 | Soul Weaver |
+| 2:13.335 | 压制 | 灵魂织网者 |
+| 2:14.646 | 撕裂 | 灵魂织网者 |
+| 2:15.524 | 顺劈斩 | 灵魂织网者 |
 | 2:16.270 | 雷霆一击 | 环境 |
-| 2:17.769 | 致死打击 | Soul Weaver |
-| 2:19.336 | 压制 | Soul Weaver |
-| 2:20.300 | 顺劈斩 | Soul Weaver |
+| 2:17.769 | 致死打击 | 灵魂织网者 |
+| 2:19.336 | 压制 | 灵魂织网者 |
+| 2:20.300 | 顺劈斩 | 灵魂织网者 |
 | 2:22.026 | 萨隆邪铁炸弹 | 环境 |
-| 2:22.679 | 顺劈斩 | Soul Weaver |
+| 2:22.679 | 顺劈斩 | 灵魂织网者 |
 | 2:22.720 | 雷霆一击 | 环境 |
-| 2:24.531 | 致死打击 | Soul Weaver |
+| 2:24.531 | 致死打击 | 灵魂织网者 |
 | 2:26.240 | 猛击 | 环境 |
-| 2:26.738 | 猛击 | Soul Weaver |
-| 2:27.958 | 顺劈斩 | Soul Weaver |
-| 2:28.735 | 压制 | Soul Weaver |
+| 2:26.738 | 猛击 | 灵魂织网者 |
+| 2:27.958 | 顺劈斩 | 灵魂织网者 |
+| 2:28.735 | 压制 | 灵魂织网者 |
 | 2:30.014 | 雷霆一击 | 环境 |
-| 2:31.511 | 致死打击 | Soul Weaver |
-| 2:36.812 | 撕裂 | Soul Weaver |
+| 2:31.511 | 致死打击 | 灵魂织网者 |
+| 2:36.812 | 撕裂 | 灵魂织网者 |
 | 2:38.322 | 剑刃风暴 | 环境 |
 | 2:38.323 | 剑刃风暴 | 环境 |
-| 2:39.200 | 顺劈斩 | Soul Weaver |
+| 2:39.200 | 顺劈斩 | 灵魂织网者 |
 | 2:39.351 | 剑刃风暴 | 环境 |
 | 2:40.332 | 剑刃风暴 | 环境 |
 | 2:41.333 | 剑刃风暴 | 环境 |
@@ -10366,35 +10366,35 @@
 | 2:43.358 | 剑刃风暴 | 环境 |
 | 2:44.330 | 剑刃风暴 | 环境 |
 | 2:44.489 | 雷霆一击 | 环境 |
-| 2:45.682 | 顺劈斩 | Soul Weaver |
-| 2:46.101 | 压制 | Soul Weaver |
-| 2:47.135 | 致死打击 | Soul Weaver |
+| 2:45.682 | 顺劈斩 | 灵魂织网者 |
+| 2:46.101 | 压制 | 灵魂织网者 |
+| 2:47.135 | 致死打击 | 灵魂织网者 |
 | 2:47.569 | 血性狂暴 | 环境 |
 | 2:47.970 | 横扫攻击 | 环境 |
 | 2:49.028 | 猛击 | 环境 |
-| 2:49.522 | 猛击 | Soul Weaver |
-| 2:50.977 | 顺劈斩 | Soul Weaver |
+| 2:49.522 | 猛击 | 灵魂织网者 |
+| 2:50.977 | 顺劈斩 | 灵魂织网者 |
 | 2:51.300 | 猛击 | 环境 |
-| 2:51.811 | 猛击 | Soul Weaver |
+| 2:51.811 | 猛击 | 灵魂织网者 |
 | 2:52.919 | 猛击 | 环境 |
-| 2:53.423 | 猛击 | Soul Weaver |
-| 2:54.450 | 致死打击 | Soul Weaver |
-| 2:55.930 | 撕裂 | Soul Weaver |
-| 2:57.510 | 胜利冲锋 | Soul Weaver |
-| 2:58.640 | 英勇打击 | Soul Weaver |
-| 2:59.798 | 压制 | Soul Weaver |
-| 3:00.819 | 致死打击 | Soul Weaver |
-| 3:02.349 | 撕裂 | Soul Weaver |
-| 3:03.438 | 英勇打击 | Soul Weaver |
+| 2:53.423 | 猛击 | 灵魂织网者 |
+| 2:54.450 | 致死打击 | 灵魂织网者 |
+| 2:55.930 | 撕裂 | 灵魂织网者 |
+| 2:57.510 | 胜利冲锋 | 灵魂织网者 |
+| 2:58.640 | 英勇打击 | 灵魂织网者 |
+| 2:59.798 | 压制 | 灵魂织网者 |
+| 3:00.819 | 致死打击 | 灵魂织网者 |
+| 3:02.349 | 撕裂 | 灵魂织网者 |
+| 3:03.438 | 英勇打击 | 灵魂织网者 |
 | 3:06.702 | 先锋 | 环境 |
 | 3:07.750 | 援护 | 血法归来 |
 | 3:08.255 | 战斗姿态 | 环境 |
-| 3:10.325 | 冲锋 | Guardian of Icecrown |
-| 3:11.351 | 撕裂 | Guardian of Icecrown |
+| 3:10.325 | 冲锋 | 冰冠卫士 |
+| 3:11.351 | 撕裂 | 冰冠卫士 |
 | 3:12.877 | 猛击 | 环境 |
-| 3:13.376 | 猛击 | Guardian of Icecrown |
-| 3:14.425 | 压制 | Guardian of Icecrown |
-| 3:15.576 | 致死打击 | Guardian of Icecrown |
+| 3:13.376 | 猛击 | 冰冠卫士 |
+| 3:14.425 | 压制 | 冰冠卫士 |
+| 3:15.576 | 致死打击 | 冰冠卫士 |
 | 3:17.022 | 英勇打击 | 克尔苏加德 |
 | 3:17.113 | 猛击 | 环境 |
 | 3:17.597 | 猛击 | 克尔苏加德 |
@@ -10432,48 +10432,48 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Renewed Hope | - | 224.9s |
+| 新生希望 | - | 224.9s |
 | 战斗姿态 | - | 223.3s |
-| Leader of the Pack | - | 221.8s |
-| Frost Resistance Aura | - | 219.2s |
-| Enrage | - | 218.6s |
-| Demonic Pact | - | 209.6s |
-| Berserk | - | 142.5s |
-| Power Word: Shield | - | 138.2s |
-| Sudden Death | - | 136.2s |
+| 兽群领袖 | - | 221.8s |
+| 冰霜抗性光环 | - | 219.2s |
+| 激怒 | - | 218.6s |
+| 恶魔契约 | - | 209.6s |
+| 狂暴 | - | 142.5s |
+| 真言术：盾 | - | 138.2s |
+| 猝死 | - | 136.2s |
 | 不灭药水 | - | 120.0s |
-| Sacred Shield | - | 120.0s |
-| Horn of Winter | - | 120.0s |
+| 圣洁护盾 | - | 120.0s |
+| 寒冬号角 | - | 120.0s |
 | 横扫攻击 | - | 106.1s |
-| Taste for Blood | - | 89.9s |
-| Blood Pact | - | 79.6s |
-| Strength | - | 75.0s |
-| Riptide | - | 61.0s |
-| Renew | - | 60.0s |
-| Swordguard Embroidery | - | 60.0s |
-| Devotion Aura | - | 51.4s |
-| Grim Toll | - | 50.0s |
-| Prayer of Mending | - | 44.8s |
-| Sacred Shield | - | 44.7s |
-| Ancestral Fortitude | - | 43.2s |
-| Bloodlust | - | 40.0s |
+| 血之气息 | - | 89.9s |
+| 血之契印 | - | 79.6s |
+| 力量 | - | 75.0s |
+| 激流 | - | 61.0s |
+| 恢复 | - | 60.0s |
+| 剑刃刺绣 | - | 60.0s |
+| 虔诚光环 | - | 51.4s |
+| 死亡之钟 | - | 50.0s |
+| 愈合祷言 | - | 44.8s |
+| 圣洁护盾 | - | 44.7s |
+| 先祖坚韧 | - | 43.2s |
+| 嗜血 | - | 40.0s |
 | 剑刃风暴 | - | 30.0s |
-| Blood Fury | - | 30.0s |
+| 血性狂怒 | - | 30.0s |
 | 血性狂暴 | - | 30.0s |
-| Grace | - | 26.1s |
+| 恩典 | - | 26.1s |
 | 破坏能手 | - | 22.5s |
-| Hand of Salvation | - | 20.0s |
-| Divine Aegis | - | 19.3s |
-| Cleaving | - | 13.1s |
-| Earthliving | - | 12.0s |
-| Blessing of Sacrifice | - | 12.0s |
-| Flash of Light | - | 12.0s |
-| Forethought Talisman | - | 12.0s |
-| Commanding Shout | - | 10.6s |
-| Divine Hymn | - | 8.0s |
-| Divine Guardian | - | 6.0s |
-| Nitro Boosts | - | 5.0s |
-| Vanguard | - | 1.6s |
+| 拯救之手 | - | 20.0s |
+| 神圣庇护 | - | 19.3s |
+| 顺劈 | - | 13.1s |
+| 大地生命 | - | 12.0s |
+| 牺牲祝福 | - | 12.0s |
+| 圣光闪现 | - | 12.0s |
+| 深谋远虑护符 | - | 12.0s |
+| 命令怒吼 | - | 10.6s |
+| 神圣赞美诗 | - | 8.0s |
+| 神圣守护者 | - | 6.0s |
+| 硝化甘油推进器 | - | 5.0s |
+| 先锋 | - | 1.6s |
 
 ### 克尔苏加德 - Darkcastle
 
@@ -10481,24 +10481,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#40002 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#40002 |
 | 颈部 |  | 238 | - | - |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40002 |
-| 背部 | Formal White Shirt | 34 | - | - |
-| 胸部 | Chestguard of the Recluse | 232 | +3 All Stats | gem#40002, gem#40002 |
-| 护腕 | Belt of Natural Power | 219 | - | gem#42153, gem#42153, gem#42156 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40058 |
-| 腰带 | Melancholy Sabatons | 232 | 8640 | gem#40014 |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Destroyer Gauntlets | 219 | +6 Attack Power | gem#40002, gem#40002 |
-| 戒指1 | Ruthlessness | 232 | - | gem#40002 |
-| 戒指2 | Ancestral Ring of Conquest | 219 | - | gem#40002 |
-| 饰品1 | Tsunami Talisman | 219 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Aged Winter Cloak | 226 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40002 |
+| 背部 | 体面的白衬衣 | 34 | - | - |
+| 胸部 | 隐士胸甲 | 232 | +3 全属性 | gem#40002, gem#40002 |
+| 护腕 | 自然力量腰带 | 219 | - | gem#42153, gem#42153, gem#42156 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40058 |
+| 腰带 | 忧郁马靴 | 232 | 永恒腰带扣 | gem#40014 |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 毁灭者护手 | 219 | +6 攻击强度 | gem#40002, gem#40002 |
+| 戒指1 | 冷酷 | 232 | - | gem#40002 |
+| 戒指2 | 征服者的先祖指环 | 219 | - | gem#40002 |
+| 饰品1 | 海啸护符 | 219 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 陈旧的冬日披风 | 226 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#40002 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#40002 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -10514,127 +10514,127 @@
 | 0:06.368 | 剑刃风暴 | 环境 |
 | 0:07.378 | 剑刃风暴 | 环境 |
 | 0:08.376 | 剑刃风暴 | 环境 |
-| 0:08.414 | 顺劈斩 | Soul Weaver |
+| 0:08.414 | 顺劈斩 | 灵魂织网者 |
 | 0:09.467 | 横扫攻击 | 环境 |
 | 0:10.232 | 血性狂暴 | 环境 |
-| 0:10.259 | 顺劈斩 | Soul Weaver |
-| 0:13.931 | 顺劈斩 | Soul Weaver |
-| 0:14.007 | 撕裂 | Soul Weaver |
-| 0:15.778 | 顺劈斩 | Soul Weaver |
-| 0:15.912 | 撕裂 | Soul Weaver |
-| 0:17.771 | 压制 | Soul Weaver |
-| 0:19.238 | 致死打击 | Soul Weaver |
-| 0:21.309 | 顺劈斩 | Soul Weaver |
-| 0:23.643 | 顺劈斩 | Soul Weaver |
-| 0:23.763 | 压制 | Soul Weaver |
+| 0:10.259 | 顺劈斩 | 灵魂织网者 |
+| 0:13.931 | 顺劈斩 | 灵魂织网者 |
+| 0:14.007 | 撕裂 | 灵魂织网者 |
+| 0:15.778 | 顺劈斩 | 灵魂织网者 |
+| 0:15.912 | 撕裂 | 灵魂织网者 |
+| 0:17.771 | 压制 | 灵魂织网者 |
+| 0:19.238 | 致死打击 | 灵魂织网者 |
+| 0:21.309 | 顺劈斩 | 灵魂织网者 |
+| 0:23.643 | 顺劈斩 | 灵魂织网者 |
+| 0:23.763 | 压制 | 灵魂织网者 |
 | 0:28.233 | 雷霆一击 | 环境 |
-| 0:30.180 | 压制 | Soul Weaver |
-| 0:31.186 | 顺劈斩 | Soul Weaver |
-| 0:31.239 | 撕裂 | Soul Weaver |
-| 0:33.010 | 顺劈斩 | Soul Weaver |
-| 0:34.860 | 顺劈斩 | Soul Weaver |
+| 0:30.180 | 压制 | 灵魂织网者 |
+| 0:31.186 | 顺劈斩 | 灵魂织网者 |
+| 0:31.239 | 撕裂 | 灵魂织网者 |
+| 0:33.010 | 顺劈斩 | 灵魂织网者 |
+| 0:34.860 | 顺劈斩 | 灵魂织网者 |
 | 0:35.767 | 雷霆一击 | 环境 |
-| 0:37.282 | 致死打击 | Soul Weaver |
-| 0:38.529 | 顺劈斩 | Soul Weaver |
-| 0:38.783 | 压制 | Soul Weaver |
-| 0:41.386 | 顺劈斩 | Soul Weaver |
-| 0:47.696 | 冲锋 | Soul Weaver |
+| 0:37.282 | 致死打击 | 灵魂织网者 |
+| 0:38.529 | 顺劈斩 | 灵魂织网者 |
+| 0:38.783 | 压制 | 灵魂织网者 |
+| 0:41.386 | 顺劈斩 | 灵魂织网者 |
+| 0:47.696 | 冲锋 | 灵魂织网者 |
 | 0:49.343 | 碎裂投掷 | 环境 |
-| 0:49.343 | 碎裂投掷 | Soul Weaver |
+| 0:49.343 | 碎裂投掷 | 灵魂织网者 |
 | 0:49.344 | 速度 | 环境 |
 | 0:49.344 | 外交 | 环境 |
 | 0:49.345 | 地精热力工兵炸药 | 环境 |
 | 0:50.797 | 剑刃风暴 | 环境 |
 | 0:50.798 | 剑刃风暴 | 环境 |
 | 0:51.825 | 剑刃风暴 | 环境 |
-| 0:52.395 | 顺劈斩 | Soul Weaver |
+| 0:52.395 | 顺劈斩 | 灵魂织网者 |
 | 0:52.820 | 剑刃风暴 | 环境 |
 | 0:53.804 | 剑刃风暴 | 环境 |
 | 0:54.801 | 剑刃风暴 | 环境 |
 | 0:55.815 | 剑刃风暴 | 环境 |
 | 0:56.804 | 剑刃风暴 | 环境 |
-| 0:58.660 | 顺劈斩 | Soul Weaver |
-| 0:59.193 | 撕裂 | Soul Weaver |
-| 1:01.015 | 致死打击 | Soul Weaver |
-| 1:01.265 | 顺劈斩 | Soul Weaver |
-| 1:02.545 | 撕裂 | Soul Weaver |
-| 1:04.073 | 压制 | Soul Weaver |
-| 1:05.594 | 顺劈斩 | Soul Weaver |
+| 0:58.660 | 顺劈斩 | 灵魂织网者 |
+| 0:59.193 | 撕裂 | 灵魂织网者 |
+| 1:01.015 | 致死打击 | 灵魂织网者 |
+| 1:01.265 | 顺劈斩 | 灵魂织网者 |
+| 1:02.545 | 撕裂 | 灵魂织网者 |
+| 1:04.073 | 压制 | 灵魂织网者 |
+| 1:05.594 | 顺劈斩 | 灵魂织网者 |
 | 1:05.773 | 雷霆一击 | 环境 |
-| 1:07.977 | 顺劈斩 | Soul Weaver |
-| 1:09.045 | 压制 | Soul Weaver |
+| 1:07.977 | 顺劈斩 | 灵魂织网者 |
+| 1:09.045 | 压制 | 灵魂织网者 |
 | 1:10.302 | 血性狂暴 | 环境 |
-| 1:10.384 | 顺劈斩 | Soul Weaver |
+| 1:10.384 | 顺劈斩 | 灵魂织网者 |
 | 1:11.813 | 横扫攻击 | 环境 |
-| 1:12.922 | 致死打击 | Soul Weaver |
-| 1:14.444 | 胜利冲锋 | Soul Weaver |
-| 1:15.946 | 撕裂 | Soul Weaver |
-| 1:17.536 | 英勇打击 | Soul Weaver |
+| 1:12.922 | 致死打击 | 灵魂织网者 |
+| 1:14.444 | 胜利冲锋 | 灵魂织网者 |
+| 1:15.946 | 撕裂 | 灵魂织网者 |
+| 1:17.536 | 英勇打击 | 灵魂织网者 |
 | 1:17.579 | 猛击 | 环境 |
-| 1:18.092 | 猛击 | Soul Weaver |
-| 1:19.100 | 致死打击 | Soul Weaver |
-| 1:20.587 | 压制 | Soul Weaver |
+| 1:18.092 | 猛击 | 灵魂织网者 |
+| 1:19.100 | 致死打击 | 灵魂织网者 |
+| 1:20.587 | 压制 | 灵魂织网者 |
 | 1:21.791 | 猛击 | 环境 |
-| 1:22.285 | 猛击 | Soul Weaver |
+| 1:22.285 | 猛击 | 灵魂织网者 |
 | 1:23.290 | 猛击 | 环境 |
-| 1:23.794 | 猛击 | Soul Weaver |
-| 1:25.084 | 致死打击 | Soul Weaver |
+| 1:23.794 | 猛击 | 灵魂织网者 |
+| 1:25.084 | 致死打击 | 灵魂织网者 |
 | 1:26.609 | 猛击 | 环境 |
-| 1:27.095 | 猛击 | Soul Weaver |
-| 1:28.113 | 撕裂 | Soul Weaver |
-| 1:29.653 | 压制 | Soul Weaver |
+| 1:27.095 | 猛击 | 灵魂织网者 |
+| 1:28.113 | 撕裂 | 灵魂织网者 |
+| 1:29.653 | 压制 | 灵魂织网者 |
 | 1:30.664 | 猛击 | 环境 |
-| 1:31.182 | 猛击 | Soul Weaver |
-| 1:32.528 | 致死打击 | Soul Weaver |
-| 1:32.885 | 顺劈斩 | Soul Weaver |
-| 1:34.020 | 压制 | Soul Weaver |
-| 1:35.794 | 顺劈斩 | Soul Weaver |
-| 1:37.928 | 压制 | Soul Weaver |
-| 1:39.289 | 撕裂 | Soul Weaver |
+| 1:31.182 | 猛击 | 灵魂织网者 |
+| 1:32.528 | 致死打击 | 灵魂织网者 |
+| 1:32.885 | 顺劈斩 | 灵魂织网者 |
+| 1:34.020 | 压制 | 灵魂织网者 |
+| 1:35.794 | 顺劈斩 | 灵魂织网者 |
+| 1:37.928 | 压制 | 灵魂织网者 |
+| 1:39.289 | 撕裂 | 灵魂织网者 |
 | 1:40.813 | 雷霆一击 | 环境 |
 | 1:42.472 | 剑刃风暴 | 环境 |
 | 1:42.473 | 剑刃风暴 | 环境 |
 | 1:43.493 | 剑刃风暴 | 环境 |
-| 1:44.471 | 顺劈斩 | Soul Weaver |
+| 1:44.471 | 顺劈斩 | 灵魂织网者 |
 | 1:44.496 | 剑刃风暴 | 环境 |
 | 1:45.487 | 剑刃风暴 | 环境 |
 | 1:46.484 | 剑刃风暴 | 环境 |
 | 1:47.486 | 剑刃风暴 | 环境 |
 | 1:48.491 | 剑刃风暴 | 环境 |
-| 1:49.407 | 致死打击 | Soul Weaver |
-| 1:50.929 | 压制 | Soul Weaver |
-| 1:51.633 | 顺劈斩 | Soul Weaver |
-| 1:52.423 | 压制 | Soul Weaver |
-| 1:54.442 | 胜利冲锋 | Soul Weaver |
-| 1:54.497 | 顺劈斩 | Soul Weaver |
-| 1:55.960 | 撕裂 | Soul Weaver |
-| 1:57.379 | 顺劈斩 | Soul Weaver |
-| 1:59.201 | 撕裂 | Soul Weaver |
+| 1:49.407 | 致死打击 | 灵魂织网者 |
+| 1:50.929 | 压制 | 灵魂织网者 |
+| 1:51.633 | 顺劈斩 | 灵魂织网者 |
+| 1:52.423 | 压制 | 灵魂织网者 |
+| 1:54.442 | 胜利冲锋 | 灵魂织网者 |
+| 1:54.497 | 顺劈斩 | 灵魂织网者 |
+| 1:55.960 | 撕裂 | 灵魂织网者 |
+| 1:57.379 | 顺劈斩 | 灵魂织网者 |
+| 1:59.201 | 撕裂 | 灵魂织网者 |
 | 2:01.226 | 横扫攻击 | 环境 |
-| 2:01.833 | 压制 | Soul Weaver |
+| 2:01.833 | 压制 | 灵魂织网者 |
 | 2:03.359 | 猛击 | 环境 |
-| 2:03.860 | 猛击 | Soul Weaver |
-| 2:04.855 | 致死打击 | Soul Weaver |
-| 2:07.904 | 压制 | Soul Weaver |
+| 2:03.860 | 猛击 | 灵魂织网者 |
+| 2:04.855 | 致死打击 | 灵魂织网者 |
+| 2:07.904 | 压制 | 灵魂织网者 |
 | 2:08.898 | 猛击 | 环境 |
-| 2:09.416 | 猛击 | Soul Weaver |
-| 2:10.878 | 致死打击 | Soul Weaver |
+| 2:09.416 | 猛击 | 灵魂织网者 |
+| 2:10.878 | 致死打击 | 灵魂织网者 |
 | 2:12.358 | 猛击 | 环境 |
-| 2:12.877 | 猛击 | Soul Weaver |
-| 2:13.878 | 压制 | Soul Weaver |
-| 2:15.015 | 撕裂 | Soul Weaver |
-| 2:16.094 | 英勇打击 | Soul Weaver |
-| 2:16.926 | 致死打击 | Soul Weaver |
+| 2:12.877 | 猛击 | 灵魂织网者 |
+| 2:13.878 | 压制 | 灵魂织网者 |
+| 2:15.015 | 撕裂 | 灵魂织网者 |
+| 2:16.094 | 英勇打击 | 灵魂织网者 |
+| 2:16.926 | 致死打击 | 灵魂织网者 |
 | 2:18.433 | 猛击 | 环境 |
-| 2:18.958 | 猛击 | Soul Weaver |
-| 2:19.978 | 压制 | Soul Weaver |
-| 2:24.628 | 压制 | Soul Weaver |
-| 2:26.422 | 胜利冲锋 | Soul Weaver |
-| 2:27.938 | 致死打击 | Soul Weaver |
+| 2:18.958 | 猛击 | 灵魂织网者 |
+| 2:19.978 | 压制 | 灵魂织网者 |
+| 2:24.628 | 压制 | 灵魂织网者 |
+| 2:26.422 | 胜利冲锋 | 灵魂织网者 |
+| 2:27.938 | 致死打击 | 灵魂织网者 |
 | 2:29.432 | 猛击 | 环境 |
-| 2:29.938 | 猛击 | Soul Weaver |
-| 2:30.942 | 压制 | Soul Weaver |
-| 2:31.403 | 英勇打击 | Soul Weaver |
+| 2:29.938 | 猛击 | 灵魂织网者 |
+| 2:30.942 | 压制 | 灵魂织网者 |
+| 2:31.403 | 英勇打击 | 灵魂织网者 |
 | 2:33.083 | 冲锋 | 克尔苏加德 |
 | 2:33.826 | 撕裂 | 克尔苏加德 |
 | 2:35.408 | 剑刃风暴 | 环境 |
@@ -10716,35 +10716,35 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Renewed Hope | - | 214.8s |
-| Prayer of Fortitude | - | 214.8s |
-| Enrage | - | 212.5s |
-| Frost Resistance Aura | - | 201.8s |
-| Demonic Pact | - | 195.3s |
-| Berserk | - | 160.4s |
-| Devotion Aura | - | 154.5s |
-| Sudden Death | - | 104.1s |
-| Power Word: Shield | - | 93.2s |
-| Taste for Blood | - | 56.4s |
+| 新生希望 | - | 214.8s |
+| 坚韧祷言 | - | 214.8s |
+| 激怒 | - | 212.5s |
+| 冰霜抗性光环 | - | 201.8s |
+| 恶魔契约 | - | 195.3s |
+| 狂暴 | - | 160.4s |
+| 虔诚光环 | - | 154.5s |
+| 猝死 | - | 104.1s |
+| 真言术：盾 | - | 93.2s |
+| 血之气息 | - | 56.4s |
 | 横扫攻击 | - | 53.9s |
-| Grim Toll | - | 46.4s |
-| Fury of the Crashing Waves | - | 40.0s |
-| Heroism | - | 39.9s |
-| Commanding Shout | - | 36.4s |
-| Divine Aegis | - | 33.8s |
+| 死亡之钟 | - | 46.4s |
+| 怒涛之力 | - | 40.0s |
+| 英勇 | - | 39.9s |
+| 命令怒吼 | - | 36.4s |
+| 神圣庇护 | - | 33.8s |
 | 剑刃风暴 | - | 30.1s |
 | 血性狂暴 | - | 30.0s |
-| Cleaving | - | 27.4s |
+| 顺劈 | - | 27.4s |
 | 破坏能手 | - | 26.2s |
-| Inspiration | - | 15.0s |
-| Grace | - | 15.0s |
+| 灵感 | - | 15.0s |
+| 恩典 | - | 15.0s |
 | 外交 | - | 15.0s |
 | 速度 | - | 15.0s |
-| Ferocious Inspiration | - | 13.0s |
-| Divine Guardian | - | 12.0s |
-| Hand of Salvation | - | 10.0s |
-| Divine Hymn | - | 9.2s |
-| Prayer of Mending | - | 1.7s |
+| 凶猛灵感 | - | 13.0s |
+| 神圣守护者 | - | 12.0s |
+| 拯救之手 | - | 10.0s |
+| 神圣赞美诗 | - | 9.2s |
+| 愈合祷言 | - | 1.7s |
 
 ### 克尔苏加德 - 伊丨飛
 
@@ -10752,24 +10752,24 @@
 
 | 部位 | 名称 | 物品等级 | 附魔 | 宝石 |
 |------|------|---------|------|------|
-| 头部 | Valorous Dreadnaught Helmet | 226 | +3 Attack Power and +3 Critical Strike | gem#41398, gem#42142 |
-| 颈部 | Favor of the Dragon Queen | 232 | - | gem#39996 |
-| 肩部 | Valorous Dreadnaught Shoulderplates | 226 | +3 Attack Power and +1 Critical Strike | gem#40037 |
+| 头部 | 勇猛的无畏头盔 | 226 | +3 攻击强度和 +3 爆击 | gem#41398, gem#42142 |
+| 颈部 | 龙后青睐 | 232 | - | gem#39996 |
+| 肩部 | 勇猛的无畏肩甲 | 226 | +3 攻击强度和 +1 爆击 | gem#40037 |
 | 背部 |  | 0 | - | - |
-| 胸部 | Tunic of the Lost Pack | 232 | +3 All Stats | gem#40037, gem#40037 |
-| 护腕 | Girdle of Razuvious | 232 | - | gem#42142 |
-| 手套 | Legplates of Double Strikes | 226 | +1 Attack Power and +2 Critical Strike | gem#42702, gem#40037 |
-| 腰带 | Warboots of Obliteration | 226 | 8640 | - |
-| 腿部 | Bracers of Unrelenting Attack | 232 | +4 Attack Power | gem#39996, gem#39996 |
-| 脚部 | Zeliek's Gauntlets | 226 | +6 Attack Power | gem#39996, gem#39996 |
-| 戒指1 | Circle of Death | 232 | - | gem#40038 |
-| 戒指2 | Greatring of Collision | 232 | - | gem#39996 |
-| 饰品1 | Tsunami Talisman | 219 | - | - |
-| 饰品2 | Grim Toll | 226 | - | - |
-| 主手 | Cloak of Darkening | 232 | +3 Agility | - |
-| 副手 | Wraith Spear | 232 | Berserking | - |
+| 胸部 | 失落群落外套 | 232 | +3 全属性 | gem#40037, gem#40037 |
+| 护腕 | 拉苏维奥斯的腰带 | 232 | - | gem#42142 |
+| 手套 | 双重打击腿甲 | 226 | +1 攻击强度和 +2 爆击 | gem#42702, gem#40037 |
+| 腰带 | 湮灭战靴 | 226 | 永恒腰带扣 | - |
+| 腿部 | 无情攻击护腕 | 232 | +4 攻击强度 | gem#39996, gem#39996 |
+| 脚部 | 瑟里耶克的护手 | 226 | +6 攻击强度 | gem#39996, gem#39996 |
+| 戒指1 | 死亡之环 | 232 | - | gem#40038 |
+| 戒指2 | 碰撞巨戒 | 232 | - | gem#39996 |
+| 饰品1 | 海啸护符 | 219 | - | - |
+| 饰品2 | 死亡之钟 | 226 | - | - |
+| 主手 | 黑暗笼罩披风 | 232 | +3 敏捷 | - |
+| 副手 | 鬼魂之矛 | 232 | 狂暴 | - |
 | 远程 |  | 0 | - | - |
-| 圣物 | Barrel-Blade Longrifle | 219 | - | gem#42142 |
+| 圣物 | 枪刃长步枪 | 219 | - | gem#42142 |
 | 战袍 |  | 0 | - | - |
 
 #### 技能释放
@@ -10805,15 +10805,15 @@
 | 0:29.694 | 猛击 | 克尔苏加德 |
 | 0:31.178 | 英勇打击 | 克尔苏加德 |
 | 0:32.202 | 压制 | 克尔苏加德 |
-| 0:34.293 | 冲锋 | Soul Weaver |
-| 0:35.382 | 致死打击 | Soul Weaver |
-| 0:36.880 | 撕裂 | Soul Weaver |
+| 0:34.293 | 冲锋 | 灵魂织网者 |
+| 0:35.382 | 致死打击 | 灵魂织网者 |
+| 0:36.880 | 撕裂 | 灵魂织网者 |
 | 0:37.096 | 外交 | 环境 |
-| 0:38.380 | 压制 | Soul Weaver |
+| 0:38.380 | 压制 | 灵魂织网者 |
 | 0:38.751 | 横扫攻击 | 环境 |
 | 0:39.395 | 剑刃风暴 | 环境 |
 | 0:39.396 | 剑刃风暴 | 环境 |
-| 0:40.252 | 顺劈斩 | Soul Weaver |
+| 0:40.252 | 顺劈斩 | 灵魂织网者 |
 | 0:40.404 | 剑刃风暴 | 环境 |
 | 0:41.401 | 剑刃风暴 | 环境 |
 | 0:42.397 | 剑刃风暴 | 环境 |
@@ -10821,45 +10821,45 @@
 | 0:44.407 | 剑刃风暴 | 环境 |
 | 0:45.406 | 剑刃风暴 | 环境 |
 | 0:46.102 | 雷霆一击 | 环境 |
-| 0:47.351 | 顺劈斩 | Soul Weaver |
-| 0:47.597 | 压制 | Soul Weaver |
-| 0:48.589 | 致死打击 | Soul Weaver |
+| 0:47.351 | 顺劈斩 | 灵魂织网者 |
+| 0:47.597 | 压制 | 灵魂织网者 |
+| 0:48.589 | 致死打击 | 灵魂织网者 |
 | 0:48.957 | 地精热力工兵炸药 | 环境 |
-| 0:52.617 | 撕裂 | Soul Weaver |
-| 0:54.078 | 顺劈斩 | Soul Weaver |
+| 0:52.617 | 撕裂 | 灵魂织网者 |
+| 0:54.078 | 顺劈斩 | 灵魂织网者 |
 | 0:55.313 | 猛击 | 环境 |
-| 0:55.811 | 猛击 | Soul Weaver |
-| 0:56.805 | 压制 | Soul Weaver |
-| 0:56.943 | 顺劈斩 | Soul Weaver |
-| 0:57.806 | 致死打击 | Soul Weaver |
+| 0:55.811 | 猛击 | 灵魂织网者 |
+| 0:56.805 | 压制 | 灵魂织网者 |
+| 0:56.943 | 顺劈斩 | 灵魂织网者 |
+| 0:57.806 | 致死打击 | 灵魂织网者 |
 | 0:58.478 | 血性狂暴 | 环境 |
-| 0:59.315 | 撕裂 | Soul Weaver |
+| 0:59.315 | 撕裂 | 灵魂织网者 |
 | 1:00.821 | 雷霆一击 | 环境 |
-| 1:02.557 | 压制 | Soul Weaver |
+| 1:02.557 | 压制 | 灵魂织网者 |
 | 1:03.713 | 猛击 | 环境 |
-| 1:04.259 | 猛击 | Soul Weaver |
+| 1:04.259 | 猛击 | 灵魂织网者 |
 | 1:05.233 | 猛击 | 环境 |
-| 1:05.713 | 猛击 | Soul Weaver |
-| 1:06.735 | 致死打击 | Soul Weaver |
-| 1:07.401 | 顺劈斩 | Soul Weaver |
+| 1:05.713 | 猛击 | 灵魂织网者 |
+| 1:06.735 | 致死打击 | 灵魂织网者 |
+| 1:07.401 | 顺劈斩 | 灵魂织网者 |
 | 1:08.245 | 雷霆一击 | 环境 |
 | 1:09.924 | 猛击 | 环境 |
-| 1:10.441 | 猛击 | Soul Weaver |
+| 1:10.441 | 猛击 | 灵魂织网者 |
 | 1:11.436 | 猛击 | 环境 |
-| 1:11.940 | 猛击 | Soul Weaver |
-| 1:15.044 | 撕裂 | Soul Weaver |
-| 1:16.708 | 致死打击 | Soul Weaver |
-| 1:18.208 | 压制 | Soul Weaver |
+| 1:11.940 | 猛击 | 灵魂织网者 |
+| 1:15.044 | 撕裂 | 灵魂织网者 |
+| 1:16.708 | 致死打击 | 灵魂织网者 |
+| 1:18.208 | 压制 | 灵魂织网者 |
 | 1:19.379 | 横扫攻击 | 环境 |
 | 1:19.823 | 猛击 | 环境 |
-| 1:20.322 | 猛击 | Soul Weaver |
-| 1:20.708 | 顺劈斩 | Soul Weaver |
-| 1:24.967 | 致死打击 | Soul Weaver |
-| 1:26.477 | 压制 | Soul Weaver |
+| 1:20.322 | 猛击 | 灵魂织网者 |
+| 1:20.708 | 顺劈斩 | 灵魂织网者 |
+| 1:24.967 | 致死打击 | 灵魂织网者 |
+| 1:26.477 | 压制 | 灵魂织网者 |
 | 1:29.272 | 狂暴姿态 | 环境 |
-| 1:29.477 | 拦截 | Soul Weaver |
+| 1:29.477 | 拦截 | 灵魂织网者 |
 | 1:31.579 | 战斗姿态 | 环境 |
-| 1:31.863 | 压制 | Soul Weaver |
+| 1:31.863 | 压制 | 灵魂织网者 |
 | 1:32.873 | 雷霆一击 | 环境 |
 | 1:33.983 | 不灭药水 | 环境 |
 | 1:34.762 | 剑刃风暴 | 环境 |
@@ -10871,76 +10871,76 @@
 | 1:39.773 | 剑刃风暴 | 环境 |
 | 1:40.775 | 剑刃风暴 | 环境 |
 | 1:41.131 | 雷霆一击 | 环境 |
-| 1:42.776 | 顺劈斩 | Soul Weaver |
-| 1:42.858 | 致死打击 | Soul Weaver |
-| 1:44.352 | 撕裂 | Soul Weaver |
+| 1:42.776 | 顺劈斩 | 灵魂织网者 |
+| 1:42.858 | 致死打击 | 灵魂织网者 |
+| 1:44.352 | 撕裂 | 灵魂织网者 |
 | 1:47.147 | 猛击 | 环境 |
-| 1:47.642 | 猛击 | Soul Weaver |
+| 1:47.642 | 猛击 | 灵魂织网者 |
 | 1:48.707 | 猛击 | 环境 |
-| 1:49.198 | 猛击 | Soul Weaver |
+| 1:49.198 | 猛击 | 灵魂织网者 |
 | 1:49.392 | 横扫攻击 | 环境 |
 | 1:49.833 | 萨隆邪铁炸弹 | 环境 |
-| 1:50.211 | 压制 | Soul Weaver |
-| 1:51.256 | 致死打击 | Soul Weaver |
+| 1:50.211 | 压制 | 灵魂织网者 |
+| 1:51.256 | 致死打击 | 灵魂织网者 |
 | 1:52.724 | 雷霆一击 | 环境 |
-| 1:53.222 | 顺劈斩 | Soul Weaver |
+| 1:53.222 | 顺劈斩 | 灵魂织网者 |
 | 1:54.435 | 猛击 | 环境 |
-| 1:54.936 | 猛击 | Soul Weaver |
-| 1:55.937 | 压制 | Soul Weaver |
-| 1:57.232 | 致死打击 | Soul Weaver |
-| 1:59.448 | 顺劈斩 | Soul Weaver |
+| 1:54.936 | 猛击 | 灵魂织网者 |
+| 1:55.937 | 压制 | 灵魂织网者 |
+| 1:57.232 | 致死打击 | 灵魂织网者 |
+| 1:59.448 | 顺劈斩 | 灵魂织网者 |
 | 1:59.823 | 血性狂暴 | 环境 |
-| 2:00.554 | 压制 | Soul Weaver |
+| 2:00.554 | 压制 | 灵魂织网者 |
 | 2:01.774 | 雷霆一击 | 环境 |
-| 2:01.807 | 顺劈斩 | Soul Weaver |
-| 2:04.312 | 撕裂 | Soul Weaver |
-| 2:05.801 | 致死打击 | Soul Weaver |
+| 2:01.807 | 顺劈斩 | 灵魂织网者 |
+| 2:04.312 | 撕裂 | 灵魂织网者 |
+| 2:05.801 | 致死打击 | 灵魂织网者 |
 | 2:07.307 | 猛击 | 环境 |
-| 2:07.806 | 猛击 | Soul Weaver |
-| 2:08.817 | 压制 | Soul Weaver |
+| 2:07.806 | 猛击 | 灵魂织网者 |
+| 2:08.817 | 压制 | 灵魂织网者 |
 | 2:10.364 | 雷霆一击 | 环境 |
-| 2:11.756 | 顺劈斩 | Soul Weaver |
-| 2:11.866 | 致死打击 | Soul Weaver |
-| 2:13.387 | 撕裂 | Soul Weaver |
+| 2:11.756 | 顺劈斩 | 灵魂织网者 |
+| 2:11.866 | 致死打击 | 灵魂织网者 |
+| 2:13.387 | 撕裂 | 灵魂织网者 |
 | 2:14.891 | 猛击 | 环境 |
-| 2:15.396 | 猛击 | Soul Weaver |
-| 2:16.674 | 冲锋 | Soul Weaver |
-| 2:17.479 | 压制 | Soul Weaver |
+| 2:15.396 | 猛击 | 灵魂织网者 |
+| 2:16.674 | 冲锋 | 灵魂织网者 |
+| 2:17.479 | 压制 | 灵魂织网者 |
 | 2:31.862 | 横扫攻击 | 环境 |
-| 2:32.969 | 撕裂 | Soul Weaver |
+| 2:32.969 | 撕裂 | 灵魂织网者 |
 | 2:34.482 | 雷霆一击 | 环境 |
-| 2:35.490 | 顺劈斩 | Soul Weaver |
-| 2:35.985 | 致死打击 | Soul Weaver |
-| 2:37.497 | 压制 | Soul Weaver |
+| 2:35.490 | 顺劈斩 | 灵魂织网者 |
+| 2:35.985 | 致死打击 | 灵魂织网者 |
+| 2:37.497 | 压制 | 灵魂织网者 |
 | 2:38.500 | 猛击 | 环境 |
-| 2:38.994 | 猛击 | Soul Weaver |
+| 2:38.994 | 猛击 | 灵魂织网者 |
 | 2:40.003 | 猛击 | 环境 |
-| 2:40.488 | 猛击 | Soul Weaver |
+| 2:40.488 | 猛击 | 灵魂织网者 |
 | 2:41.506 | 雷霆一击 | 环境 |
-| 2:41.935 | 顺劈斩 | Soul Weaver |
-| 2:43.007 | 压制 | Soul Weaver |
-| 2:43.756 | 顺劈斩 | Soul Weaver |
-| 2:45.110 | 撕裂 | Soul Weaver |
-| 2:46.624 | 致死打击 | Soul Weaver |
+| 2:41.935 | 顺劈斩 | 灵魂织网者 |
+| 2:43.007 | 压制 | 灵魂织网者 |
+| 2:43.756 | 顺劈斩 | 灵魂织网者 |
+| 2:45.110 | 撕裂 | 灵魂织网者 |
+| 2:46.624 | 致死打击 | 灵魂织网者 |
 | 2:48.123 | 剑刃风暴 | 环境 |
 | 2:48.124 | 剑刃风暴 | 环境 |
 | 2:49.123 | 剑刃风暴 | 环境 |
-| 2:49.204 | 顺劈斩 | Soul Weaver |
+| 2:49.204 | 顺劈斩 | 灵魂织网者 |
 | 2:50.128 | 剑刃风暴 | 环境 |
 | 2:51.128 | 剑刃风暴 | 环境 |
 | 2:52.141 | 剑刃风暴 | 环境 |
 | 2:53.123 | 剑刃风暴 | 环境 |
 | 2:54.133 | 剑刃风暴 | 环境 |
 | 2:54.403 | 雷霆一击 | 环境 |
-| 2:56.356 | 压制 | Soul Weaver |
-| 2:56.492 | 顺劈斩 | Soul Weaver |
-| 2:57.359 | 致死打击 | Soul Weaver |
-| 2:58.852 | 撕裂 | Soul Weaver |
-| 3:00.371 | 撕裂 | Soul Weaver |
-| 3:01.864 | 压制 | Soul Weaver |
-| 3:03.648 | 冲锋 | Soul Weaver |
-| 3:04.770 | 顺劈斩 | Soul Weaver |
-| 3:05.401 | 致死打击 | Soul Weaver |
+| 2:56.356 | 压制 | 灵魂织网者 |
+| 2:56.492 | 顺劈斩 | 灵魂织网者 |
+| 2:57.359 | 致死打击 | 灵魂织网者 |
+| 2:58.852 | 撕裂 | 灵魂织网者 |
+| 3:00.371 | 撕裂 | 灵魂织网者 |
+| 3:01.864 | 压制 | 灵魂织网者 |
+| 3:03.648 | 冲锋 | 灵魂织网者 |
+| 3:04.770 | 顺劈斩 | 灵魂织网者 |
+| 3:05.401 | 致死打击 | 灵魂织网者 |
 | 3:06.326 | 血性狂暴 | 环境 |
 | 3:11.151 | 撕裂 | 克尔苏加德 |
 | 3:12.656 | 致死打击 | 克尔苏加德 |
@@ -11061,48 +11061,48 @@
 
 | Buff 名称 | 来源 | 覆盖时间 |
 |-----------|------|---------|
-| Renewed Hope | - | 287.6s |
-| Concentration Aura | - | 285.9s |
-| Moonkin Aura | - | 285.6s |
+| 新生希望 | - | 287.6s |
+| 专注光环 | - | 285.9s |
+| 枭兽光环 | - | 285.6s |
 | 战斗姿态 | - | 285.3s |
-| Frost Resistance Aura | - | 281.1s |
-| Leader of the Pack | - | 276.2s |
-| Enrage | - | 272.8s |
-| Demonic Pact | - | 265.4s |
-| Tree of Life | - | 214.0s |
-| Berserk | - | 202.5s |
-| Power Word: Shield | - | 197.2s |
-| Devotion Aura | - | 177.1s |
-| Sudden Death | - | 143.4s |
-| Taste for Blood | - | 121.2s |
+| 冰霜抗性光环 | - | 281.1s |
+| 兽群领袖 | - | 276.2s |
+| 激怒 | - | 272.8s |
+| 恶魔契约 | - | 265.4s |
+| 生命之树 | - | 214.0s |
+| 狂暴 | - | 202.5s |
+| 真言术：盾 | - | 197.2s |
+| 虔诚光环 | - | 177.1s |
+| 猝死 | - | 143.4s |
+| 血之气息 | - | 121.2s |
 | 不灭药水 | - | 120.0s |
 | 横扫攻击 | - | 101.6s |
-| Rejuvenation | - | 82.4s |
-| Grim Toll | - | 60.1s |
-| Sacred Shield | - | 60.0s |
-| Fury of the Crashing Waves | - | 60.0s |
-| Regrowth | - | 54.0s |
-| Blood Pact | - | 50.0s |
+| 回春术 | - | 82.4s |
+| 死亡之钟 | - | 60.1s |
+| 圣洁护盾 | - | 60.0s |
+| 怒涛之力 | - | 60.0s |
+| 愈合 | - | 54.0s |
+| 血之契印 | - | 50.0s |
 | 破坏能手 | - | 47.2s |
-| Grace | - | 43.9s |
+| 恩典 | - | 43.9s |
 | 血性狂暴 | - | 40.1s |
-| Heroism | - | 40.0s |
-| Commanding Shout | - | 39.8s |
-| Sacred Shield | - | 36.8s |
-| Lifebloom | - | 34.0s |
+| 英勇 | - | 40.0s |
+| 命令怒吼 | - | 39.8s |
+| 圣洁护盾 | - | 36.8s |
+| 生命绽放 | - | 34.0s |
 | 外交 | - | 30.0s |
-| Inspiration | - | 30.0s |
+| 灵感 | - | 30.0s |
 | 剑刃风暴 | - | 28.7s |
-| Divine Aegis | - | 26.2s |
-| Hand of Salvation | - | 20.0s |
-| Divine Guardian | - | 18.0s |
-| Cleaving | - | 14.0s |
+| 神圣庇护 | - | 26.2s |
+| 拯救之手 | - | 20.0s |
+| 神圣守护者 | - | 18.0s |
+| 顺劈 | - | 14.0s |
 | 树皮术 | - | 12.0s |
-| Divine Hymn | - | 8.0s |
-| Wild Growth | - | 7.0s |
-| Beacon of Light | - | 4.8s |
-| Living Seed | - | 2.9s |
-| Berserker Stance | - | 2.3s |
-| Ferocious Inspiration | - | 1.6s |
-| Horn of Winter | - | 1.3s |
-| Divine Sacrifice | - | 0.2s |
+| 神圣赞美诗 | - | 8.0s |
+| 野性成长 | - | 7.0s |
+| 圣光道标 | - | 4.8s |
+| 生命之种 | - | 2.9s |
+| 狂暴姿态 | - | 2.3s |
+| 凶猛灵感 | - | 1.6s |
+| 寒冬号角 | - | 1.3s |
+| 神圣牺牲 | - | 0.2s |

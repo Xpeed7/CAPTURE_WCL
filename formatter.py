@@ -69,7 +69,7 @@ def format_player_detail(
         for g in detail.gear:
             item_name = translator.translate_item(g.item_id, g.name)
             gems_str = ", ".join(g.gems) if g.gems else "-"
-            enchant_str = g.enchant if g.enchant else "-"
+            enchant_str = translator.translate_enchant(g.enchant) if g.enchant else "-"
             lines.append(
                 "| {} | {} | {} | {} | {} |".format(
                     g.slot, item_name, g.item_level, enchant_str, gems_str
@@ -462,7 +462,8 @@ def format_player_details_html(
                 gear_rows = ""
                 for g in detail.gear:
                     item_name = translator.translate_item(g.item_id, g.name)
-                    enchant_str = html.escape(str(g.enchant)) if g.enchant else "-"
+                    enchant = translator.translate_enchant(g.enchant) if g.enchant else "-"
+                    enchant_str = html.escape(enchant) if enchant else "-"
                     gems_str = ", ".join(html.escape(str(gem)) for gem in g.gems) if g.gems else "-"
                     gear_rows += """
                   <tr>

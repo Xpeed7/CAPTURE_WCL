@@ -22,11 +22,13 @@ class TranslationStore:
         self.actors = self._load("actors.json")
         self.buffs = self._load("buffs.json")
         self.items = self._load("items.json")
+        self.enchants = self._load("enchants.json")
         self.missing: Dict[str, Dict[str, str]] = {
             "abilities": {},
             "actors": {},
             "buffs": {},
             "items": {},
+            "enchants": {},
         }
 
     def translate_ability(self, ability_id: int = 0, name: str = "") -> str:
@@ -46,6 +48,9 @@ class TranslationStore:
 
     def translate_item(self, item_id: int = 0, name: str = "") -> str:
         return self._translate("items", self.items, item_id, name)
+
+    def translate_enchant(self, name: str = "") -> str:
+        return self._translate("enchants", self.enchants, 0, name)
 
     def save_missing(self, filename: str = "missing_translations.json") -> str:
         os.makedirs(OUTPUT_DIR, exist_ok=True)
