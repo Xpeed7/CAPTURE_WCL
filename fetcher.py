@@ -410,6 +410,7 @@ class WCLFetcher:
             return [
                 BuffEvent(
                     buff_name=e.get("name", "Unknown"),
+                    buff_id=int(e.get("id") or e.get("guid") or e.get("abilityGameID") or 0),
                     source="",
                     uptime_seconds=e.get("totalUptime", 0) / 1000.0,
                 )
@@ -499,6 +500,7 @@ class WCLFetcher:
             gear.append(GearItem(
                 slot=slot_name,
                 name=g.get("name", ""),
+                item_id=int(g.get("id") or 0),
                 item_level=g.get("itemLevel", 0),
                 enchant=enchant_display,
                 gems=gems_display,

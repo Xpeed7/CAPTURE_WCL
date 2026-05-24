@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 
 from fetcher import WCLFetcher
 from formatter import format_all_details, format_player_details_html, format_rankings_html, format_rankings_table, print_to_console, save_to_file
+from translations import save_missing_translations
 from wcl_client import WCLAuthError, WCLAPIError, WCLClient
 
 logging.basicConfig(
@@ -72,6 +73,9 @@ def main() -> int:
         detail_html = format_player_details_html(boss_rankings, player_details)
         detail_html_file = save_to_file(detail_html, "player_details.html")
         logger.info("角色详情 HTML 已保存到: %s", detail_html_file)
+
+        missing_file = save_missing_translations()
+        logger.info("缺失翻译已保存到: %s", missing_file)
 
         logger.info("全部完成!")
         return 0

@@ -9,6 +9,7 @@ from typing import Dict, List
 
 from config import OUTPUT_DIR, OUTPUT_FILENAME
 from models import BossRanking, PlayerDetail
+from translations import translator
 
 
 def format_rankings_table(boss_rankings: List[BossRanking]) -> str:
@@ -66,11 +67,12 @@ def format_player_detail(
         lines.append("| 部位 | 名称 | 物品等级 | 附魔 | 宝石 |")
         lines.append("|------|------|---------|------|------|")
         for g in detail.gear:
+            item_name = translator.translate_item(g.item_id, g.name)
             gems_str = ", ".join(g.gems) if g.gems else "-"
             enchant_str = g.enchant if g.enchant else "-"
             lines.append(
                 "| {} | {} | {} | {} | {} |".format(
-                    g.slot, g.name, g.item_level, enchant_str, gems_str
+                    g.slot, item_name, g.item_level, enchant_str, gems_str
                 )
             )
     else:
@@ -84,8 +86,9 @@ def format_player_detail(
         lines.append("| 时间 | 技能 | 目标 |")
         lines.append("|------|------|------|")
         for c in detail.casts:
-            target = c.target_name if c.target_name else "-"
-            lines.append("| {} | {} | {} |".format(c.time, c.ability_name, target))
+            ability_name = translator.translate_ability(c.ability_id, c.ability_name)
+            target = translator.translate_actor(c.target_name) if c.target_name else "-"
+            lines.append("| {} | {} | {} |".format(c.time, ability_name, target))
     else:
         lines.append("> 未获取到技能数据")
     lines.append("")
@@ -97,9 +100,10 @@ def format_player_detail(
         lines.append("| Buff 名称 | 来源 | 覆盖时间 |")
         lines.append("|-----------|------|---------|")
         for b in detail.buffs:
-            source_str = b.source if b.source else "-"
+            buff_name = translator.translate_buff(b.buff_id, b.buff_name)
+            source_str = translator.translate_actor(b.source) if b.source else "-"
             uptime_str = "{:.1f}s".format(b.uptime_seconds) if b.uptime_seconds else "-"
-            lines.append("| {} | {} | {} |".format(b.buff_name, source_str, uptime_str))
+            lines.append("| {} | {} | {} |".format(buff_name, source_str, uptime_str))
     else:
         lines.append("> 未获取到 Buff 数据")
     lines.append("")
@@ -457,6 +461,7 @@ def format_player_details_html(
             if detail.gear:
                 gear_rows = ""
                 for g in detail.gear:
+                    item_name = translator.translate_item(g.item_id, g.name)
                     enchant_str = html.escape(str(g.enchant)) if g.enchant else "-"
                     gems_str = ", ".join(html.escape(str(gem)) for gem in g.gems) if g.gems else "-"
                     gear_rows += """
@@ -468,7 +473,7 @@ def format_player_details_html(
                     <td>{gems}</td>
                   </tr>""".format(
                         slot=html.escape(g.slot),
-                        name=html.escape(g.name),
+                        name=html.escape(item_name),
                         ilvl=g.item_level,
                         enchant=enchant_str,
                         gems=gems_str,
@@ -484,7 +489,9 @@ def format_player_details_html(
             if detail.casts:
                 cast_rows = ""
                 for c in detail.casts:
-                    target = html.escape(c.target_name) if c.target_name else "-"
+                    ability_name = translator.translate_ability(c.ability_id, c.ability_name)
+                    target_name = translator.translate_actor(c.target_name) if c.target_name else ""
+                    target = html.escape(target_name) if target_name else "-"
                     ability_id = str(c.ability_id) if c.ability_id else "-"
                     cast_rows += """
                   <tr>
@@ -494,7 +501,7 @@ def format_player_details_html(
                     <td class="ability-id-cell">{ability_id}</td>
                   </tr>""".format(
                         time=html.escape(c.time),
-                        name=html.escape(c.ability_name),
+                        name=html.escape(ability_name),
                         target=target,
                         ability_id=ability_id,
                     )
@@ -514,6 +521,7 @@ def format_player_details_html(
                 for b in detail.buffs:
                     pct = int(b.uptime_seconds / max_uptime * 100) if max_uptime else 0
                     uptime_str = "{:.1f}s".format(b.uptime_seconds) if b.uptime_seconds else "-"
+                    buff_name = translator.translate_buff(b.buff_id, b.buff_name)
                     buff_bars += """
                   <div class="bar-row">
                     <span class="bar-label">{name}</span>
@@ -522,7 +530,7 @@ def format_player_details_html(
                     </div>
                     <span class="bar-value">{uptime}</span>
                   </div>""".format(
-                        name=html.escape(b.buff_name),
+                        name=html.escape(buff_name),
                         pct=pct,
                         uptime=uptime_str,
                     )

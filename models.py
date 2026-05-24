@@ -10,6 +10,7 @@ from typing import Any, Dict, List, Optional
 class GearItem:
     slot: str
     name: str
+    item_id: int = 0
     item_level: int = 0
     enchant: Optional[str] = None
     gems: List[str] = field(default_factory=list)
@@ -28,6 +29,7 @@ class CastEvent:
 @dataclass
 class BuffEvent:
     buff_name: str
+    buff_id: int = 0
     source: str = ""
     uptime_seconds: float = 0.0
 
