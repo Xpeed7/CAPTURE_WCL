@@ -22,9 +22,26 @@ TIMELINE_KIND_LABELS = {
     "debuff_refresh": "刷新 Debuff",
 }
 
+BLADESTORM_IDS = {46924, 50622}
+BLADESTORM_NAMES = {"Bladestorm"}
+CORE_CAST_STYLES = {
+    47486: ("mortal-strike", "致死打击"),
+    7384: ("overpower", "压制"),
+    47475: ("slam", "猛击"),
+    47471: ("execute", "斩杀"),
+    47465: ("rend", "撕裂"),
+}
+CORE_CAST_NAME_STYLES = {
+    "Mortal Strike": ("mortal-strike", "致死打击"),
+    "Overpower": ("overpower", "压制"),
+    "Slam": ("slam", "猛击"),
+    "Execute": ("execute", "斩杀"),
+    "Rend": ("rend", "撕裂"),
+}
+
 
 def _translate_timeline_name(event_or_window: TimelineEvent | TimelineWindow) -> str:
-    if event_or_window.kind == "cast":
+    if event_or_window.kind in {"cast", "cast-window"}:
         return translator.translate_ability(event_or_window.ability_id, event_or_window.name)
     return translator.translate_buff(event_or_window.ability_id, event_or_window.name)
 
@@ -37,6 +54,54 @@ def _timeline_position(timestamp_ms: int, duration_ms: int) -> float:
     if not duration_ms:
         return 0.0
     return max(0.0, min(100.0, timestamp_ms / duration_ms * 100.0))
+
+
+def _is_bladestorm_event(event: TimelineEvent) -> bool:
+    return event.ability_id in BLADESTORM_IDS or event.name in BLADESTORM_NAMES
+
+
+def _core_cast_style(event: TimelineEvent) -> tuple[str, str] | None:
+    return CORE_CAST_STYLES.get(event.ability_id) or CORE_CAST_NAME_STYLES.get(event.name)
+
+
+def _build_bladestorm_windows(events: List[TimelineEvent]) -> List[TimelineWindow]:
+    windows: List[TimelineWindow] = []
+    starts: List[TimelineEvent] = []
+    last_event: TimelineEvent | None = None
+
+    for event in sorted(events, key=lambda e: e.timestamp_ms):
+        if not _is_bladestorm_event(event):
+            continue
+        if last_event is None or event.timestamp_ms - last_event.timestamp_ms > 1500:
+            starts.append(event)
+        last_event = event
+
+    for start_event in starts:
+        start_ms = start_event.timestamp_ms
+        end_ms = start_ms + 6000
+        windows.append(
+            TimelineWindow(
+                name=start_event.name,
+                kind="cast-window",
+                start_ms=start_ms,
+                end_ms=end_ms,
+                start_time=start_event.time,
+                end_time=_format_relative_time(end_ms),
+                ability_id=start_event.ability_id,
+                target=start_event.target,
+                priority=3,
+            )
+        )
+    return windows
+
+
+def _format_relative_time(timestamp_ms: int) -> str:
+    timestamp_ms = max(int(timestamp_ms), 0)
+    seconds_total = timestamp_ms // 1000
+    minutes = seconds_total // 60
+    seconds = seconds_total % 60
+    milliseconds = timestamp_ms % 1000
+    return "{}:{:02d}.{:03d}".format(minutes, seconds, milliseconds)
 
 
 def format_rankings_table(boss_rankings: List[BossRanking]) -> str:
@@ -466,6 +531,70 @@ def _format_timeline_html(detail: PlayerDetail) -> str:
         [1]
     )
 
+    bladestorm_windows = _build_bladestorm_windows(detail.timeline_events)
+
+    skill_rows = ""
+    if bladestorm_windows:
+        segments = ""
+        meta_values = []
+        for window in bladestorm_windows:
+            start_pct = _timeline_position(window.start_ms, duration_ms)
+            end_pct = _timeline_position(window.end_ms, duration_ms)
+            width_pct = max(end_pct - start_pct, 0.8)
+            name = _translate_timeline_name(window)
+            meta_values.append("{}-{}".format(window.start_time, window.end_time))
+            segments += """
+                    <div class="window-segment cast-window bladestorm-window" style="left:{left:.3f}%;width:{width:.3f}%;" title="{name}: {start} - {end}"></div>""".format(
+                left=start_pct,
+                width=width_pct,
+                name=html.escape(name),
+                start=html.escape(window.start_time),
+                end=html.escape(window.end_time),
+            )
+        skill_rows += """
+                <div class="timeline-lane cast-window-lane">
+                  <div class="lane-label">利刃风暴</div>
+                  <div class="lane-track">{segments}
+                  </div>
+                  <div class="lane-meta">{meta}</div>
+                </div>""".format(
+            segments=segments,
+            meta=html.escape(" / ".join(meta_values[:2]) + (" ..." if len(meta_values) > 2 else "")),
+        )
+
+    cast_markers = ""
+    for event in detail.timeline_events:
+        if event.kind != "cast" or _is_bladestorm_event(event):
+            continue
+        style = _core_cast_style(event)
+        if not style:
+            continue
+        marker_class, label = style
+        left_pct = _timeline_position(event.timestamp_ms, duration_ms)
+        name = _translate_timeline_name(event)
+        cast_markers += """
+                  <span class="cast-marker {marker_class}" style="left:{left:.3f}%;" title="{time} {name}"></span>""".format(
+            marker_class=html.escape(marker_class),
+            left=left_pct,
+            time=html.escape(event.time),
+            name=html.escape(name),
+        )
+
+    if cast_markers:
+        skill_rows += """
+                <div class="cast-track">
+                  <div class="lane-label">核心技能</div>
+                  <div class="lane-track marker-track">{markers}</div>
+                  <div class="lane-meta"></div>
+                </div>""".format(markers=cast_markers)
+    elif not skill_rows:
+        skill_rows = """
+                <div class="cast-track">
+                  <div class="lane-label">核心技能</div>
+                  <div class="lane-track marker-track"><span class="timeline-empty-note">未发现核心技能释放点</span></div>
+                  <div class="lane-meta"></div>
+                </div>"""
+
     lane_rows = ""
     for window in detail.timeline_windows:
         start_pct = _timeline_position(window.start_ms, duration_ms)
@@ -491,19 +620,6 @@ def _format_timeline_html(detail: PlayerDetail) -> str:
             title=html.escape("{} / {} -> {}".format(name, source, target)),
             start=html.escape(window.start_time),
             end=html.escape(window.end_time),
-        )
-
-    cast_markers = ""
-    for event in detail.timeline_events:
-        if event.kind != "cast":
-            continue
-        left_pct = _timeline_position(event.timestamp_ms, duration_ms)
-        name = _translate_timeline_name(event)
-        cast_markers += """
-                  <span class="cast-marker" style="left:{left:.3f}%;" title="{time} {name}"></span>""".format(
-            left=left_pct,
-            time=html.escape(event.time),
-            name=html.escape(name),
         )
 
     event_rows = ""
@@ -533,8 +649,6 @@ def _format_timeline_html(detail: PlayerDetail) -> str:
 
     if not lane_rows:
         lane_rows = '<div class="no-data compact">未发现关键 Buff/Debuff 覆盖区间</div>'
-    if not cast_markers:
-        cast_markers = '<span class="timeline-empty-note">未发现关键技能释放点</span>'
 
     return """
             <div class="burst-timeline">
@@ -543,12 +657,15 @@ def _format_timeline_html(detail: PlayerDetail) -> str:
                 <span>关键事件 {event_count}</span>
                 <span>战斗时长 {duration}</span>
               </div>
+              <div class="skill-legend">
+                <span class="legend-dot mortal-strike"></span>致死打击
+                <span class="legend-dot overpower"></span>压制
+                <span class="legend-dot slam"></span>猛击
+                <span class="legend-dot execute"></span>斩杀
+                <span class="legend-dot rend"></span>撕裂
+              </div>
               <div class="timeline-board">
-                <div class="cast-track">
-                  <div class="lane-label">关键技能</div>
-                  <div class="lane-track marker-track">{markers}</div>
-                  <div class="lane-meta"></div>
-                </div>
+                {skill_rows}
                 {lanes}
               </div>
               <div class="event-table-wrap timeline-events">
@@ -561,7 +678,7 @@ def _format_timeline_html(detail: PlayerDetail) -> str:
         window_count=len(detail.timeline_windows),
         event_count=len(detail.timeline_events),
         duration=_format_timeline_duration(duration_ms),
-        markers=cast_markers,
+        skill_rows=skill_rows,
         lanes=lane_rows,
         rows=event_rows,
     )
@@ -993,6 +1110,22 @@ def format_player_details_html(
     border-radius: 999px;
     padding: 2px 8px;
   }}
+  .skill-legend {{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    color: var(--text-muted);
+    font-size: 10px;
+    margin: -2px 0 10px;
+  }}
+  .legend-dot {{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    margin-left: 4px;
+  }}
   .timeline-board {{
     display: flex;
     flex-direction: column;
@@ -1044,14 +1177,38 @@ def format_player_details_html(
   .window-segment.debuff {{
     background: linear-gradient(90deg, #ff7675, #fdcb6e);
   }}
+  .window-segment.cast-window {{
+    background: linear-gradient(90deg, #4a7cff, #9b6dff);
+    box-shadow: 0 0 0 2px rgba(122,113,255,0.13);
+  }}
   .cast-marker {{
     position: absolute;
-    top: 2px;
-    width: 2px;
-    height: 20px;
+    top: 5px;
+    width: 7px;
+    height: 14px;
+    border-radius: 999px;
+    transform: translateX(-50%);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.08);
+  }}
+  .cast-marker.mortal-strike,
+  .legend-dot.mortal-strike {{
+    background: #ff7675;
+  }}
+  .cast-marker.overpower,
+  .legend-dot.overpower {{
     background: #74b9ff;
-    border-radius: 2px;
-    box-shadow: 0 0 0 2px rgba(116,185,255,0.14);
+  }}
+  .cast-marker.slam,
+  .legend-dot.slam {{
+    background: #55efc4;
+  }}
+  .cast-marker.execute,
+  .legend-dot.execute {{
+    background: #fdcb6e;
+  }}
+  .cast-marker.rend,
+  .legend-dot.rend {{
+    background: #a29bfe;
   }}
   .timeline-empty-note {{
     display: inline-block;

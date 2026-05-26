@@ -47,11 +47,7 @@ KEY_CAST_IDS = {
     7384,  # Overpower
     47475,  # Slam
     47471,  # Execute
-    64382,  # Shattering Throw
-    12328,  # Sweeping Strikes
-    1719,  # Recklessness
-    2687,  # Bloodrage
-    12292,  # Death Wish
+    47465,  # Rend
 }
 
 KEY_CAST_NAMES = {
@@ -60,11 +56,7 @@ KEY_CAST_NAMES = {
     "Overpower",
     "Slam",
     "Execute",
-    "Shattering Throw",
-    "Sweeping Strikes",
-    "Recklessness",
-    "Bloodrage",
-    "Death Wish",
+    "Rend",
 }
 
 KEY_BUFF_IDS = {
